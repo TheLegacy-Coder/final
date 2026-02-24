@@ -1,0 +1,721 @@
+,DATE,RACE,CLASS,RACE NAME,DIST,SURF,STARTER NAME,PP,ODDS,FAVE,FIN,TRAINER,JOCKEY,TIME,PREV RACE,DAYS,SIRE,NOTES,RACE_ID
+0,7/11/19,5,MSW-NY-F,,5.5,Dirt,Big Q,5,14.0,False,1,Gary Gullo,Joel Rosario,1:06.910,,,Big Brown,,1
+1,7/11/19,5,MSW-NY-F,,5.5,Dirt,Impazible Donna,6,2.45,True,2,Bruce Levine,Luis Saez,1:06.990,,,Mission Impazible,,1
+2,7/11/19,5,MSW-NY-F,,5.5,Dirt,Funfetti,8,2.65,False,3,Jeremiah Englehart,Jose Ortiz,1:07.434,,,Giant Surprise,,1
+3,7/11/19,5,MSW-NY-F,,5.5,Dirt,Love Me Tomorrow,2,3.85,False,4,Wesley Ward,Dylan Davis,1:07.514,BEL 5/30 4,42.0,Mineshaft,,1
+4,7/11/19,5,MSW-NY-F,,5.5,Dirt,Keypit,7,29.5,False,5,Thomas Albertrani,Jose Lezcano,1:09.409,,,Congrats,,1
+5,7/11/19,5,MSW-NY-F,,5.5,Dirt,Ghostghostghost,3,3.85,False,6,Steven Asmussen,"Ricardo Santana, Jr.",1:09.772,,,Archarcharch,,1
+6,7/11/19,5,MSW-NY-F,,5.5,Dirt,Rewarded,9,22.2,False,7,Michael Lauer,Manuel Franco,1:09.934,BEL 6/23 2,18.0,Central Banker,,1
+7,7/11/19,5,MSW-NY-F,,5.5,Dirt,Time Shift,1,37.5,False,8,Philip Serpe,Eric Cancel,1:10.700,,,Union Rags,,1
+8,7/11/19,5,MSW-NY-F,,5.5,Dirt,Helen by Night,4,17.7,False,9,Rudy Rodriguez,Javier Castellano,1:14.288,,,Rule by Night,,1
+9,7/11/19,8,GRD-F,Schuylerville S.,6.0,Dirt,Comical,5,3.1,False,1,Doug O'Neill,Javier Castellano,1:11.660,SA 5/26 4,46.0,Into Mischief,,2
+10,7/11/19,8,GRD-F,Schuylerville S.,6.0,Dirt,Kiss the Girl,8,3.8,False,2,Todd Pletcher,John Velazquez,1:11.699,BEL 6/12 3,29.0,Into Mischief,,2
+11,7/11/19,8,GRD-F,Schuylerville S.,6.0,Dirt,Shippy,1,1.1,True,3,Doug O'Neill,Jose Ortiz,1:11.778,LRL 6/14 1,27.0,Midshipman,,2
+12,7/11/19,8,GRD-F,Schuylerville S.,6.0,Dirt,Buxom Beast,7,13.2,False,4,Gary Contessa,Joel Rosario,1:12.926,,,The Big Beast,,2
+13,7/11/19,8,GRD-F,Schuylerville S.,6.0,Dirt,Integral,2,17.4,False,5,Todd Pletcher,Luis Saez,1:12.966,GP 5/25 3,47.0,Algorithms,,2
+14,7/11/19,8,GRD-F,Schuylerville S.,6.0,Dirt,Lula's Roadrunner,4,28.25,False,6,"Edward Coletti, Jr.",Mychel Sanchez,1:13.441,PRX 6/24 1,17.0,Uptowncharlybrown,,2
+15,7/11/19,8,GRD-F,Schuylerville S.,6.0,Dirt,His Glory,3,16.2,False,7,Thomas Amoss,Jose Lezcano,1:14.470,IND 6/11 2,30.0,Mineshaft,,2
+16,7/11/19,8,GRD-F,Schuylerville S.,6.0,Dirt,Lady Fatima,6,18.9,False,8,Mark Casse,Dylan Davis,1:15.103,BEL 5/23 1,49.0,Bodemeister,,2
+17,7/12/19,5,MSW-F,,5.5,Dirt,Vast,6,12.9,False,1,William Mott,Junior Alvarado,1:04.670,,,Lea,,3
+18,7/12/19,5,MSW-F,,5.5,Dirt,Good Shabbos,2,2.15,False,2,Jeremiah Englehart,Luis Saez,1:04.747,MTH 6/1 2,41.0,Munnings,,3
+19,7/12/19,5,MSW-F,,5.5,Dirt,Pure Wow,7,8.9,False,3,John Terranova II,Dylan Davis,1:04.747,,,The Factor,,3
+20,7/12/19,5,MSW-F,,5.5,Dirt,Lotta Ott,4,1.3,True,4,Steven Asmussen,"Ricardo Santana, Jr.",1:05.059,,,Tapiture,,3
+21,7/12/19,5,MSW-F,,5.5,Dirt,Bird Tycoon,5,25.0,False,5,Ian Wilkes,Julien Leparoux,1:05.488,,,Graydar,,3
+22,7/12/19,5,MSW-F,,5.5,Dirt,Drop a Hint,3,29.0,False,6,D. Lukas,Tyler Gaffalione,1:05.683,,,Into Mischief,,3
+23,7/12/19,5,MSW-F,,5.5,Dirt,Apurate,1,5.2,False,7,Todd Pletcher,John Velazquez,1:05.839,,,Summer Front,,3
+24,7/12/19,5,MSW-F,,5.5,Dirt,Mylastfirstkiss,8,21.6,False,8,Anthony Quartarolo,Kendrick Carmouche,1:05.995,CD 6/21 1,21.0,Flatter,,3
+25,7/13/19,3,GRD,Sanford S.,6.0,Dirt,By Your Side,5,1.4,True,1,Eddie Kenneally,"Irad Ortiz, Jr.",1:10.220,CD 6/14 1,29.0,Constitution,,4
+26,7/13/19,3,GRD,Sanford S.,6.0,Dirt,Tomato Bill,4,4.6,False,2,Christophe Clement,Kendrick Carmouche,1:10.685,DEL 5/22 1,52.0,More Than Ready,,4
+27,7/13/19,3,GRD,Sanford S.,6.0,Dirt,Raging Whiskey,2,3.35,False,3,Doug O'Neill,Javier Castellano,1:10.956,SA 6/2 2,41.0,Bourbon Courage,,4
+28,7/13/19,3,GRD,Sanford S.,6.0,Dirt,Cucina,3,3.3,False,4,Mark Casse,Tyler Gaffalione,1:10.995,BEL 6/21 2,22.0,Northern Afleet,,4
+29,7/13/19,3,GRD,Sanford S.,6.0,Dirt,Memorable,1,6.0,False,5,Steven Asmussen,John Velazquez,1:11.887,BEL 6/7 7,36.0,Uncle Mo,,4
+30,7/13/19,4,MSW,,5.5,Dirt,Zyramid,6,1.45,True,1,Steven Asmussen,Manuel Franco,1:03.780,CD 6/8 1,35.0,City Zip,,5
+31,7/13/19,4,MSW,,5.5,Dirt,Kickin' Kirby,4,19.1,False,2,Nicholas Zito,Tyler Gaffalione,1:04.202,,,Dialed In,,5
+32,7/13/19,4,MSW,,5.5,Dirt,Peddlers Pride,8,9.7,False,3,William Mott,Junior Alvarado,1:04.625,,,Liam's Map,,5
+33,7/13/19,4,MSW,,5.5,Dirt,High Tide,1,2.15,False,4,Todd Pletcher,John Velazquez,1:04.933,,,Malibu Moon,,5
+34,7/13/19,4,MSW,,5.5,Dirt,Hometown Pride,2,30.0,False,5,Ian Wilkes,Chris Landeros,1:05.009,,,To Honor and Serve,,5
+35,7/13/19,4,MSW,,5.5,Dirt,Vaya Con Dios,5,11.3,False,6,Eric Guillot,Dylan Davis,1:05.432,,,Majesticperfection,,5
+36,7/13/19,4,MSW,,5.5,Dirt,Irked,3,7.2,False,7,William Mott,Jose Lezcano,1:05.855,,,War Front,,5
+37,7/13/19,4,MSW,,5.5,Dirt,Pharoah Cat,7,9.5,False,8,D. Lukas,Rajiv Maragh,1:06.470,CD 6/23 2,20.0,American Pharoah,,5
+38,7/13/19,6,MSW,,8.5,Turf,Field Pass,2,2.95,False,1,Michael Maker,Luis Saez,1:45.740,CD 6/21 3,22.0,Lemon Drop Kid,,6
+39,7/13/19,6,MSW,,8.5,Turf,Decorated Invader,1,5.3,False,2,Christophe Clement,"Irad Ortiz, Jr.",1:45.863,,,Declaration of War,,6
+40,7/13/19,6,MSW,,8.5,Turf,Mr Jaggers,7,2.35,True,3,William Mott,Junior Alvarado,1:46.069,,,Twirling Candy,,6
+41,7/13/19,6,MSW,,8.5,Turf,Our Country,4,12.1,False,4,George Weaver,Manuel Franco,1:46.193,,,Constitution,,6
+42,7/13/19,6,MSW,,8.5,Turf,Enforceable,3,6.5,False,5,Mark Casse,Tyler Gaffalione,1:46.358,CD 5/31 5,43.0,Tapit,,6
+43,7/13/19,6,MSW,,8.5,Turf,Cardiac Kid,9,17.8,False,6,Kenneth McPeek,Jose Lezcano,1:46.605,,,American Pharoah,,6
+44,7/13/19,6,MSW,,8.5,Turf,Kokokomo,6,10.4,False,7,Todd Pletcher,Javier Castellano,1:46.647,BEL 6/21 7,22.0,Uncle Mo,,6
+45,7/13/19,6,MSW,,8.5,Turf,Mr Everything,5,12.2,False,8,Wesley Ward,John Velazquez,1:46.647,GP 6/23 12,20.0,Mr Speaker,,6
+46,7/13/19,6,MSW,,8.5,Turf,Cloudbased,8,16.0,False,9,Claude McGaughey III,Dylan Davis,1:48.172,BEL 6/21 7,22.0,Orb,,6
+47,7/14/19,1,MSW-F,,8.5,Turf,Sweet Melania,7,1.6,True,1,Todd Pletcher,Jose Ortiz,1:45.870,MTH 6/1 2,43.0,American Pharoah,,7
+48,7/14/19,1,MSW-F,,8.5,Turf,Morning Gold,8,10.4,False,2,Kenneth McPeek,Dylan Davis,1:46.076,,,Morning Line,,7
+49,7/14/19,1,MSW-F,,8.5,Turf,Lucky Jingle,1,8.8,False,3,H. Motion,Rajiv Maragh,1:46.860,,,Tonalist,,7
+50,7/14/19,1,MSW-F,,8.5,Turf,Pearlescent,2,4.1,False,4,William Mott,Junior Alvarado,1:47.067,,,The Factor,,7
+51,7/14/19,1,MSW-F,,8.5,Turf,Days of Spring,3,6.4,False,5,Todd Pletcher,Manuel Franco,1:47.232,BEL 5/23 1,52.0,Uncle Mo,,7
+52,7/14/19,1,MSW-F,,8.5,Turf,Miss Marissa,5,4.6,False,6,James Ryerson,Luis Saez,1:47.273,BEL 6/20 5,24.0,He's Had Enough,,7
+53,7/14/19,1,MSW-F,,8.5,Turf,Foreign Exchange,4,28.75,False,7,D. Lukas,Joel Rosario,1:47.438,,,Congrats,,7
+54,7/14/19,1,MSW-F,,8.5,Turf,Sign of the Times,6,11.2,False,8,Wesley Ward,"Irad Ortiz, Jr.",1:48.512,GP 6/22 8,22.0,Animal Kingdom,,7
+55,7/14/19,4,MSW-NY,,5.5,Dirt,Bank On Shea,4,2.55,False,1,Jason Servis,"Irad Ortiz, Jr.",1:04.020,,,Central Banker,,8
+56,7/14/19,4,MSW-NY,,5.5,Dirt,Blame the Cake,2,14.9,False,2,Ian Wilkes,Javier Castellano,1:04.135,,,Blame,,8
+57,7/14/19,4,MSW-NY,,5.5,Dirt,Macho Boy,3,9.0,False,3,Gary Contessa,Joel Rosario,1:04.907,,,Mucho Macho Man,,8
+58,7/14/19,4,MSW-NY,,5.5,Dirt,South Africa,7,6.9,False,4,Michelle Nevin,Jose Ortiz,1:05.138,,,Will Take Charge,,8
+59,7/14/19,4,MSW-NY,,5.5,Dirt,Kobe,6,33.5,False,5,Gary Contessa,Chris Landeros,1:05.370,,,Japan,,8
+60,7/14/19,4,MSW-NY,,5.5,Dirt,Titan's Will,1,8.1,False,6,Jeremiah Englehart,Luis Saez,1:06.681,,,Congrats,,8
+61,7/14/19,4,MSW-NY,,5.5,Dirt,Our Destiny,5,7.8,False,7,Joseph Parker,Joey Martinez,1:07.299,BEL 5/31 2,44.0,Freud,,8
+62,7/14/19,4,MSW-NY,,5.5,Dirt,No Salt,8,1.65,True,8,William Mott,Junior Alvarado,1:08.340,,,Tonalist,,8
+63,7/17/19,2,STK-NY,Rick Violette S.,6.0,Dirt,Sky of Hook,4,9.3,False,1,Rudy Rodriguez,Luis Saez,1:13.170,BEL 5/10 5,68.0,Tapiture,,9
+64,7/17/19,2,STK-NY,Rick Violette S.,6.0,Dirt,Listentoyourheart,2,2.25,False,2,Christophe Clement,Manuel Franco,1:13.178,BEL 6/23 6,24.0,Afleet Alex,,9
+65,7/17/19,2,STK-NY,Rick Violette S.,6.0,Dirt,Theitalianamerican,1,2.85,False,3,Gary Contessa,Joel Rosario,1:14.018,BEL 6/7 7,40.0,Girolamo,,9
+66,7/17/19,2,STK-NY,Rick Violette S.,6.0,Dirt,Mission Wrapitup,3,1.35,True,4,Bruce Brown,Dylan Davis,1:14.099,BEL 5/31 2,47.0,Mission Impazible,,9
+67,7/17/19,2,STAKES,Rick Violette S.,6.0,Dirt,Torres Del Paine,5,7.9,False,5,H. Motion,Weston Hamilton,1:15.312,LRL 6/28 6,19.0,Karakontie,,10
+68,7/17/19,5,MSW-F,,5.5,Dirt,Just Fly,5,2.1,True,1,Joe Sharp,Luis Saez,1:05.240,CD 6/20 4,27.0,Justin Phillip,,11
+69,7/17/19,5,MSW-F,,5.5,Dirt,Ain't None Lucky,1,6.8,False,2,Lacey Gaudet,Johan Rosado,1:05.986,LRL 6/14 1,33.0,Candy Ride (ARG),,11
+70,7/17/19,5,MSW-F,,5.5,Dirt,Project Whiskey,4,8.4,False,3,"Robert Reid, Jr.",Kendrick Carmouche,1:06.026,,,Tapizar,,11
+71,7/17/19,5,MSW-F,,5.5,Dirt,Double Down Dare,3,4.1,False,4,Steve Klesaris,Jose Lezcano,1:06.144,PRX 6/24 1,23.0,Cross Traffic,,11
+72,7/17/19,5,MSW-F,,5.5,Dirt,Devils Rendezvous,6,8.7,False,5,Gary Contessa,Joel Rosario,1:06.222,,,Daredevil,,11
+73,7/17/19,5,MSW-F,,5.5,Dirt,Raggedy Annie,7,9.6,False,6,D. Lukas,Tyler Gaffalione,1:06.301,,,Union Rags,,11
+74,7/17/19,5,MSW-F,,5.5,Dirt,Myawaya,2,3.65,False,7,Todd Pletcher,John Velazquez,1:06.458,,,Wicked Strong,,11
+75,7/17/19,5,MSW-F,,5.5,Dirt,Gabi's Tuff,8,26.5,False,8,Gary Contessa,Joey Martinez,1:12.041,,,Teuflesberg,,11
+76,7/17/19,10,MSW-NY-F,,5.5,Dirt,Violent Point,6,1.1,True,1,Mark Casse,John Velazquez,1:05.020,BEL 6/22 4,25.0,Violence,,12
+77,7/17/19,10,MSW-NY-F,,5.5,Dirt,Single Verse,3,12.1,False,2,Bruce Brown,Tyler Gaffalione,1:05.960,,,Mineshaft,,12
+78,7/17/19,10,MSW-NY-F,,5.5,Dirt,Darken a Day,4,5.5,False,3,Gary Contessa,Joel Rosario,1:06.861,,,Emcee,,12
+79,7/17/19,10,MSW-NY-F,,5.5,Dirt,Light in the Sky,2,3.55,False,4,Linda Rice,Jose Ortiz,1:06.979,,,Tale of the Cat,,12
+80,7/17/19,10,MSW-NY-F,,5.5,Dirt,American Song,1,4.0,False,5,Jeremiah Englehart,Junior Alvarado,1:07.175,BEL 6/12 3,35.0,Maclean's Music,,12
+81,7/17/19,10,MSW-NY-F,,5.5,Dirt,Apollo's Abraxas,5,13.4,False,6,Kim Laudati,Benjamin Hernandez,1:09.917,BEL 6/30 4,17.0,Big Brown,,12
+82,7/18/19,2,MSW,,5.5,Dirt,January Won,3,3.9,False,1,Kenneth McPeek,Jose Ortiz,1:04.350,,,New Year's Day,,13
+83,7/18/19,2,MSW,,5.5,Dirt,Beyond Gone,1,6.2,False,2,Kenneth McPeek,Julien Leparoux,1:04.505,,,Can the Man,,13
+84,7/18/19,2,MSW,,5.5,Dirt,Dan the Man Can,2,4.9,False,3,Edward Barker,Manuel Franco,1:04.931,,,Can the Man,,13
+85,7/18/19,2,MSW,,5.5,Dirt,Justintimeforwine,5,1.6,True,4,Gary Contessa,Joel Rosario,1:05.513,BEL 6/23 6,25.0,Justin Phillip,,13
+86,7/18/19,2,MSW,,5.5,Dirt,Jamflowman,6,3.15,False,5,John Terranova II,Dylan Davis,1:05.552,,,Awesome of Course,,13
+87,7/18/19,2,MSW,,5.5,Dirt,Ninth of April,4,15.3,False,6,Edmund Davis,"Ricardo Santana, Jr.",1:06.793,,,Shanghai Bobby,,13
+88,7/18/19,3,STK-NY-F,Stillwater S.,6.0,Dirt,My Italian Rabbi,4,8.9,False,1,Jeremiah Englehart,Luis Saez,1:10.310,BEL 5/30 4,49.0,Competitive Edge,,14
+89,7/18/19,3,STK-NY-F,Stillwater S.,6.0,Dirt,Fierce Lady,2,0.35,True,2,Dermot Magner,Javier Castellano,1:10.317,BEL 6/22 4,26.0,Competitive Edge,,14
+90,7/18/19,3,STK-NY-F,Stillwater S.,6.0,Dirt,Jewel of Arabia,1,5.7,False,3,Christophe Clement,Joel Rosario,1:10.543,,,Daredevil,,14
+91,7/18/19,3,STK-NY-F,Stillwater S.,6.0,Dirt,Classy Sadie,3,12.9,False,4,Gary Contessa,Eric Cancel,1:11.125,BEL 6/20 5,28.0,Emcee,,14
+92,7/18/19,3,STK-NY-F,Stillwater S.,6.0,Dirt,Time Limit,5,6.1,False,5,Michael Maker,Jose Ortiz,1:12.795,BEL 6/23 2,25.0,Bustin Stones,,14
+93,7/18/19,5,MSW-NY,,5.5,Dirt,City Man,8,1.25,True,1,Christophe Clement,Joel Rosario,1:04.660,,,Mucho Macho Man,,15
+94,7/18/19,5,MSW-NY,,5.5,Dirt,Shandian,5,6.4,False,2,Gary Contessa,Javier Castellano,1:05.127,BEL 6/21 2,27.0,Emcee,,15
+95,7/18/19,5,MSW-NY,,5.5,Dirt,Turbo Drive,1,8.2,False,3,Michael Maker,Jose Ortiz,1:05.322,BEL 6/21 2,27.0,Teuflesberg,,15
+96,7/18/19,5,MSW-NY,,5.5,Dirt,Imperio D,6,53.0,False,4,Rudy Rodriguez,Luis Reyes,1:05.400,,,Frost Giant,,15
+97,7/18/19,5,MSW-NY,,5.5,Dirt,Fly Fly Away,9,8.1,False,5,Christophe Clement,"Irad Ortiz, Jr.",1:05.556,,,First Samurai,,15
+98,7/18/19,5,MSW-NY,,5.5,Dirt,Barleewon,4,6.1,False,6,Michael Stidham,John Velazquez,1:05.906,,,Animal Kingdom,,15
+99,7/18/19,5,MSW-NY,,5.5,Dirt,Diannesimpazible,2,12.3,False,7,Rudy Rodriguez,Manuel Franco,1:06.023,,,Mission Impazible,,15
+100,7/18/19,5,MSW-NY,,5.5,Dirt,Power Up Paynter,3,6.7,False,8,Linda Rice,Jose Lezcano,1:06.062,,,Paynter,,15
+101,7/18/19,5,MSW-NY,,5.5,Dirt,Tapizearance,7,23.6,False,9,Gary Contessa,Chris Landeros,1:06.647,,,Tapizar,,15
+102,7/19/19,5,MSW-F,,6.0,Dirt,Sweet Kisses,7,2.75,False,1,Jeremiah Englehart,Jose Ortiz,1:09.780,BEL 6/12 3,37.0,Carpe Diem,,16
+103,7/19/19,5,MSW-F,,6.0,Dirt,Finite,5,3.55,False,2,Steven Asmussen,"Ricardo Santana, Jr.",1:10.126,,,Munnings,,16
+104,7/19/19,5,MSW-F,,6.0,Dirt,Mrs. Danvers,6,2.6,True,3,Claude McGaughey III,Joel Rosario,1:10.126,,,Tapit,,16
+105,7/19/19,5,MSW-F,,6.0,Dirt,Kiawah Sunset,2,4.5,False,4,Wesley Ward,"Irad Ortiz, Jr.",1:10.435,CD 6/20 4,29.0,Uncle Mo,,16
+106,7/19/19,5,MSW-F,,6.0,Dirt,Inveterate,3,5.9,False,5,Dermot Magner,Tyler Gaffalione,1:10.628,,,Palace Malice,,16
+107,7/19/19,5,MSW-F,,6.0,Dirt,Cat's Pajamas,1,15.2,False,6,William Mott,Junior Alvarado,1:11.206,,,Street Sense,,16
+108,7/19/19,5,MSW-F,,6.0,Dirt,Larry's Baby,4,20.8,False,7,D. Lukas,Luis Saez,1:13.711,,,Majesticperfection,,16
+109,7/21/19,7,MSW-F,,5.5,Turf,Fly So Pretty,1,5.6,False,1,Mark Casse,Javier Castellano,1:02.940,CD 6/20 4,31.0,Sky Mesa,,17
+110,7/21/19,7,MSW-F,,5.5,Turf,Sequin,10,2.0,True,2,Wesley Ward,Tyler Gaffalione,1:02.977,,,Bayern,,17
+111,7/21/19,7,MSW-F,,5.5,Turf,Sharing,2,10.1,False,3,H. Motion,Manuel Franco,1:02.977,,,Speightstown,,17
+112,7/21/19,7,MSW-F,,5.5,Turf,Queen of Shades,8,6.4,False,4,Jason Servis,"Irad Ortiz, Jr.",1:03.091,MTH 6/1 2,50.0,Midshipman,,17
+113,7/21/19,7,MSW-F,,5.5,Turf,Giggle Factory,9,65.0,False,5,Thomas Albertrani,Luis Reyes,1:03.584,,,The Factor,,17
+114,7/21/19,7,MSW-F,,5.5,Turf,Mom's Pass,7,3.5,False,6,Steven Asmussen,"Ricardo Santana, Jr.",1:03.622,CD 6/20 4,31.0,Point of Entry,,17
+115,7/21/19,7,MSW-F,,5.5,Turf,Meritaten,5,4.5,False,7,"Albert Stall, Jr.",Jose Ortiz,1:03.660,,,War Front,,17
+116,7/21/19,7,MSW-F,,5.5,Turf,Ill Will,6,26.75,False,8,Gary Contessa,Chris Landeros,1:03.736,,,Palace Malice,,17
+117,7/21/19,7,MSW-F,,5.5,Turf,Miss My Macho,4,65.75,False,9,Katherine Ritvo,Kendrick Carmouche,1:03.736,,,Mucho Macho Man,,17
+118,7/21/19,7,MSW-F,,5.5,Turf,Crack of Dawn,3,49.5,False,10,Philip Serpe,Junior Alvarado,1:03.812,,,Bernardini,,17
+119,7/21/19,8,MSW,,6.0,Dirt,Basin,6,2.0,False,1,Steven Asmussen,"Ricardo Santana, Jr.",1:09.770,CD 6/14 1,37.0,Liam's Map,,18
+120,7/21/19,8,MSW,,6.0,Dirt,Three Technique,2,1.75,True,2,Jeremiah Englehart,Jose Ortiz,1:09.962,BEL 6/14 5,37.0,Mr Speaker,,18
+121,7/21/19,8,MSW,,6.0,Dirt,Lucky Curlin,10,11.7,False,3,Mark Casse,Tyler Gaffalione,1:10.964,CD 6/14 1,37.0,Curlin,,18
+122,7/21/19,8,MSW,,6.0,Dirt,Mr Thrifty,7,6.8,False,4,"Robert Reid, Jr.",Kendrick Carmouche,1:11.542,PRX 6/25 5,26.0,Poseidon's Warrior,,18
+123,7/21/19,8,MSW,,6.0,Dirt,Eagles Palace,4,23.2,False,5,William Mott,Junior Alvarado,1:11.542,,,Palace Malice,,18
+124,7/21/19,8,MSW,,6.0,Dirt,Yankee Empire,3,6.7,False,6,John Kimmel,Chris Landeros,1:11.774,BEL 6/14 5,37.0,Cairo Prince,,18
+125,7/21/19,8,MSW,,6.0,Dirt,American Butterfly,5,20.7,False,7,D. Lukas,Joel Rosario,1:12.236,,,American Pharoah,,18
+126,7/21/19,8,MSW,,6.0,Dirt,Excession,9,26.0,False,8,Steven Asmussen,Manuel Franco,1:12.583,,,Union Rags,,18
+127,7/21/19,8,MSW,,6.0,Dirt,Federale,1,51.5,False,9,Philip Gleaves,Dylan Davis,1:12.853,BEL 6/7 7,44.0,Discreetly Mine,,18
+128,7/21/19,8,MSW-F,,6.0,Dirt,He's Super Lucky,8,47.5,False,10,Katherine Ritvo,Rajiv Maragh,1:15.050,,,Super Saver,,19
+129,7/24/19,3,MSW-NY-F,,7.0,Dirt,Sky Kitten,5,7.8,False,1,David Donk,Manuel Franco,1:26.970,,,Sky Mesa,,20
+130,7/24/19,3,MSW-NY-F,,7.0,Dirt,Jen's Battle,1,2.55,False,2,Gary Contessa,Joel Rosario,1:27.134,BEL 6/23 2,31.0,Declaration of War,,20
+131,7/24/19,3,MSW-NY-F,,7.0,Dirt,Beyond Brown,8,2.4,True,3,David Donk,John Velazquez,1:27.670,BEL 6/22 4,32.0,Big Brown,,20
+132,7/24/19,3,MSW-NY-F,,7.0,Dirt,Adriatic Holiday,6,2.75,False,4,Barclay Tagg,Junior Alvarado,1:27.875,,,Central Banker,,20
+133,7/24/19,3,MSW-NY-F,,7.0,Dirt,Dustinthewind,7,39.0,False,5,Edmund Davis,Heman Harkie,1:28.452,BEL 6/22 4,32.0,Mission Impazible,,20
+134,7/24/19,3,MSW-NY-F,,7.0,Dirt,Lil Morning Star,2,39.0,False,6,Kim Laudati,Joey Martinez,1:29.028,BEL 6/20 5,34.0,Central Banker,,20
+135,7/24/19,3,MSW-NY-F,,7.0,Dirt,More Than Silver,4,22.0,False,7,Leah Gyarmati,Rajiv Maragh,1:29.111,,,More Than Ready,,20
+136,7/24/19,3,MSW-NY-F,,7.0,Dirt,Mazal Eighteen,3,5.6,False,8,Danny Gargan,Kendrick Carmouche,1:29.276,,,Will Take Charge,,20
+137,7/24/19,6,MSW,,5.5,Dirt,Another Miracle,1,2.35,False,1,Gary Contessa,Manuel Franco,1:03.330,BEL 7/4 5,20.0,American Pharoah,,21
+138,7/24/19,6,MSW,,5.5,Dirt,Irish Mias,2,9.2,False,2,H. Motion,Rajiv Maragh,1:03.520,,,Sky Mesa,,21
+139,7/24/19,6,MSW,,5.5,Dirt,Close Shave,4,6.7,False,3,H. Motion,John Velazquez,1:03.940,,,Uncle Mo,,21
+140,7/24/19,6,MSW,,5.5,Dirt,Hemlock,6,0.8,True,4,William Mott,Junior Alvarado,1:04.131,,,Into Mischief,,21
+141,7/24/19,6,MSW,,5.5,Dirt,Blackberry Wine,3,12.5,False,5,Joe Sharp,Luis Saez,1:05.161,,,Oxbow,,21
+142,7/24/19,6,MSW,,5.5,Dirt,Shackleford's Joy,5,20.8,False,6,D. Lukas,Luis Reyes,1:06.230,,,Shackleford,,21
+143,7/25/19,2,MCL-F,,5.5,Dirt,Persian Queen,2,6.1,False,1,Rudy Rodriguez,Luis Saez,1:04.780,,,Union Rags,,22
+144,7/25/19,2,MCL-F,,5.5,Dirt,Wedontbelieveher,5,1.7,True,2,Rudy Rodriguez,Manuel Franco,1:04.858,,,Bayern,,22
+145,7/25/19,2,MCL-F,,5.5,Dirt,Stunning Munnings,3,4.1,False,3,Wesley Ward,"Irad Ortiz, Jr.",1:04.936,GP 6/27 6,28.0,Munnings,,22
+146,7/25/19,2,MCL-F,,5.5,Dirt,Speed Talks,6,16.7,False,4,Gary Contessa,Kendrick Carmouche,1:05.482,,,Afleet Express,,22
+147,7/25/19,2,MCL-F,,5.5,Dirt,Polished Copper,4,2.7,False,5,Stanley Hough,Tyler Gaffalione,1:05.912,,,Algorithms,,22
+148,7/25/19,2,MCL-F,,5.5,Dirt,Wicked Amber,7,33.75,False,6,Randi Persaud,Heman Harkie,1:06.107,,,Ghostzapper,,22
+149,7/25/19,2,MCL-F,,5.5,Dirt,Mrs. Awesome,1,6.6,False,7,Gary Contessa,Joel Rosario,1:07.044,,,Awesome Again,,22
+150,7/26/19,2,MSW-NY,,7.0,Dirt,No Lime,5,9.1,False,1,William Mott,Junior Alvarado,1:28.050,,,Flashback,,23
+151,7/26/19,2,MSW-NY,,7.0,Dirt,Mo Ready,4,1.0,True,2,Todd Pletcher,Jose Ortiz,1:28.133,BEL 5/10 5,77.0,Uncle Mo,,23
+152,7/26/19,2,MSW-NY,,7.0,Dirt,Cold Hard Cash,6,10.0,False,3,Linda Rice,Jose Lezcano,1:29.133,,,Maclean's Music,,23
+153,7/26/19,2,MSW-NY,,7.0,Dirt,Kobe,1,5.1,False,4,Gary Contessa,Luis Saez,1:29.509,SAR 7/14 4,12.0,Japan,,23
+154,7/26/19,2,MSW-NY,,7.0,Dirt,Assault Breaker,7,3.1,False,5,Jonathan Thomas,Javier Castellano,1:29.800,BEL 6/26 6,30.0,Street Boss,,23
+155,7/26/19,2,MSW-NY,,7.0,Dirt,Mitzrayim,3,18.9,False,6,Mark Hennig,Chris Landeros,1:30.801,BEL 6/26 6,30.0,Cairo Prince,,23
+156,7/26/19,2,MSW-NY,,7.0,Dirt,Driftwood,2,16.5,False,7,Kenneth McPeek,Julien Leparoux,1:30.843,,,Courageous Cat,,23
+157,7/27/19,4,MSW,,5.5,Dirt,Shoplifted,5,0.7,True,1,Steven Asmussen,"Ricardo Santana, Jr.",1:03.990,,,Into Mischief,,24
+158,7/27/19,4,MSW,,5.5,Dirt,Kowalski,4,3.6,False,2,D. Lukas,Joel Rosario,1:04.684,CD 6/28 4,29.0,Will Take Charge,,24
+159,7/27/19,4,MSW,,5.5,Dirt,Complexifier,7,5.4,False,3,Brian Lynch,Luis Saez,1:04.915,,,Overanalyze,,24
+160,7/27/19,4,MSW,,5.5,Dirt,Soviet,6,0.7,True,4,Todd Pletcher,John Velazquez,1:05.031,,,Super Saver,,24
+161,7/27/19,4,MSW,,5.5,Dirt,Always Misbehaving,8,8.4,False,5,Danny Gargan,Kendrick Carmouche,1:05.031,,,Into Mischief,,24
+162,7/27/19,4,MSW,,5.5,Dirt,Leading West,2,38.75,False,6,Joe Sharp,Manuel Franco,1:05.069,,,Distorted Humor,,24
+163,7/27/19,4,MSW,,5.5,Dirt,Acre,3,15.6,False,7,William Mott,Junior Alvarado,1:05.262,,,Blame,,24
+164,7/27/19,4,MSW,,5.5,Dirt,Sonneman,9,34.0,False,8,Mark Hennig,Jose Lezcano,1:05.455,,,Curlin,,24
+165,7/27/19,4,MSW,,5.5,Dirt,No Bad Days,1,49.5,False,9,Nicholas Zito,Tyler Gaffalione,1:06.149,,,Carpe Diem,,24
+166,7/27/19,7,MSW,,8.5,Turf,Are You Kitten Me,5,5.1,False,1,Michael Maker,Jose Ortiz,1:44.330,,,Kitten's Joy,,25
+167,7/27/19,7,MSW,,8.5,Turf,Sul Moon,1,13.5,False,2,William Mott,Junior Alvarado,1:44.346,,,Malibu Moon,,25
+168,7/27/19,7,MSW,,8.5,Turf,Eagerly,10,2.4,True,3,Todd Pletcher,John Velazquez,1:44.452,,,American Pharoah,,25
+169,7/27/19,7,MSW,,8.5,Turf,Fame to Famous,8,51.25,False,4,Edmund Davis,Manuel Franco,1:44.614,,,Tapit,,25
+170,7/27/19,7,MSW,,8.5,Turf,Proven Strategies,4,7.4,False,5,Mark Casse,Tyler Gaffalione,1:44.655,WO 6/29 7,28.0,Sky Mesa,,25
+171,7/27/19,7,MSW,,8.5,Turf,Hard Sting,6,7.8,False,6,James Jerkens,Luis Saez,1:45.062,BEL 7/6 5,21.0,Hard Spun,,25
+172,7/27/19,7,MSW,,8.5,Turf,Crossing the Moon,9,6.2,False,7,Kenneth McPeek,Dylan Davis,1:45.184,CD 6/28 4,29.0,Cross Traffic,,25
+173,7/27/19,7,MSW,,8.5,Turf,Mo and Go,3,18.3,False,8,Jeremiah Englehart,Joel Rosario,1:46.282,,,Uncle Mo,,25
+174,7/27/19,7,MSW,,8.5,Turf,Blanket of Roses,2,6.4,False,9,Chad Brown,Javier Castellano,1:46.323,,,Lookin at Lucky,,25
+175,7/27/19,7,MSW,,8.5,Turf,Bye Bye Melvin,7,9.5,False,10,H. Motion,Chris Landeros,1:47.543,,,Uncle Mo,,25
+176,7/28/19,1,MSW-NY,,6.0,Dirt,Cleon Jones,3,2.75,False,1,Jeremiah Englehart,"Jorge Vargas, Jr.",1:11.250,BEL 6/23 6,35.0,Tale of the Cat,,26
+177,7/28/19,1,MSW-NY,,6.0,Dirt,Stanhope,2,4.0,False,2,Claude McGaughey III,Dylan Davis,1:11.761,,,Street Sense,,26
+178,7/28/19,1,MSW-NY,,6.0,Dirt,Macho Boy,1,3.3,False,3,Gary Contessa,Manuel Franco,1:12.076,SAR 7/14 4,14.0,Mucho Macho Man,,26
+179,7/28/19,1,MSW-NY,,6.0,Dirt,Brian's Last Song,6,2.45,True,4,Todd Pletcher,Jose Ortiz,1:12.352,,,Cairo Prince,,26
+180,7/28/19,1,MSW-NY,,6.0,Dirt,Sir Ludlow,5,31.25,False,5,Timothy Hamm,Benjamin Hernandez,1:14.752,,,Midas Touch (GB),,26
+181,7/28/19,1,MSW-NY,,6.0,Dirt,Fifty Cents,4,4.5,False,6,Alexis Delgado,Luis Saez,1:17.153,,,Goldencents,,26
+182,7/31/19,3,MSW-NY-F,,6.0,Dirt,Risky Mischief,1,0.75,True,1,Jeremiah Englehart,Jose Ortiz,1:13.050,,,Into Mischief,,27
+183,7/31/19,3,MSW-NY-F,,6.0,Dirt,Playtone,8,10.1,False,2,Eddie Kenneally,Tyler Gaffalione,1:14.260,,,Tonalist,,27
+184,7/31/19,3,MSW-NY-F,,6.0,Dirt,E Z for You to Say,2,51.0,False,3,Patrick Quick,Heman Harkie,1:14.421,BEL 6/22 4,39.0,Majestic City,,27
+185,7/31/19,3,MSW-NY-F,,6.0,Dirt,Aubrey Tate,4,8.3,False,4,Norm Casse,"Irad Ortiz, Jr.",1:14.986,,,Bayern,,27
+186,7/31/19,3,MSW-NY-F,,6.0,Dirt,Sister Beauty,7,10.2,False,5,Gary Contessa,Joel Rosario,1:15.229,,,Revolutionary,,27
+187,7/31/19,3,MSW-NY-F,,6.0,Dirt,Courageous Girl,10,27.75,False,6,David Donk,Manuel Franco,1:15.269,,,Bourbon Courage,,27
+188,7/31/19,3,MSW-NY-F,,6.0,Dirt,Magnetique,9,5.1,False,7,Todd Pletcher,John Velazquez,1:15.390,,,Normandy Invasion,,27
+189,7/31/19,3,MSW-NY-F,,6.0,Dirt,Mrs. Phelps,3,11.7,False,8,Richard Vega,Kendrick Carmouche,1:15.753,,,Mission Impazible,,27
+190,7/31/19,3,MSW-NY-F,,6.0,Dirt,Smokin Hot Kiss,5,28.75,False,9,Marialice Coffey,"Ricardo Santana, Jr.",1:16.923,,,The Lumber Guy,,27
+191,7/31/19,3,MSW-NY-F,,6.0,Dirt,Barker Lane,6,64.0,False,10,Edward Barker,Dylan Davis,1:18.820,,,Bellamy Road,,27
+192,7/31/19,5,MSW-F,,5.5,Dirt,Girlntheyellowtaxi,3,1.95,True,1,Wesley Ward,"Irad Ortiz, Jr.",1:05.500,,,Elusive Quality,,28
+193,7/31/19,5,MSW-F,,5.5,Dirt,Morality Clause,8,2.8,False,2,Raymond Handal,Manuel Franco,1:06.368,BEL 6/30 4,31.0,Verrazano,,28
+194,7/31/19,5,MSW-F,,5.5,Dirt,Kit Kat Katie,7,5.3,False,3,Jeremiah Englehart,Javier Castellano,1:06.842,BEL 6/30 4,31.0,Sky Mesa,,28
+195,7/31/19,5,MSW-F,,5.5,Dirt,Positive Power,1,20.2,False,4,Edmund Davis,Dylan Davis,1:06.960,BEL 7/3 5,28.0,Misremembered,,28
+196,7/31/19,5,MSW-F,,5.5,Dirt,Darken a Day,2,13.6,False,5,Gary Contessa,Luis Saez,1:08.026,SAR 7/17 10,14.0,Emcee,,28
+197,7/31/19,5,MSW-F,,5.5,Dirt,Central Capital,4,31.75,False,6,Leah Gyarmati,Junior Alvarado,1:08.105,,,Central Banker,,28
+198,7/31/19,5,MSW-F,,5.5,Dirt,Wicked Amber,9,48.25,False,7,Randi Persaud,Heman Harkie,1:08.302,SAR 7/25 2,6.0,Ghostzapper,,28
+199,7/31/19,5,MSW-F,,5.5,Dirt,Wicked Title,5,23.8,False,8,Chad Summers,Kendrick Carmouche,1:08.341,,,Wicked Strong,,28
+200,7/31/19,5,MSW-F,,5.5,Dirt,Blessingsofliberty,6,11.6,False,9,Michael Trombetta,Tyler Gaffalione,1:08.736,,,Constitution,,28
+201,7/31/19,5,MSW-F,,5.5,Dirt,Astarte Gold,10,5.7,False,10,Michael Trombetta,Jose Lezcano,1:10.749,,,Cairo Prince,,28
+202,7/31/19,6,MSW-F,,5.5,Dirt,Figure of Speech,5,2.5,False,1,Chad Brown,Javier Castellano,1:05.490,,,Into Mischief,,29
+203,7/31/19,6,MSW-F,,5.5,Dirt,Drop a Hint,9,14.8,False,2,D. Lukas,Manuel Franco,1:06.358,SAR 7/12 5,19.0,Into Mischief,,29
+204,7/31/19,6,MSW-F,,5.5,Dirt,Hallajoori,6,9.6,False,3,Steven Asmussen,"Ricardo Santana, Jr.",1:06.476,,,Bayern,,29
+205,7/31/19,6,MSW-F,,5.5,Dirt,One Time Around,7,33.75,False,4,Mark Hennig,Tyler Gaffalione,1:06.634,,,Empire Maker,,29
+206,7/31/19,6,MSW-F,,5.5,Dirt,Slam Dunk,3,2.25,True,5,Rodolphe Brisset,Jose Ortiz,1:06.871,,,Into Mischief,,29
+207,7/31/19,6,MSW-F,,5.5,Dirt,Magic Motion,8,13.2,False,6,William Mott,Junior Alvarado,1:06.989,,,Bernardini,,29
+208,7/31/19,6,MSW-F,,5.5,Dirt,Gloriously,2,31.5,False,7,James Jerkens,Jose Lezcano,1:07.029,,,Mucho Macho Man,,29
+209,7/31/19,6,MSW-F,,5.5,Dirt,Cairo Express,4,14.5,False,8,Joe Sharp,Luis Saez,1:07.897,,,Cairo Prince,,29
+210,7/31/19,6,MSW-F,,5.5,Dirt,Tulanian,1,2.95,False,9,Thomas Amoss,"Irad Ortiz, Jr.",1:08.094,,,Twirling Candy,,29
+211,8/1/19,1,MSW,,5.5,Turf,Frosted Rose,2,2.3,True,1,Michael Trombetta,Joel Rosario,1:03.160,LRL 6/28 6,34.0,Oxbow,,30
+212,8/1/19,1,MSW,,5.5,Turf,Summer Sangria,8,3.9,False,2,Wesley Ward,John Velazquez,1:03.426,,,Maclean's Music,,30
+213,8/1/19,1,MSW,,5.5,Turf,Get Smokin,1,11.0,False,3,Thomas Bush,Javier Castellano,1:03.502,,,Get Stormy,,30
+214,8/1/19,1,MSW,,5.5,Turf,Smite,6,11.0,False,4,Joe Sharp,Luis Saez,1:03.540,,,Congrats,,30
+215,8/1/19,1,MSW,,5.5,Turf,Saint Marco,3,22.3,False,5,Niall Saville,Kendrick Carmouche,1:03.807,,,Tonalist,,30
+216,8/1/19,1,MSW,,5.5,Turf,Dan the Man Can,9,2.4,False,6,Edward Barker,Manuel Franco,1:03.997,SAR 7/18 2,14.0,Can the Man,,30
+217,8/1/19,1,MSW,,5.5,Turf,Justintimeforwine,10,11.1,False,7,Gary Contessa,Jose Ortiz,1:04.568,SAR 7/18 2,14.0,Justintimeforwine,,30
+218,8/1/19,1,MSW,,5.5,Turf,Mr Phil,5,16.5,False,8,James Ryerson,Tyler Gaffalione,1:04.758,,,Mr Speaker,,30
+219,8/1/19,1,MSW,,5.5,Turf,Ninth of April,4,52.75,False,9,Edmund Davis,Joey Martinez,1:04.758,SAR 7/18 2,14.0,Shanghai Bobby,,30
+220,8/1/19,1,MSW,,5.5,Turf,Strong Legacy,7,35.0,False,10,"Oscar Barrera, III",Luis Reyes,1:06.014,,,Strong Mandate,,30
+221,8/1/19,3,MCL,,5.5,Dirt,Inside Risk,6,2.75,False,1,Todd Pletcher,"Irad Ortiz, Jr.",1:05.070,,,Street Sense,,31
+222,8/1/19,3,MCL,,5.5,Dirt,Blues City,5,9.8,False,2,Linda Rice,Jose Lezcano,1:05.305,BEL 5/10 5,83.0,Frost Giant,,31
+223,8/1/19,3,MCL,,5.5,Dirt,Vaya Con Dios,1,5.2,False,3,Eric Guillot,Dylan Davis,1:05.383,SAR 7/13 4,19.0,Majesticperfection,,31
+224,8/1/19,3,MCL,,5.5,Dirt,Bahamian Prince,4,2.6,True,4,Kelly Breen,Paco Lopez,1:05.618,,,Bahamian Squall,,31
+225,8/1/19,3,MCL,,5.5,Dirt,King of American,7,60.25,False,5,Randi Persaud,Joey Martinez,1:05.815,,,Flatter,,31
+226,8/1/19,3,MCL,,5.5,Dirt,Big Royal Lineage,3,8.6,False,6,Rudy Rodriguez,Luis Saez,1:06.011,,,Bodemeister,,31
+227,8/1/19,3,MCL,,5.5,Dirt,Bayern's Mirage,9,7.9,False,7,Gary Gullo,Manuel Franco,1:06.207,BEL 7/6 5,26.0,Bayern,,31
+228,8/1/19,3,MCL,,5.5,Dirt,Feeling It,8,6.4,False,8,D. Lukas,Joel Rosario,1:06.246,ELP 6/30 5,32.0,Majesticperfection,,31
+229,8/1/19,3,MCL,,5.5,Dirt,Determined Force,2,32.0,False,9,Phil Schoenthal,Jevian Toledo,1:07.109,BEL 6/28 4,34.0,Bellamy Road,,31
+230,8/2/19,3,MSW-NY-F,,5.5,Turf,Light in the Sky,2,1.2,True,1,Linda Rice,Jose Ortiz,1:03.030,SAR 7/17 10,16.0,Tale of the Cat,,32
+231,8/2/19,3,MSW-NY-F,,5.5,Turf,Good Credence,8,3.2,False,2,"Anthony Margotta, Jr.",John Velazquez,1:03.181,MTH 7/12 5,21.0,Jimmy Creed,,32
+232,8/2/19,3,MSW-NY-F,,5.5,Turf,My Sassy Sarah,9,4.4,False,3,Michelle Nevin,Manuel Franco,1:03.181,,,Summer Front,,32
+233,8/2/19,3,MSW-NY-F,,5.5,Turf,Imincomunicado,1,16.3,False,4,Derek Ryan,Jose Lezcano,1:03.523,,,Maclean's Music,,32
+234,8/2/19,3,MSW-NY-F,,5.5,Turf,Canarsie Angel,6,21.1,False,5,Linda Dixon,Kendrick Carmouche,1:03.561,,,Big Brown,,32
+235,8/2/19,3,MSW-NY-F,,5.5,Turf,Wall Eye,7,10.1,False,6,Gary Contessa,Luis Saez,1:04.169,,,Quality Road,,32
+236,8/2/19,3,MSW-NY-F,,5.5,Turf,Stuy Town Baby,3,11.5,False,7,Mark Casse,Tyler Gaffalione,1:04.549,,,Bellamy Road,,32
+237,8/2/19,3,MSW-NY-F,,5.5,Turf,Apollo's Abraxas,4,21.6,False,8,Kim Laudati,Benjamin Hernandez,1:04.739,SAR 7/17 10,16.0,Big Brown,,32
+238,8/2/19,3,MSW-NY-F,,5.5,Turf,Tokyo Bay,5,10.1,False,9,Gary Gullo,Chris Landeros,1:05.916,,,Japan,,32
+239,8/3/19,1,MSW,,8.5,Turf,Our Country,7,2.4,True,1,George Weaver,Manuel Franco,1:41.390,SAR 7/13 6,21.0,Constitution,,33
+240,8/3/19,1,MSW,,8.5,Turf,Policy Option,2,9.9,False,2,Chad Brown,"Irad Ortiz, Jr.",1:42.299,,,Empire Maker,,33
+241,8/3/19,1,MSW,,8.5,Turf,Silver Prospector,3,8.3,False,3,Steven Asmussen,"Ricardo Santana, Jr.",1:42.299,BEL 7/6 5,28.0,Declaration of War,,33
+242,8/3/19,1,MSW,,8.5,Turf,U S Army Corps,6,8.7,False,4,Claude McGaughey III,Joel Rosario,1:42.338,,,War Front,,33
+243,8/3/19,1,MSW,,8.5,Turf,Brewmeister,4,4.5,False,5,Chad Brown,Javier Castellano,1:42.813,,,Point of Entry,,33
+244,8/3/19,1,MSW,,8.5,Turf,Shamrocket,9,13.0,False,6,Christophe Clement,Flavien Prat,1:42.852,,,Tonalist,,33
+245,8/3/19,1,MSW,,8.5,Turf,Eternal Summer,5,11.3,False,7,Todd Pletcher,Jose Ortiz,1:43.485,,,Summer Front,,33
+246,8/3/19,1,MSW,,8.5,Turf,Lido Legacy,8,42.5,False,8,D. Lukas,Chris Landeros,1:43.880,,,Speightstown,,33
+247,8/3/19,1,MSW,,8.5,Turf,Chimney Rock,1,3.05,False,9,Michael Maker,Luis Saez,1:44.117,BEL 6/21 7,43.0,Artie Schiller,,33
+248,8/3/19,3,MSW,,7.0,Dirt,Glory Road,9,3.5,False,1,Todd Pletcher,John Velazquez,1:24.600,,,Commissioner,,34
+249,8/3/19,3,MSW,,7.0,Dirt,This Ill Defend,7,17.8,False,2,Thomas Albertrani,Luis Reyes,1:24.640,BEL 7/4 5,30.0,Sky Mesa,,34
+250,8/3/19,3,MSW,,7.0,Dirt,Atoka,8,25.5,False,3,D. Lukas,Luis Saez,1:24.640,,,Union Rags,,34
+251,8/3/19,3,MSW,,7.0,Dirt,Height,6,19.4,False,4,William Mott,Junior Alvarado,1:24.960,,,Union Rags,,34
+252,8/3/19,3,MSW,,7.0,Dirt,Extreme Force,2,5.9,False,5,Mark Hennig,Jose Lezcano,1:25.120,BEL 7/4 5,30.0,Constitution,,34
+253,8/3/19,3,MSW,,7.0,Dirt,Amends,10,13.7,False,6,Claude McGaughey III,Joel Rosario,1:25.441,,,Uncle Mo,,34
+254,8/3/19,3,MSW,,7.0,Dirt,Dubai Bobby,1,5.6,False,7,Jonathan Thomas,Javier Castellano,1:25.721,BEL 7/6 5,28.0,Shanghai Bobby,,34
+255,8/3/19,3,MSW,,7.0,Dirt,Wayne O,4,1.7,True,8,Steven Asmussen,Jose Ortiz,1:26.923,,,Into Mischief,,34
+256,8/3/19,3,MSW,,7.0,Dirt,Fishman,5,17.9,False,9,"James Lawrence, II",Kendrick Carmouche,1:27.123,LRL 7/11 1,23.0,Malibu Moon,,34
+257,8/3/19,3,MSW,,7.0,Dirt,Indian Cross,3,21.2,False,10,Steven Asmussen,"Ricardo Santana, Jr.",1:29.647,,,Cross Traffic,,34
+258,8/4/19,1,MSW-F,,7.0,Dirt,Daphne Moon,3,2.15,False,1,Jeremiah Englehart,Jose Ortiz,1:23.940,,,Cairo Prince,,35
+259,8/4/19,1,MSW-F,,7.0,Dirt,Weekend Fun,6,2.4,False,2,Steven Asmussen,"Ricardo Santana, Jr.",1:24.456,CD 6/27 1,38.0,More Than Ready,,35
+260,8/4/19,1,MSW-F,,7.0,Dirt,Lucky Dime,4,6.3,False,3,William Mott,Junior Alvarado,1:24.695,,,Creative Cause,,35
+261,8/4/19,1,MSW-F,,7.0,Dirt,Pure Wow,1,2.05,True,4,John Terranova II,Joel Rosario,1:25.092,SAR 7/12 5,23.0,The Factor,,35
+262,8/4/19,1,MSW-F,,7.0,Dirt,Foreign Exchange,2,19.8,False,5,D. Lukas,Luis Saez,1:25.927,SAR 7/14 1,21.0,Congrats,,35
+263,8/4/19,1,MSW-F,,7.0,Dirt,Ill Will,5,11.4,False,6,Gary Contessa,Chris Landeros,1:26.881,SAR 7/21 7,14.0,Palace Malice,,35
+264,8/4/19,4,MSW-F,,8.5,Turf,Crystalle,2,41.5,False,1,John Kimmel,Chris Landeros,1:41.170,,,Palace Malice,DQ'd and placed third,36
+265,8/4/19,4,MSW-F,,8.5,Turf,Sketches of Spain (IRE),4,5.4,False,2,Chad Brown,"Irad Ortiz, Jr.",1:41.525,,,Lope de Vega (IRE),,36
+266,8/4/19,4,MSW-F,,8.5,Turf,Sparkling Sky,7,2.95,False,3,Todd Pletcher,Jose Ortiz,1:41.525,,,More Than Ready,,36
+267,8/4/19,4,MSW-F,,8.5,Turf,Situation Room,3,1.95,True,4,Chad Brown,Javier Castellano,1:41.722,,,Summer Front,,36
+268,8/4/19,4,MSW-F,,8.5,Turf,Swanage,5,6.0,False,5,Michael Maker,Luis Saez,1:41.761,ELP 7/5 5,30.0,English Channel,,36
+269,8/4/19,4,MSW-F,,8.5,Turf,Miss My Macho,9,27.0,False,6,Katherine Ritvo,Rajiv Maragh,1:41.958,SAR 7/21 7,14.0,Mucho Macho Man,,36
+270,8/4/19,4,MSW-F,,8.5,Turf,Livin At the Beach,6,7.9,False,7,Christophe Clement,Dylan Davis,1:42.116,BEL 6/30 4,35.0,Treasure Beach (GB),,36
+271,8/4/19,4,MSW-F,,8.5,Turf,Bridal Path,1,10.0,False,8,Claude McGaughey III,Joel Rosario,1:42.353,,,Hard Spun,,36
+272,8/4/19,4,MSW-F,,8.5,Turf,Osaka Girl,8,21.5,False,9,Brian Lynch,Manuel Franco,1:43.970,,,First Samurai,,36
+273,8/4/19,10,GRD-F,Adirondack S.,6.5,Dirt,Perfect Alibi,3,6.7,False,1,Mark Casse,"Irad Ortiz, Jr.",1:18.390,BEL 6/6 7,59.0,Sky Mesa,,37
+274,8/4/19,10,GRD-F,Adirondack S.,6.5,Dirt,Frank's Rockette,2,0.7,True,2,William Mott,Julien Leparoux,1:18.469,CD 6/21 1,44.0,Into Mischief,,37
+275,8/4/19,10,GRD-F,Adirondack S.,6.5,Dirt,Magic Dance,8,2.35,False,3,Steven Asmussen,"Ricardo Santana, Jr.",1:18.669,CD 6/29 10,36.0,More Than Ready,,37
+276,8/4/19,10,GRD-F,Adirondack S.,6.5,Dirt,Miss Peppina,6,10.4,False,4,Gary Gullo,Joel Rosario,1:18.789,BEL 7/3 5,32.0,Bayern,,37
+277,8/4/19,10,GRD-F,Adirondack S.,6.5,Dirt,Big Q,1,60.25,False,5,Gary Gullo,Jose Lezcano,1:19.469,SAR 7/11 5,24.0,Big Brown,,37
+278,8/4/19,10,GRD-F,Adirondack S.,6.5,Dirt,Mylastfirstkiss,5,83.0,False,6,Anthony Quartarolo,Chris Landeros,1:19.709,SAR 7/12 5,23.0,Flatter,,37
+279,8/4/19,10,GRD-F,Adirondack S.,6.5,Dirt,Integral,4,24.25,False,7,Todd Pletcher,John Velazquez,1:23.306,SAR 7/11 8,24.0,Algorithms,,37
+280,8/4/19,10,GRD-F,Adirondack S.,6.5,Dirt,Just Fly,7,42.0,False,8,Joe Sharp,Luis Saez,1:27.543,SAR 7/17 5,18.0,Justin Phillip,,37
+281,8/7/19,5,MSW-NY-F,,6.5,Dirt,Thea's Theme,2,2.25,False,1,Jeremiah Englehart,Jose Ortiz,1:19.170,,,Bayern,,38
+282,8/7/19,5,MSW-NY-F,,6.5,Dirt,Critical Value,6,10.8,False,2,Jeremiah Englehart,Junior Alvarado,1:19.178,,,Bodemeister,,38
+283,8/7/19,5,MSW-NY-F,,6.5,Dirt,Funnypointofview,1,11.3,False,3,James Ryerson,Tyler Gaffalione,1:20.179,BEL 6/23 2,45.0,D'Funnybone,,38
+284,8/7/19,5,MSW-NY-F,,6.5,Dirt,Saratoga Beauty,5,1.95,True,4,Patrick McBurney,Paco Lopez,1:20.744,,,Macho Uno,,38
+285,8/7/19,5,MSW-NY-F,,6.5,Dirt,Rewarded,4,43.5,False,5,Michael Lauer,Manuel Franco,1:21.834,SAR 7/11 5,27.0,Central Banker,,38
+286,8/7/19,5,MSW-NY-F,,6.5,Dirt,Lady Kaza,7,4.3,False,6,Chad Brown,Javier Castellano,1:22.601,,,Congrats,,38
+287,8/7/19,5,MSW-NY-F,,6.5,Dirt,A d'Oro,8,15.6,False,7,Brad Cox,Kendrick Carmouche,1:22.843,,,Alpha,,38
+288,8/7/19,5,MSW-NY-F,,6.5,Dirt,Graphite Dutchess,9,9.7,False,8,Bruce Brown,Luis Saez,1:24.175,,,Palace Malice,,38
+289,8/7/19,5,MSW-NY-F,,6.5,Dirt,Bella Invasion,3,47.5,False,9,Randi Persaud,Samuel Jimenez,1:24.216,,,Normandy Invasion,,38
+290,8/8/19,5,MSW-NY,,6.5,Dirt,Tiz the Law,3,3.55,False,1,Barclay Tagg,Junior Alvarado,1:18.020,,,Constitution,,39
+291,8/8/19,5,MSW-NY,,6.5,Dirt,Dream Bigger,7,1.5,True,2,Rudy Rodriguez,John Velazquez,1:18.696,,,Mission Impazible,,39
+292,8/8/19,5,MSW-NY,,6.5,Dirt,Brilliant Brooks,6,4.3,False,3,Jeremiah Englehart,Jose Ortiz,1:20.924,,,Candy Ride (ARG),,39
+293,8/8/19,5,MSW-NY,,6.5,Dirt,Disco Deano,5,31.0,False,4,M. Ferraro,Jaime Rodriguez,1:22.197,,,Verrazano,,39
+294,8/8/19,5,MSW-NY,,6.5,Dirt,Dangerous Edge,8,4.0,False,5,George Weaver,Eric Cancel,1:22.634,,,Competitive Edge,,39
+295,8/8/19,5,MSW-NY,,6.5,Dirt,Geta Lode of Lucky,2,19.2,False,6,Danny Gargan,Kendrick Carmouche,1:23.828,,,Girolamo,,39
+296,8/8/19,5,MSW-NY,,6.5,Dirt,Perpetrate,4,11.3,False,7,Michael Stidham,Tyler Gaffalione,1:24.265,,,Distorted Humor,,39
+297,8/8/19,5,MSW-NY,,6.5,Dirt,Forever Wicked,1,31.0,False,8,Randi Persaud,Rajiv Maragh,1:24.942,,,Wicked Strong,,39
+298,8/9/19,4,MSW-NY,,5.5,Turf,Fly Fly Away,8,1.85,True,1,Christophe Clement,"Irad Ortiz, Jr.",1:02.500,SAR 7/18 5,22.0,First Samurai,,40
+299,8/9/19,4,MSW-NY,,5.5,Turf,First Deputy,3,4.6,False,2,Linda Rice,Jose Ortiz,1:02.507,,,Awesome Again,,40
+300,8/9/19,4,MSW-NY,,5.5,Turf,Shandian,6,3.55,False,3,Gary Contessa,Javier Castellano,1:02.801,SAR 7/18 5,22.0,Emcee,,40
+301,8/9/19,4,MSW-NY,,5.5,Turf,Kierkegaard,10,4.6,False,4,Jack Sisterson,Joel Rosario,1:02.838,,,Freud,,40
+302,8/9/19,4,MSW-NY,,5.5,Turf,Go Rudy Go,1,10.4,False,5,Rudy Rodriguez,Jose Lezcano,1:02.951,,,Warrior's Reward,,40
+303,8/9/19,4,MSW-NY,,5.5,Turf,Lord Camden,9,6.7,False,6,Mark Casse,Tyler Gaffalione,1:02.951,,,Freud,,40
+304,8/9/19,4,MSW-NY,,5.5,Turf,Very Replaceable,4,25.5,False,7,M. Ferraro,Jaime Rodriguez,1:03.366,,,Normandy Invasion,,40
+305,8/9/19,4,MSW-NY,,5.5,Turf,Love Me Tomorrow,5,6.4,False,8,Wesley Ward,Dylan Davis,1:03.479,SAR 7/11 5,29.0,Mineshaft,,40
+306,8/9/19,4,MSW-NY,,5.5,Turf,Perfect Banker,2,34.0,False,9,Thomas Albertrani,Eric Cancel,1:03.516,,,Central Banker,,40
+307,8/9/19,4,MSW-NY,,5.5,Turf,Stone Guitar,7,32.5,False,10,Gary Contessa,Kendrick Carmouche,1:03.629,,,Bustin Stones,,40
+308,8/9/19,6,MSW-F,,5.5,Turf,Voting Agreement,4,3.0,False,1,Chad Brown,Javier Castellano,1:01.870,,,More Than Ready,,41
+309,8/9/19,6,MSW-F,,5.5,Turf,Boston Beauties (IRE),6,10.7,False,2,Todd Pletcher,Luis Saez,1:02.242,,,Zoffany (IRE),,41
+310,8/9/19,6,MSW-F,,5.5,Turf,Indochine,7,3.65,False,3,Chad Brown,"Irad Ortiz, Jr.",1:02.429,,,War Front,,41
+311,8/9/19,6,MSW-F,,5.5,Turf,Love of My Heart,3,15.1,False,4,Mark Casse,Tyler Gaffalione,1:02.615,,,Colonel John,,41
+312,8/9/19,6,MSW-F,,5.5,Turf,Leaveuwithasmile,1,20.5,False,5,Jeremiah Englehart,"Ricardo Santana, Jr.",1:02.615,,,Conveyance,,41
+313,8/9/19,6,MSW-F,,5.5,Turf,Star Command,9,20.5,False,6,Claude McGaughey III,Dylan Davis,1:02.802,,,Orb,,41
+314,8/9/19,6,MSW-F,,5.5,Turf,Our Little Jewel,5,21.0,False,7,Michael Trombetta,Joel Rosario,1:02.913,,,Hat Trick (JPN),,41
+315,8/9/19,6,MSW-F,,5.5,Turf,She's Into Me,2,7.6,False,8,Jorge Abreu,Jose Ortiz,1:03.100,,,Into Mischief,,41
+316,8/9/19,6,MSW-F,,5.5,Turf,Divided Sky (IRE),8,2.3,True,9,Wesley Ward,John Velazquez,1:03.137,,,Society Rock (IRE),,41
+317,8/9/19,6,MSW-F,,5.5,Turf,La Negrita,10,38.5,False,10,Rudy Rodriguez,Manuel Franco,1:03.659,,,Fed Biz,,41
+318,8/10/19,3,MSW,,8.5,Turf,Decorated Invader,5,1.25,True,1,Christophe Clement,Junior Alvarado,1:41.340,SAR 7/13 6,28.0,Declaration of War,,42
+319,8/10/19,3,MSW,,8.5,Turf,Summer to Remember,1,2.5,False,2,Todd Pletcher,Manuel Franco,1:41.853,,,Summer Front,,42
+320,8/10/19,3,MSW,,8.5,Turf,Fame to Famous,6,4.3,False,3,Edmund Davis,Luis Saez,1:41.853,SAR 7/27 7,14.0,Tapit,,42
+321,8/10/19,3,MSW,,8.5,Turf,Glynn County,7,21.7,False,4,James Toner,Kendrick Carmouche,1:42.169,,,Kitten's Joy,,42
+322,8/10/19,3,MSW,,8.5,Turf,No Bad Days,8,30.0,False,5,Nicholas Zito,Tyler Gaffalione,1:42.762,SAR 7/27 4,14.0,Carpe Diem,,42
+323,8/10/19,3,MSW,,8.5,Turf,My Sacred Place,3,10.0,False,6,Jason Servis,Jose Lezcano,1:43.394,MTH 7/13 6,28.0,Temple City,,42
+324,8/10/19,3,MSW,,8.5,Turf,City Guy,2,53.0,False,7,Philip Gleaves,Dylan Davis,1:43.434,BEL 7/6 5,35.0,Temple City,,42
+325,8/10/19,3,MSW,,8.5,Turf,Yukon Eric,4,9.4,False,8,Linda Rice,Jose Ortiz,1:46.397,,,Will Take Charge,,42
+326,8/10/19,5,MSW,,6.0,Dirt,Tumbling Sky,7,2.05,False,1,Steven Asmussen,"Ricardo Santana, Jr.",1:09.860,,,Competitive Edge,,43
+327,8/10/19,5,MSW,,6.0,Dirt,Bellavia,8,22.8,False,2,Jena Antonucci,Tyler Gaffalione,1:10.052,,,Honor Code,,43
+328,8/10/19,5,MSW,,6.0,Dirt,Famished,5,11.6,False,3,John Kimmel,Joel Rosario,1:10.323,,,Uncle Mo,,43
+329,8/10/19,5,MSW,,6.0,Dirt,Irish Front,1,8.0,False,4,Todd Pletcher,Manuel Franco,1:10.593,,,Summer Front,,43
+330,8/10/19,5,MSW,,6.0,Dirt,Ajaaweed,3,6.0,False,5,Kiaran McLaughlin,Luis Saez,1:10.631,,,Curlin,,43
+331,8/10/19,5,MSW,,6.0,Dirt,Kittansett,2,1.5,True,6,Chad Brown,Jose Ortiz,1:11.017,,,American Pharoah,,43
+332,8/10/19,5,MSW,,6.0,Dirt,Social Afleet,4,43.0,False,7,Dallas Stewart,Corey Lanerie,1:12.368,,,Northern Afleet,,43
+333,8/10/19,5,MSW,,6.0,Dirt,Ghost of the Mambo,9,18.5,False,8,William Mott,Junior Alvarado,1:12.715,,,Ghostzapper,,43
+334,8/10/19,5,MSW,,6.0,Dirt,Good Scout,6,52.75,False,9,D. Lukas,Rajiv Maragh,1:12.985,,,Oxbow,,43
+335,8/10/19,7,MSW,,6.0,Dirt,Gozilla,6,0.6,True,1,Steven Asmussen,"Ricardo Santana, Jr.",1:09.590,,,Flatter,,44
+336,8/10/19,7,MSW,,6.0,Dirt,Ox Bridge,8,7.5,False,2,Todd Pletcher,Manuel Franco,1:10.281,,,Oxbow,,44
+337,8/10/19,7,MSW,,6.0,Dirt,Sprawl,2,10.7,False,3,William Mott,Jose Ortiz,1:10.781,,,City Zip,,44
+338,8/10/19,7,MSW,,6.0,Dirt,Prince of Caps,4,46.75,False,4,Michelle Nevin,Eric Cancel,1:11.281,,,Awesome Again,,44
+339,8/10/19,7,MSW,,6.0,Dirt,Cardiac Kid,7,5.7,False,5,Kenneth McPeek,Julien Leparoux,1:11.704,SAR 7/13 6,28.0,American Pharoah,,44
+340,8/10/19,7,MSW,,6.0,Dirt,Option Value,1,5.3,False,6,Chad Brown,Luis Saez,1:12.088,,,Into Mischief,,44
+341,8/10/19,7,MSW,,6.0,Dirt,Hostile Witness,9,36.5,False,7,Rudy Rodriguez,Jose Lezcano,1:12.857,,,Verrazano,,44
+342,8/10/19,7,MSW,,6.0,Dirt,Gear Jockey,5,7.5,False,8,"George Arnold, II",Junior Alvarado,1:13.088,,,Twirling Candy,,44
+343,8/10/19,7,MSW,,6.0,Dirt,Stick Figure,3,35.5,False,9,Dale Romans,Corey Lanerie,1:13.741,,,Tiznow,,44
+344,8/10/19,8,GRD,Saratoga Special S.,6.5,Dirt,Green Light Go,3,1.55,True,1,James Jerkens,Junior Alvarado,1:15.680,BEL 7/4 5,37.0,Hard Spun,,45
+345,8/10/19,8,GRD,Saratoga Special S.,6.5,Dirt,Noose,1,2.35,False,2,Eddie Kenneally,Corey Lanerie,1:16.258,CD 6/28 4,43.0,More Than Ready,,45
+346,8/10/19,8,GRD,Saratoga Special S.,6.5,Dirt,Tuggle,4,8.2,False,3,Jeremiah Englehart,Luis Saez,1:16.528,BEL 6/21 7,50.0,Point of Entry,,45
+347,8/10/19,8,GRD,Saratoga Special S.,6.5,Dirt,Peruvian Boy,6,16.5,False,4,"Ignacio Correas, IV",Julien Leparoux,1:17.146,AP 7/13 4,28.0,Tapiture,,45
+348,8/10/19,8,GRD,Saratoga Special S.,6.5,Dirt,Zyramid,2,8.1,False,5,Steven Asmussen,"Ricardo Santana, Jr.",1:17.570,SAR 7/13 4,28.0,City Zip,,45
+349,8/10/19,8,GRD,Saratoga Special S.,6.5,Dirt,Long Weekend,5,3.95,False,6,Thomas Amoss,Joel Rosario,1:17.879,CD 6/23 2,48.0,Majesticperfection,,45
+350,8/10/19,8,GRD,Saratoga Special S.,6.5,Dirt,Iberico,7,32.75,False,7,Antonio Sano,Tyler Gaffalione,1:19.538,GP 7/6 6,35.0,Dialed In,,45
+351,8/11/19,3,MSW-F,,8.5,Turf,Morning Gold,7,1.35,True,1,Kenneth McPeek,Jose Ortiz,1:40.600,SAR 7/14 1,28.0,Morning Line,,46
+352,8/11/19,3,MSW-F,,8.5,Turf,Apurate,8,4.8,False,2,Todd Pletcher,John Velazquez,1:41.423,SAR 7/12 5,30.0,Summer Front,,46
+353,8/11/19,3,MSW-F,,8.5,Turf,Micheline,2,12.5,False,3,Michael Stidham,Jose Lezcano,1:41.619,,,Bernardini,,46
+354,8/11/19,3,MSW-F,,8.5,Turf,Slip Sliding Away,1,3.75,False,4,James Toner,Joe Bravo,1:41.619,,,American Pharoah,,46
+355,8/11/19,3,MSW-F,,8.5,Turf,Gran Chemin,5,9.8,False,5,Jeremiah Englehart,"Irad Ortiz, Jr.",1:41.855,,,Constitution,,46
+356,8/11/19,3,MSW-F,,8.5,Turf,Leeway,3,32.5,False,6,Christophe Clement,Chris Landeros,1:41.972,,,Stroll,,46
+357,8/11/19,3,MSW-F,,8.5,Turf,Windfall Profit,4,7.0,False,7,Claude McGaughey III,Joel Rosario,1:42.012,,,Malibu Moon,,46
+358,8/11/19,3,MSW-F,,8.5,Turf,Revelment,9,47.5,False,8,Barclay Tagg,Dylan Davis,1:42.561,,,English Channel,,46
+359,8/11/19,3,MSW-F,,8.5,Turf,Catherineofaragon,10,35.25,False,9,Rodolphe Brisset,Tyler Gaffalione,1:42.835,,,Bodemeister,,46
+360,8/11/19,3,MSW-F,,8.5,Turf,Hard Won,6,50.25,False,10,Leah Gyarmati,Rajiv Maragh,1:43.385,,,Hard Spun,,46
+361,8/11/19,6,MSW-F,,6.0,Dirt,Lotta Ott,3,3.6,False,1,Steven Asmussen,"Ricardo Santana, Jr.",1:10.610,SAR 7/12 5,30.0,Tapiture,,47
+362,8/11/19,6,MSW-F,,6.0,Dirt,Mundaye Call,8,0.85,True,2,Don Chatlos,Jose Ortiz,1:10.625,,,Into Mischief,,47
+363,8/11/19,6,MSW-F,,6.0,Dirt,Secondary Market,4,7.7,False,3,Chad Brown,Javier Castellano,1:11.156,,,Into Mischief,,47
+364,8/11/19,6,MSW-F,,6.0,Dirt,Noudha,2,15.4,False,4,Todd Pletcher,John Velazquez,1:11.546,,,American Pharoah,,47
+365,8/11/19,6,MSW-F,,6.0,Dirt,Palace Avenger,7,8.7,False,5,Wesley Ward,"Irad Ortiz, Jr.",1:11.585,BEL 7/3 5,39.0,Palace,,47
+366,8/11/19,6,MSW-F,,6.0,Dirt,Velvet Crush,6,15.6,False,6,Rodolphe Brisset,Manuel Franco,1:11.780,,,Tapit,,47
+367,8/11/19,6,MSW-F,,6.0,Dirt,Plea,5,11.2,False,7,William Mott,Junior Alvarado,1:12.014,,,Lea,,47
+368,8/11/19,6,MSW-F,,6.0,Dirt,Nikki My Angel,1,34.5,False,8,Anthony Quartarolo,Eric Cancel,1:15.368,TDN 7/20 7,22.0,Shackleford,,47
+369,8/14/19,2,MSW,,6.0,Dirt,Beyond Gone,5,0.65,True,1,Kenneth McPeek,Jose Ortiz,1:11.270,SAR 7/18 2,27.0,Can the Man,,48
+370,8/14/19,2,MSW,,6.0,Dirt,Dan the Man Can,3,4.8,False,2,Edward Barker,Manuel Franco,1:11.821,SAR 8/1 1,13.0,Can the Man,,48
+371,8/14/19,2,MSW,,6.0,Dirt,More Thunder,2,4.5,False,3,Steve Klesaris,Joel Rosario,1:12.136,,,Goldencents,,48
+372,8/14/19,2,MSW,,6.0,Dirt,King of American,6,18.2,False,4,Randi Persaud,Rajiv Maragh,1:12.726,SAR 8/1 3,13.0,Flatter,,48
+373,8/14/19,2,MSW,,6.0,Dirt,Mr Phil,7,18.2,False,5,James Ryerson,Tyler Gaffalione,1:13.002,SAR 8/1 1,13.0,Mr Speaker,,48
+374,8/14/19,2,MSW,,6.0,Dirt,Montana Man,1,11.0,False,6,Dale Romans,Luis Saez,1:13.356,,,Constitution,,48
+375,8/14/19,2,MSW,,6.0,Dirt,Stone Guitar,4,20.1,False,7,Gary Contessa,Kendrick Carmouche,1:13.710,SAR 8/9 4,5.0,Bustin Stones,,48
+376,8/14/19,6,MSW-NY-F,,8.5,Turf,English Breeze,5,9.4,False,1,David Donk,Manuel Franco,1:42.510,,,English Channel,,49
+377,8/14/19,6,MSW-NY-F,,8.5,Turf,Sainte Mere Eglise,2,23.2,False,2,Thomas Bush,Junior Alvarado,1:43.269,,,Noble Mission (GB),,49
+378,8/14/19,6,MSW-NY-F,,8.5,Turf,Mazal Eighteen,10,7.7,False,3,Patrick Reynolds,"Irad Ortiz, Jr.",1:43.629,SAR 7/24 3,21.0,Will Take Charge,,49
+379,8/14/19,6,MSW-NY-F,,8.5,Turf,Kiss and Run,9,7.6,False,4,Cherie DeVaux,Jose Lezcano,1:43.629,,,Carpe Diem,,49
+380,8/14/19,6,MSW-NY-F,,8.5,Turf,Dustinthewind,7,24.75,False,5,Edmund Davis,Joe Bravo,1:43.789,SAR 7/24 3,21.0,Mission Impazible,,49
+381,8/14/19,6,MSW-NY-F,,8.5,Turf,Astoria Kitten,3,1.0,True,6,Danny Gargan,Kendrick Carmouche,1:43.829,,,Kitten's Joy,,49
+382,8/14/19,6,MSW-NY-F,,8.5,Turf,Sister Beauty,8,15.5,False,7,Gary Contessa,Joel Rosario,1:44.028,SAR 7/31 3,14.0,Revolutionary,,49
+383,8/14/19,6,MSW-NY-F,,8.5,Turf,Big Bounty,1,22.1,False,8,Leah Gyarmati,Jose Ortiz,1:44.028,,,Posse,,49
+384,8/14/19,6,MSW-NY-F,,8.5,Turf,Devils Rendezvous,6,5.3,False,9,Gary Contessa,Tyler Gaffalione,1:44.708,SAR 7/17 5,28.0,Daredevil,,49
+385,8/14/19,6,MSW-NY-F,,8.5,Turf,More Than Silver,4,40.5,False,10,Leah Gyarmati,Rajiv Maragh,1:45.907,SAR 7/24 3,21.0,More Than Ready,,49
+386,8/14/19,7,STK-F,Bolton Landing S.,5.5,Turf,Kimari,4,0.25,True,1,Wesley Ward,John Velazquez,1:01.430,ASC 6/19,56.0,Munnings,,50
+387,8/14/19,7,STK-F,Bolton Landing S.,5.5,Turf,Abscond,3,5.7,False,2,Eddie Kenneally,Javier Castellano,1:02.022,ELP 7/21 4,24.0,Blame,,50
+388,8/14/19,7,STK-F,Bolton Landing S.,5.5,Turf,Champagne Humor,5,13.5,False,3,Antonio Sano,Luca Panici,1:02.170,GP 5/25 5,81.0,Distorted Humor,,50
+389,8/14/19,7,STK-F,Bolton Landing S.,5.5,Turf,Vast,1,6.9,False,4,William Mott,Junior Alvarado,1:02.466,SAR 7/12 5,33.0,Lea,,50
+390,8/14/19,7,STK-F,Bolton Landing S.,5.5,Turf,Classy Sadie,6,23.3,False,5,Gary Contessa,Tyler Gaffalione,1:02.466,SAR 7/18 3,27.0,Emcee,,50
+391,8/14/19,7,STK-F,Bolton Landing S.,5.5,Turf,Persian Queen,2,31.5,False,6,Carlos Martin,Luis Saez,1:03.466,SAR 7/25 2,20.0,Union Rags,,50
+392,8/15/19,2,MSW-F,,6.0,Dirt,British Idiom,3,3.5,True,1,Brad Cox,Javier Castellano,1:10.010,,,Flashback,,51
+393,8/15/19,2,MSW-F,,6.0,Dirt,Miss Marissa,2,14.5,False,2,James Ryerson,Dylan Davis,1:10.551,SAR 7/14 1,32.0,He's Had Enough,,51
+394,8/15/19,2,MSW-F,,6.0,Dirt,Ain't None Lucky,6,3.8,False,3,Lacey Gaudet,"Irad Ortiz, Jr.",1:10.667,SAR 7/17 5,29.0,Candy Ride (ARG),,51
+395,8/15/19,2,MSW-F,,6.0,Dirt,Miraculousblessing,7,8.2,False,4,Kelsey Danner,Tyler Gaffalione,1:11.518,,,Rattlesnake Bridge,,51
+396,8/15/19,2,MSW-F,,6.0,Dirt,Esther's Fortune,8,7.5,False,5,Bruce Levine,Jose Ortiz,1:12.175,,,Super Saver,,51
+397,8/15/19,2,MSW-F,,6.0,Dirt,Little Farina,1,14.0,False,6,Rudy Rodriguez,Manuel Franco,1:12.910,,,Astrology,,51
+398,8/15/19,2,MSW-F,,6.0,Dirt,Surprise Arrival,5,32.5,False,7,Michael Maker,Jose Lezcano,1:12.910,,,Lea,,51
+399,8/15/19,2,MSW-F,,6.0,Dirt,Cherokee Song,9,65.75,False,8,Randi Persaud,Samuel Jimenez,1:14.070,,,Pioneerof the Nile,,51
+400,8/15/19,2,MSW-F,,6.0,Dirt,Tetrahydro,4,5.5,False,9,Dale Romans,Luis Saez,1:14.109,,,Daredevil,,51
+401,8/15/19,2,MSW-F,,6.0,Dirt,Talk You Out of It,10,3.75,False,10,Bruce Brown,Junior Alvarado,1:17.822,BEL 7/3 5,43.0,Overanalyze,,51
+402,8/15/19,4,MSW,,5.5,Turf,Mystic Lancelot,4,1.8,True,1,Todd Pletcher,John Velazquez,1:01.060,,,Into Mischief,,52
+403,8/15/19,4,MSW,,5.5,Turf,Art Collector,8,7.1,False,2,Joe Sharp,Luis Saez,1:01.501,,,Bernardini,,52
+404,8/15/19,4,MSW,,5.5,Turf,Buy Land and See,1,11.6,False,3,Steve Klesaris,Jose Lezcano,1:01.722,,,Cairo Prince,,52
+405,8/15/19,4,MSW,,5.5,Turf,Aye Aye Sir,6,5.6,False,4,Wesley Ward,"Irad Ortiz, Jr.",1:01.795,,,Midshipman,,52
+406,8/15/19,4,MSW,,5.5,Turf,Croi Mor,5,10.6,False,5,Todd Pletcher,Javier Castellano,1:01.906,,,Honor Code,,52
+407,8/15/19,4,MSW,,5.5,Turf,Relentless Dancer,2,3.5,False,6,Michael Maker,Jose Ortiz,1:01.906,,,Midshipman,,52
+408,8/15/19,4,MSW,,5.5,Turf,Pharoah Cat,3,22.7,False,7,D. Lukas,Luis Reyes,1:02.163,SAR 7/13 4,33.0,American Pharoah,,52
+409,8/15/19,4,MSW,,5.5,Turf,Katama Bay,7,18.5,False,8,Brad Cox,Joel Rosario,1:02.237,,,Flatter,,52
+410,8/15/19,4,MSW,,5.5,Turf,Mr Thrifty,9,10.9,False,9,"Robert Reid, Jr.",Kendrick Carmouche,1:03.378,SAR 7/21 8,25.0,Poseidon's Warrior,,52
+411,8/16/19,1,MSW-NY,,8.5,Turf,Mo Ready,6,1.1,True,1,Todd Pletcher,Jose Ortiz,1:43.570,SAR 7/26 2,21.0,Uncle Mo,,53
+412,8/16/19,1,MSW-NY,,8.5,Turf,Maxwell Esquire,2,5.6,False,2,Christophe Clement,"Irad Ortiz, Jr.",1:43.812,,,Discreet Cat,,53
+413,8/16/19,1,MSW-NY,,8.5,Turf,Turbo Drive,4,7.3,False,3,Michael Maker,Dylan Davis,1:43.973,SAR 7/18 5,29.0,Teuflesberg,,53
+414,8/16/19,1,MSW-NY,,8.5,Turf,Noble Emotion,3,21.1,False,4,Jonathan Thomas,Javier Castellano,1:44.014,,,Noble Mission (GB),,53
+415,8/16/19,1,MSW-NY,,8.5,Turf,Barleewon,1,4.2,False,5,Michael Stidham,John Velazquez,1:44.095,SAR 7/18 5,29.0,Animal Kingdom,,53
+416,8/16/19,1,MSW-NY,,8.5,Turf,Inside Info,7,11.5,False,6,George Weaver,Manuel Franco,1:44.498,,,Mission Impazible,,53
+417,8/16/19,1,MSW-NY,,8.5,Turf,Driftwood,9,11.7,False,7,Kenneth McPeek,Julien Leparoux,1:44.821,SAR 7/26 2,21.0,Courageous Cat,,53
+418,8/16/19,1,MSW-NY,,8.5,Turf,Managing Risk,10,1.1,True,8,Rudy Rodriguez,Rajiv Maragh,1:45.468,AQU 4/19 1,119.0,Micromanage,,53
+419,8/16/19,1,MSW-NY,,8.5,Turf,Kobe,5,31.75,False,9,Gary Contessa,Tyler Gaffalione,1:46.195,SAR 7/26 2,21.0,Japan,,53
+420,8/16/19,1,MSW-NY,,8.5,Turf,Victory Built,8,39.5,False,10,Michael Maker,Luis Saez,1:48.537,,,Big Brown,,53
+421,8/16/19,9,STK,Skidmore S.,5.5,Turf,Another Miracle,3,2.55,False,1,Gary Contessa,Manuel Franco,1:01.610,SAR 7/24 6,23.0,American Pharoah,,54
+422,8/16/19,9,STK,Skidmore S.,5.5,Turf,Proven Strategies,2,10.7,False,2,Mark Casse,Tyler Gaffalione,1:01.869,SAR 7/27 7,20.0,Sky Mesa,,54
+423,8/16/19,9,STK,Skidmore S.,5.5,Turf,Montauk Daddy,6,0.85,True,3,Linda Rice,Jose Lezcano,1:01.869,BEL 7/6 5,41.0,Daddy Long Legs,,54
+424,8/16/19,9,STK,Skidmore S.,5.5,Turf,Memorable,1,20.2,False,4,Steven Asmussen,"Ricardo Santana, Jr.",1:02.426,SAR 7/13 3,34.0,Uncle Mo,,54
+425,8/16/19,9,STK,Skidmore S.,5.5,Turf,Now Is,8,24.25,False,5,Philip Gleaves,John Velazquez,1:02.760,MTH 8/3 10,13.0,Sidney's Candy,,54
+426,8/16/19,9,STK,Skidmore S.,5.5,Turf,Venerate,7,32.5,False,6,Antonio Sano,"Irad Ortiz, Jr.",1:03.020,GP 7/4 2,43.0,Treasure Beach (GB),,54
+427,8/16/19,9,STK,Skidmore S.,5.5,Turf,Frosted Rose,5,6.1,False,7,Michael Trombetta,Joel Rosario,1:03.057,SAR 8/1 1,15.0,Oxbow,,54
+428,8/16/19,9,STK,Skidmore S.,5.5,Turf,River Hawk,4,29.75,False,8,Edward Allard,Jose Ortiz,1:03.132,LRL 8/1 2,15.0,Treasure Beach (GB),,54
+429,8/17/19,1,MSW,,7.0,Dirt,Acre,5,5.2,False,1,William Mott,Junior Alvarado,1:23.110,SAR 7/27 4,21.0,Blame,,55
+430,8/17/19,1,MSW,,7.0,Dirt,Market Impact,1,1.3,True,2,Chad Brown,Javier Castellano,1:23.660,,,Carpe Diem,,55
+431,8/17/19,1,MSW,,7.0,Dirt,Yankee Empire,3,5.8,False,3,John Kimmel,Chris Landeros,1:23.936,SAR 7/21 8,27.0,Cairo Prince,,55
+432,8/17/19,1,MSW,,7.0,Dirt,Leading West,2,7.5,False,4,Joe Sharp,Manuel Franco,1:24.133,SAR 7/27 4,21.0,Distorted Humor,,55
+433,8/17/19,1,MSW,,7.0,Dirt,Fort McHenry,4,1.95,False,5,Todd Pletcher,Jose Ortiz,1:25.431,,,Tapit,,55
+434,8/17/19,7,MSW,,6.5,Dirt,American Butterfly,3,22.1,False,1,D. Lukas,Luis Saez,1:17.140,SAR 7/21 8,27.0,American Pharoah,,56
+435,8/17/19,7,MSW,,6.5,Dirt,Irish Mias,6,2.4,False,2,H. Motion,Rajiv Maragh,1:17.533,SAR 7/24 6,24.0,Sky Mesa,,56
+436,8/17/19,7,MSW,,6.5,Dirt,Candy Tycoon,4,0.85,True,3,Todd Pletcher,Jose Ortiz,1:17.808,,,Twirling Candy,,56
+437,8/17/19,7,MSW,,6.5,Dirt,Unprecedented,5,28.75,False,4,John Kimmel,Tyler Gaffalione,1:17.848,,,Bayern,,56
+438,8/17/19,7,MSW,,6.5,Dirt,Excession,7,30.25,False,5,Steven Asmussen,"Ricardo Santana, Jr.",1:17.887,SAR 7/21 8,27.0,Union Rags,,56
+439,8/17/19,7,MSW,,6.5,Dirt,Eagles Palace,2,21.2,False,6,William Mott,Junior Alvarado,1:18.005,SAR 7/21 8,27.0,Palace Malice,,56
+440,8/17/19,7,MSW,,6.5,Dirt,Cost Basis,1,5.7,False,7,Chad Brown,Javier Castellano,1:18.831,,,Into Mischief,,56
+441,8/17/19,7,MSW,,6.5,Dirt,Feisty Bird,9,19.3,False,8,Ian Wilkes,Chris Landeros,1:18.988,,,Curlin,,56
+442,8/17/19,7,MSW,,6.5,Dirt,African Heritage,8,62.5,False,9,Jaime Mejia,Jose Gallego,1:18.988,,,Cairo Prince,,56
+443,8/18/19,3,MSW-F,,7.0,Dirt,Sharing,5,2.55,False,1,H. Motion,Manuel Franco,1:24.320,SAR 7/21 7,28.0,Speightstown,,57
+444,8/18/19,3,MSW-F,,7.0,Dirt,Good Shabbos,4,1.9,True,2,Jeremiah Englehart,Luis Saez,1:25.318,SAR 7/12 5,37.0,Munnings,,57
+445,8/18/19,3,MSW-F,,7.0,Dirt,Make Or Break,2,41.75,False,3,Mark Hennig,Chris Landeros,1:26.116,,,Flatter,,57
+446,8/18/19,3,MSW-F,,7.0,Dirt,Gloriously,7,6.8,False,4,James Jerkens,Jose Lezcano,1:26.755,SAR 7/31 6,18.0,Mucho Macho Man,,57
+447,8/18/19,3,MSW-F,,7.0,Dirt,In Good Spirits,3,13.5,False,5,"Albert Stall, Jr.",Tyler Gaffalione,1:26.835,,,Ghostzapper,,57
+448,8/18/19,3,MSW-F,,7.0,Dirt,Americano Girl,1,2.0,False,6,Chad Brown,"Irad Ortiz, Jr.",1:27.274,,,Medaglia d'Oro,,57
+449,8/18/19,3,MSW-F,,7.0,Dirt,Bovary,6,45.75,False,7,William Mott,Dylan Davis,1:32.823,,,First Samurai,,57
+450,8/18/19,5,MCL-F,,5.5,Dirt,Shadilee,4,7.9,False,1,Todd Pletcher,Luis Saez,1:03.920,,,Declaration of War,,58
+451,8/18/19,5,MCL-F,,5.5,Dirt,Palace Avenger,2,2.55,False,2,Wesley Ward,"Irad Ortiz, Jr.",1:04.420,SAR 8/11 6,7.0,Palace,,58
+452,8/18/19,5,MCL-F,,5.5,Dirt,Wedontbelieveher,1,3.4,False,3,Anthony Quartarolo,Manuel Franco,1:04.767,SAR 7/25 2,24.0,Bayern,,58
+453,8/18/19,5,MCL-F,,5.5,Dirt,Speed Talks,6,10.2,False,4,Gary Contessa,Tyler Gaffalione,1:05.191,SAR 7/25 2,24.0,Afleet Express,,58
+454,8/18/19,5,MCL-F,,5.5,Dirt,Quantum Computing,3,2.45,True,5,Chad Brown,Javier Castellano,1:05.499,,,Competitive Edge,,58
+455,8/18/19,5,MCL-F,,5.5,Dirt,Wicked Spirit,5,12.1,False,6,Wesley Ward,Dylan Davis,1:06.731,,,Wicked Strong,,58
+456,8/18/19,5,MCL-F,,5.5,Dirt,Chaysenbryn,7,7.3,False,7,Jeremiah Englehart,Jose Ortiz,1:06.808,,,Super Saver,,58
+457,8/18/19,6,MSW-F,,6.5,Dirt,Mrs. Danvers,6,0.95,True,1,Claude McGaughey III,Joel Rosario,1:15.850,SAR 7/19 5,30.0,Tapit,,59
+458,8/18/19,6,MSW-F,,6.5,Dirt,Finite,4,3.15,False,2,Steven Asmussen,"Ricardo Santana, Jr.",1:16.043,SAR 7/19 5,30.0,Munnings,,59
+459,8/18/19,6,MSW-F,,6.5,Dirt,Abilene Trail,7,4.1,False,3,Todd Pletcher,Luis Saez,1:16.816,,,Curlin,,59
+460,8/18/19,6,MSW-F,,6.5,Dirt,Water White,2,17.2,False,4,Rudy Rodriguez,"Irad Ortiz, Jr.",1:17.629,,,Conveyance,,59
+461,8/18/19,6,MSW-F,,6.5,Dirt,Striking Beauty,1,11.2,False,5,James Jerkens,Junior Alvarado,1:17.706,,,Curlin,,59
+462,8/18/19,6,MSW-F,,6.5,Dirt,Bird Tycoon,8,16.3,False,6,Ian Wilkes,Chris Landeros,1:18.944,SAR 7/12 5,37.0,Graydar,,59
+463,8/18/19,6,MSW-F,,6.5,Dirt,Melisande,5,24.25,False,7,William Mott,Jose Ortiz,1:20.027,,,Bodemeister,,59
+464,8/18/19,6,MSW-F,,6.5,Dirt,Blossom Bow,3,51.25,False,8,Jaime Mejia,Jose Gallego,1:21.458,,,Oxbow,,59
+465,8/21/19,3,MCL,,5.5,Dirt,Indian Cross,1,6.2,False,1,Steven Asmussen,"Ricardo Santana, Jr.",1:06.260,SAR 8/3 3,18.0,Cross Traffic,DQ'd and placed second,60
+466,8/21/19,3,MCL,,5.5,Dirt,Shackleford's Joy,6,2.4,False,2,D. Lukas,Rajiv Maragh,1:06.267,SAR 7/24 6,28.0,Shackleford,,60
+467,8/21/19,3,MCL,,5.5,Dirt,Alex Love Candy,2,24.0,False,3,Randi Persaud,Heman Harkie,1:06.619,,,Candy Ride (ARG),,60
+468,8/21/19,3,MCL,,5.5,Dirt,Rejected Again,3,1.05,True,4,Gary Gullo,"Irad Ortiz, Jr.",1:07.817,BEL 6/28 4,54.0,Tapizar,,60
+469,8/21/19,3,MCL,,5.5,Dirt,Bychance,5,8.7,False,5,Jaime Mejia,Jose Gallego,1:07.817,,,Bernardini,,60
+470,8/21/19,3,MCL,,5.5,Dirt,Brady's Palace,4,6.2,False,6,George Weaver,Manuel Franco,1:08.615,,,Palace Malice,,60
+471,8/21/19,5,MSW-NY-F,,5.5,Dirt,Naked Avenger,4,9.5,False,1,Timothy Hills,Luis Saez,1:05.130,,,Congrats,,61
+472,8/21/19,5,MSW-NY-F,,5.5,Dirt,Jewel of Arabia,6,0.65,True,2,Christophe Clement,Joel Rosario,1:05.404,SAR 7/18 3,34.0,Daredevil,,61
+473,8/21/19,5,MSW-NY-F,,5.5,Dirt,Never Heard of Her,7,17.2,False,3,Gary Contessa,Tyler Gaffalione,1:05.914,,,Constitution,,61
+474,8/21/19,5,MSW-NY-F,,5.5,Dirt,Adorable Maya,8,19.9,False,4,Thomas Bush,Jose Lezcano,1:05.993,,,Bernardini,,61
+475,8/21/19,5,MSW-NY-F,,5.5,Dirt,Be Magic,5,36.5,False,5,Rudy Rodriguez,Junior Alvarado,1:06.385,,,Frost Giant,,61
+476,8/21/19,5,MSW-NY-F,,5.5,Dirt,Beyond Brown,10,7.3,False,6,David Donk,Eric Cancel,1:06.425,SAR 7/24 3,28.0,Big Brown,,61
+477,8/21/19,5,MSW-NY-F,,5.5,Dirt,Sophie Rules,1,5.3,False,7,Jeremiah Englehart,Jose Ortiz,1:06.464,,,Emcee,,61
+478,8/21/19,5,MSW-NY-F,,5.5,Dirt,Mebs Web,3,54.0,False,8,Nicholas Zito,Joey Martinez,1:06.660,,,Giant Surprise,,61
+479,8/21/19,5,MSW-NY-F,,5.5,Dirt,Barbara's Bank,2,20.3,False,9,Eduardo Jones,Kendrick Carmouche,1:06.778,,,Bank Heist,,61
+480,8/21/19,5,MSW-NY-F,,5.5,Dirt,Manage My Credit,9,32.0,False,10,Gary Gullo,"Irad Ortiz, Jr.",1:09.408,,,Micromanage,,61
+481,8/21/19,6,MSW,,7.0,Dirt,Flute Maker,6,2.65,False,1,Kenneth McPeek,Jose Ortiz,1:24.480,ELP 6/30 7,52.0,Sky Mesa,,62
+482,8/21/19,6,MSW,,7.0,Dirt,Like You,5,12.6,False,2,Rudy Rodriguez,Luis Reyes,1:26.320,,,Distorted Humor,,62
+483,8/21/19,6,MSW,,7.0,Dirt,Legend of Bam,3,4.5,False,3,Rudy Rodriguez,"Irad Ortiz, Jr.",1:26.480,,,Golden Ticket,,62
+484,8/21/19,6,MSW,,7.0,Dirt,Breed's Hill,8,8.7,False,4,Barbara Minshall,"Ricardo Santana, Jr.",1:27.080,,,Revolutionary,,62
+485,8/21/19,6,MSW,,7.0,Dirt,Ninth of April,4,14.4,False,5,Edmund Davis,Joe Bravo,1:27.440,SAR 8/1 1,20.0,Shanghai Bobby,,62
+486,8/21/19,6,MSW,,7.0,Dirt,Justintimeforwine,2,7.6,False,6,Gary Contessa,Tyler Gaffalione,1:27.800,SAR 8/1 1,20.0,Justin Phillip,,62
+487,8/21/19,6,MSW,,7.0,Dirt,Smite,1,1.75,True,7,Joe Sharp,Luis Saez,1:27.880,SAR 8/1 1,20.0,Congrats,,62
+488,8/21/19,6,MSW,,7.0,Dirt,Lovedisc,7,43.75,False,8,Jaime Mejia,Jose Gallego,1:30.440,,,Grey Swallow,,62
+489,8/22/19,5,MSW-F,,7.0,Dirt,Wicked Title,3,9.1,False,1,Chad Summers,Joel Rosario,1:24.970,SAR 7/31 5,22.0,Wicked Strong,,63
+490,8/22/19,5,MSW-F,,7.0,Dirt,Raggedy Annie,5,2.35,False,2,D. Lukas,Rajiv Maragh,1:24.978,SAR 7/17 5,36.0,Union Rags,,63
+491,8/22/19,5,MSW-F,,7.0,Dirt,Project Whiskey,6,1.25,True,3,"Robert Reid, Jr.",Kendrick Carmouche,1:24.986,SAR 7/17 5,36.0,Tapizar,,63
+492,8/22/19,5,MSW-F,,7.0,Dirt,La Negrita,2,5.3,False,4,Rudy Rodriguez,Manuel Franco,1:25.533,SAR 8/9 6,13.0,Fed Biz,,63
+493,8/22/19,5,MSW-F,,7.0,Dirt,Central Capital,7,11.9,False,5,Leah Gyarmati,Junior Alvarado,1:26.217,SAR 7/31 5,22.0,Central Banker,,63
+494,8/22/19,5,MSW-F,,7.0,Dirt,Sweet Leaf,1,14.3,False,6,Gary Contessa,Luis Reyes,1:26.780,,,Jimmy Creed,,63
+495,8/22/19,5,MSW-F,,7.0,Dirt,Let It Slide,4,17.9,False,7,Bruce Brown,Michael Luzzi,1:28.349,,,Freud,,63
+496,8/22/19,6,MSW,,9.0,Dirt,Enforceable,3,1.1,True,1,Mark Casse,Jose Ortiz,1:50.700,SAR 7/13 6,40.0,Tapit,,64
+497,8/22/19,6,MSW,,9.0,Dirt,Mo and Go,4,12.5,False,2,Jeremiah Englehart,Luis Saez,1:50.822,SAR 7/27 7,26.0,Uncle Mo,,64
+498,8/22/19,6,MSW,,9.0,Dirt,Lucky Curlin,2,1.1,True,3,Mark Casse,Tyler Gaffalione,1:50.863,SAR 7/21 8,32.0,Curlin,,64
+499,8/22/19,6,MSW,,9.0,Dirt,Portos,6,4.0,False,4,Todd Pletcher,John Velazquez,1:51.229,,,Tapit,,64
+500,8/22/19,6,MSW,,9.0,Dirt,Cowtown,5,6.4,False,5,Todd Pletcher,"Irad Ortiz, Jr.",1:52.045,,,Tonalist,,64
+501,8/22/19,6,MSW,,9.0,Dirt,Zuzudini,7,36.0,False,6,Edward Barker,Dylan Davis,1:52.412,,,Bernardini,,64
+502,8/22/19,6,MSW,,9.0,Dirt,Crossing the Moon,8,4.1,False,7,Kenneth McPeek,Joel Rosario,1:52.412,SAR 7/27 7,26.0,Cross Traffic,,64
+503,8/22/19,6,MSW,,9.0,Dirt,Ghost of the Mambo,9,16.5,False,8,William Mott,Junior Alvarado,1:52.656,SAR 8/10 5,12.0,Ghostzapper,,64
+504,8/22/19,6,MSW,,9.0,Dirt,Imperare,1,22.2,False,9,"Albert Stall, Jr.",Manuel Franco,1:53.716,,,Empire Maker,,64
+505,8/23/19,1,MSW-NY-F,,5.5,Turf,Ava K's Girl,4,10.8,False,1,Michelle Nevin,Joel Rosario,1:03.770,,,Giant's Causeway,,65
+506,8/23/19,1,MSW-NY-F,,5.5,Turf,Single Verse,8,3.5,False,2,Bruce Brown,Tyler Gaffalione,1:03.808,SAR 7/17 10,37.0,Mineshaft,,65
+507,8/23/19,1,MSW-NY-F,,5.5,Turf,Stretchthestory,3,11.4,False,3,Christophe Clement,Junior Alvarado,1:04.115,,,Lookin at Lucky,,65
+508,8/23/19,1,MSW-NY-F,,5.5,Turf,Jen's Battle,6,4.0,False,4,Gary Contessa,Manuel Franco,1:04.115,SAR 7/24 3,30.0,Declaration of War,,65
+509,8/23/19,1,MSW-NY-F,,5.5,Turf,Unicorn Sally,5,39.0,False,5,John Kimmel,Chris Landeros,1:04.231,,,Point of Entry,,65
+510,8/23/19,1,MSW-NY-F,,5.5,Turf,A Freud of Mama,2,17.6,False,6,Michael Maker,Luis Saez,1:04.423,,,Freud,,65
+511,8/23/19,1,MSW-NY-F,,5.5,Turf,Deeply Analytical,1,1.5,True,7,Chad Brown,Javier Castellano,1:04.615,,,Majestic City,,65
+512,8/23/19,1,MSW-NY-F,,5.5,Turf,American Song,7,17.2,False,8,Jeremiah Englehart,"Jorge Vargas, Jr.",1:04.884,SAR 7/17 10,37.0,Maclean's Music,,65
+513,8/23/19,1,MSW-NY-F,,5.5,Turf,Desbordes,10,13.6,False,9,George Weaver,"Ricardo Santana, Jr.",1:04.999,,,Central Banker,,65
+514,8/23/19,1,MSW-NY-F,,5.5,Turf,Lil Morning Star,9,91.0,False,10,Kim Laudati,Joey Martinez,1:05.153,SAR 7/24 3,30.0,Central Banker,,65
+515,8/23/19,4,MSW-NY,,5.5,Dirt,Three Jokers,8,2.0,True,1,John Terranova II,Luis Saez,1:04.390,,,Twirling Candy,,66
+516,8/23/19,4,MSW-NY,,5.5,Dirt,Tapizearance,6,17.8,False,2,Gary Contessa,Manuel Franco,1:04.816,SAR 7/18 5,36.0,Tapizar,,66
+517,8/23/19,4,MSW-NY,,5.5,Dirt,Scilly Cay,7,3.2,False,3,Linda Rice,Jose Ortiz,1:04.816,,,Fed Biz,,66
+518,8/23/19,4,MSW-NY,,5.5,Dirt,Hold My Call,9,18.1,False,4,"Robert Falcone, Jr.",Kendrick Carmouche,1:04.933,,,Hold Me Back,,66
+519,8/23/19,4,MSW-NY,,5.5,Dirt,Lord Camden,4,3.3,False,5,Mark Casse,Tyler Gaffalione,1:05.398,SAR 8/9 4,14.0,Freud,,66
+520,8/23/19,4,MSW-NY,,5.5,Dirt,True Grace,1,6.9,False,6,Christophe Clement,Joel Rosario,1:05.437,,,Competitive Edge,,66
+521,8/23/19,4,MSW-NY,,5.5,Dirt,Austrian,5,17.5,False,7,D. Lukas,Joe Bravo,1:06.058,,,Freud,,66
+522,8/23/19,4,MSW-NY,,5.5,Dirt,Solar Fire,2,12.4,False,8,"John Toscano, Jr.","Ricardo Santana, Jr.",1:06.485,,,Fast Anna,,66
+523,8/23/19,4,MSW-NY,,5.5,Dirt,Kampai,3,29.25,False,9,Chris Englehart,Benjamin Hernandez,1:08.231,,,Central Banker,,66
+524,8/23/19,7,STK-NY-F,Seeking the Ante S.,6.5,Dirt,Fierce Lady,5,1.1,True,1,Dermot Magner,Javier Castellano,1:16.730,SAR 7/18 3,36.0,Competitive Edge,,67
+525,8/23/19,7,STK-NY-F,Seeking the Ante S.,6.5,Dirt,Time Limit,3,11.8,False,2,Michael Maker,"Irad Ortiz, Jr.",1:16.769,SAR 7/18 3,36.0,Bustin Stones,,67
+526,8/23/19,7,STK-NY-F,Seeking the Ante S.,6.5,Dirt,My Italian Rabbi,6,2.65,False,3,Jeremiah Englehart,Luis Saez,1:17.590,SAR 7/18 3,36.0,Competitive Edge,,67
+527,8/23/19,7,STK-NY-F,Seeking the Ante S.,6.5,Dirt,Violent Point,1,5.8,False,4,Mark Casse,John Velazquez,1:18.177,SAR 7/17 10,37.0,Violence,,67
+528,8/23/19,7,STK-NY-F,Seeking the Ante S.,6.5,Dirt,Big Q,2,4.2,False,5,Gary Gullo,Jose Lezcano,1:18.490,SAR 8/4 10,19.0,Big Brown,,67
+529,8/23/19,7,STK-NY-F,Seeking the Ante S.,6.5,Dirt,Wharf Cat,4,31.0,False,6,"Oscar Barrera, III",Luis Reyes,1:21.112,FL 7/29 6,25.0,Majestic City,,67
+530,8/23/19,8,STK-NY,Funny Cide S.,6.5,Dirt,City Man,3,2.25,True,1,Christophe Clement,Joel Rosario,1:16.930,SAR 7/18 5,36.0,Mucho Macho Man,,68
+531,8/23/19,8,STK-NY,Funny Cide S.,6.5,Dirt,Cleon Jones,7,3.45,False,2,Jeremiah Englehart,"Jorge Vargas, Jr.",1:17.675,SAR 7/28 1,26.0,Tale of the Cat,,68
+532,8/23/19,8,STK-NY,Funny Cide S.,6.5,Dirt,Listentoyourheart,9,5.0,False,3,Christophe Clement,Manuel Franco,1:17.832,SAR 7/17 2,37.0,Afleet Alex,,68
+533,8/23/19,8,STK-NY,Funny Cide S.,6.5,Dirt,Theitalianamerican,6,10.3,False,4,Gary Contessa,Javier Castellano,1:18.028,SAR 7/17 2,37.0,Girolamo,,68
+534,8/23/19,8,STK-NY,Funny Cide S.,6.5,Dirt,Bull of Bayern,1,20.5,False,5,Rudy Rodriguez,"Ricardo Santana, Jr.",1:18.146,BEL 6/26 6,58.0,Bayern,,68
+535,8/23/19,8,STK-NY,Funny Cide S.,6.5,Dirt,Opportunist,5,8.6,False,6,Mark Casse,Tyler Gaffalione,1:18.146,GP 7/20 9,34.0,Ghostzapper,,68
+536,8/23/19,8,STK-NY,Funny Cide S.,6.5,Dirt,Mission Wrapitup,4,12.0,False,7,Bruce Brown,Dylan Davis,1:19.126,SAR 7/17 2,37.0,Mission Impazible,,68
+537,8/23/19,8,STK-NY,Funny Cide S.,6.5,Dirt,Sky of Hook,8,8.4,False,8,Rudy Rodriguez,Luis Saez,1:19.205,SAR 7/17 2,37.0,Tapiture,,68
+538,8/23/19,8,STK-NY,Funny Cide S.,6.5,Dirt,No Lime,2,12.0,False,9,William Mott,Junior Alvarado,1:19.479,SAR 7/26 2,28.0,Flashback,,68
+539,8/24/19,2,MSW,,6.0,Dirt,Tap It to Win,1,3.65,False,1,Mark Casse,Tyler Gaffalione,1:09.600,WO 7/21 7,34.0,Tapit,,69
+540,8/24/19,2,MSW,,6.0,Dirt,Complexifier,3,3.0,False,2,Brian Lynch,"Irad Ortiz, Jr.",1:10.138,SAR 7/27 4,28.0,Overanalyze,,69
+541,8/24/19,2,MSW,,6.0,Dirt,O'Trouble,5,4.7,False,3,Anthony Dutrow,John Velazquez,1:10.138,,,In Trouble,,69
+542,8/24/19,2,MSW,,6.0,Dirt,Onward,6,11.8,False,4,Christophe Clement,Jose Ortiz,1:11.176,,,Street Sense,,69
+543,8/24/19,2,MSW,,6.0,Dirt,Icecap,7,22.7,False,5,Steven Asmussen,"Ricardo Santana, Jr.",1:11.214,,,Carpe Diem,,69
+544,8/24/19,2,MSW,,6.0,Dirt,Atoka,4,1.7,True,6,D. Lukas,Luis Saez,1:11.445,SAR 8/3 3,21.0,Union Rags,,69
+545,8/24/19,2,MSW,,6.0,Dirt,Moonshine Now,2,13.6,False,7,Christophe Clement,Joel Rosario,1:11.445,,,Malibu Moon,,69
+546,8/25/19,1,MSW-F,,6.0,Dirt,Wicked Whisper,1,1.6,True,1,Steven Asmussen,"Ricardo Santana, Jr.",1:10.330,,,Liam's Map,,70
+547,8/25/19,1,MSW-F,,6.0,Dirt,Highland Glory,3,4.1,False,2,Barclay Tagg,Junior Alvarado,1:11.301,,,Sky Mesa,,70
+548,8/25/19,1,MSW-F,,6.0,Dirt,Foreign Exchange,4,15.9,False,3,D. Lukas,Luis Saez,1:11.495,SAR 8/4 1,21.0,Congrats,,70
+549,8/25/19,1,MSW-F,,6.0,Dirt,Stop Shoppin Tammy,5,2.15,False,4,Philip Bauer,Eric Cancel,1:12.117,,,Tapit,,70
+550,8/25/19,1,MSW-F,,6.0,Dirt,Sea of Blue,2,5.8,False,5,Kiaran McLaughlin,Joel Rosario,1:12.622,,,Midshipman,,70
+551,8/25/19,1,MSW-F,,6.0,Dirt,Wedontbelieveher,6,9.2,False,6,Anthony Quartarolo,Manuel Franco,1:13.204,SAR 8/18 5,7.0,Bayern,,70
+552,8/25/19,7,MCL-F,,5.5,Turf,Double Down Dare,3,5.3,False,1,Steve Klesaris,Manuel Franco,1:03.530,SAR 7/17 5,39.0,Cross Traffic,,71
+553,8/25/19,7,MCL-F,,5.5,Turf,Roman City,1,3.3,False,2,Robertino Diodoro,"Irad Ortiz, Jr.",1:03.874,,,City Zip,,71
+554,8/25/19,7,MCL-F,,5.5,Turf,Wicked Amber,2,45.0,False,3,Randi Persaud,Heman Harkie,1:03.874,SAR 7/31 5,25.0,Ghostzapper,,71
+555,8/25/19,7,MCL-F,,5.5,Turf,More Or Less,9,3.8,False,4,Phil Schoenthal,Kendrick Carmouche,1:04.180,,,More Than Ready,,71
+556,8/25/19,7,MCL-F,,5.5,Turf,Yellen,7,3.0,True,5,Wesley Ward,Dylan Davis,1:04.295,CD 6/20 4,66.0,Fed Biz,,71
+557,8/25/19,7,MCL-F,,5.5,Turf,Larry's Baby,4,12.2,False,6,D. Lukas,Luis Saez,1:04.640,SAR 7/19 5,37.0,Majesticperfection,,71
+558,8/25/19,7,MCL-F,,5.5,Turf,Speed Talks,8,19.0,False,7,Gary Contessa,Tyler Gaffalione,1:05.252,SAR 8/18 5,7.0,Afleet Express,,71
+559,8/25/19,7,MCL-F,,5.5,Turf,Bow Maker,5,9.0,False,8,Linda Rice,Jose Ortiz,1:05.788,,,Oxbow,,71
+560,8/25/19,7,MCL-F,,5.5,Turf,Crack of Dawn,10,13.3,False,9,Philip Serpe,Eric Cancel,1:05.827,SAR 7/21 7,35.0,Bernardini,,71
+561,8/25/19,7,MCL-F,,5.5,Turf,Eli Rocks,6,36.25,False,10,Thomas Morley,"Ricardo Santana, Jr.",1:06.286,,,Frost Giant,,71
+562,8/28/19,6,MSW-NY,,6.0,Dirt,Moonachie,3,4.2,False,1,Jeremiah Englehart,Jose Ortiz,1:10.780,,,Central Banker,,72
+563,8/28/19,6,MSW-NY,,6.0,Dirt,Unrelenting Force,1,64.25,False,2,Thomas Morley,Junior Alvarado,1:12.343,,,Carpe Diem,,72
+564,8/28/19,6,MSW-NY,,6.0,Dirt,Chowda,10,36.5,False,3,Gary Sciacca,Eric Cancel,1:12.500,,,Emcee,,72
+565,8/28/19,6,MSW-NY,,6.0,Dirt,Blame the Cake,8,1.95,True,4,Ian Wilkes,Julien Leparoux,1:12.500,SAR 7/14 4,45.0,Blame,,72
+566,8/28/19,6,MSW-NY,,6.0,Dirt,Cryptographer,9,17.3,False,5,Rudy Rodriguez,Luis Saez,1:12.734,,,Honor Code,,72
+567,8/28/19,6,MSW-NY,,6.0,Dirt,Candygramformongo,6,12.1,False,6,Steven Asmussen,"Ricardo Santana, Jr.",1:12.774,,,Majestic City,,72
+568,8/28/19,6,MSW-NY,,6.0,Dirt,Lorenzen,4,3.5,False,7,Mark Casse,"Irad Ortiz, Jr.",1:13.321,,,Flatter,,72
+569,8/28/19,6,MSW-NY,,6.0,Dirt,Papa King,7,4.0,False,8,Todd Pletcher,John Velazquez,1:13.673,BEL 5/31 2,89.0,Mission Impazible,,72
+570,8/28/19,6,MSW-NY,,6.0,Dirt,Sir Ludlow,2,85.5,False,9,Timothy Hamm,Joey Martinez,1:14.846,SAR 7/28 1,31.0,Midas Touch (GB),,72
+571,8/28/19,6,MSW-NY,,6.0,Dirt,Macho Boy,5,15.3,False,10,Gary Contessa,Manuel Franco,1:15.237,SAR 7/28 1,31.0,Mucho Macho Man,,72
+572,8/28/19,7,MSW-F,,5.5,Turf,Jazzique (IRE),4,7.7,False,1,Chad Brown,"Irad Ortiz, Jr.",1:03.170,,,Kingman (GB),,73
+573,8/28/19,7,MSW-F,,5.5,Turf,Selflessly,5,4.9,False,2,Chad Brown,Javier Castellano,1:03.246,,,More Than Ready,,73
+574,8/28/19,7,MSW-F,,5.5,Turf,Tulanian,9,26.0,False,3,Thomas Amoss,Junior Alvarado,1:03.284,SAR 7/31 6,28.0,Twirling Candy,,73
+575,8/28/19,7,MSW-F,,5.5,Turf,Hai Bobbi,10,5.7,False,4,Wesley Ward,Jose Ortiz,1:03.360,BEL 6/21 2,68.0,Shanghai Bobby,DQ'd and placed fifth,73
+576,8/28/19,7,MSW-F,,5.5,Turf,Logic N Reason,6,10.0,False,5,Christophe Clement,Joel Rosario,1:03.626,,,Declaration of War,,73
+577,8/28/19,7,MSW-F,,5.5,Turf,Trash Panda,1,61.0,False,6,Gary Contessa,Luis Saez,1:03.664,,,Congrats,,73
+578,8/28/19,7,MSW-F,,5.5,Turf,Swirling Candy,3,12.7,False,7,George Weaver,Eric Cancel,1:03.702,,,Twirling Candy,,73
+579,8/28/19,7,MSW-F,,5.5,Turf,Nic and Zoe,7,1.25,True,8,Wesley Ward,John Velazquez,1:03.855,,,Street Boss,,73
+580,8/28/19,7,MSW-F,,5.5,Turf,Morality Clause,2,11.7,False,9,Raymond Handal,Manuel Franco,1:03.893,SAR 7/31 5,28.0,Verrazano,,73
+581,8/28/19,7,MSW-F,,5.5,Turf,Coin the Phrase,8,41.25,False,10,James Toner,Kendrick Carmouche,1:03.931,,,Goldencents,,73
+582,8/28/19,9,GRD,With Anticipation S.,8.5,Turf,Fighting Seabee,4,5.3,False,1,Kenneth McPeek,"Brian Hernandez, Jr.",1:43.340,ELP 7/6 6,53.0,Summer Front,,74
+583,8/28/19,9,GRD,With Anticipation S.,8.5,Turf,Field Pass,6,4.1,False,2,Michael Maker,Luis Saez,1:43.501,SAR 7/13 6,46.0,Lemon Drop Kid,,74
+584,8/28/19,9,GRD,With Anticipation S.,8.5,Turf,Andesite,5,8.6,False,3,Brad Cox,Javier Castellano,1:43.742,IND 7/10 6,49.0,The Factor,,74
+585,8/28/19,9,GRD,With Anticipation S.,8.5,Turf,Our Country,2,1.2,True,4,George Weaver,Manuel Franco,1:43.783,SAR 8/3 1,25.0,Constitution,,74
+586,8/28/19,9,GRD,With Anticipation S.,8.5,Turf,Fly Fly Away,3,16.4,False,5,Christophe Clement,"Irad Ortiz, Jr.",1:44.025,SAR 8/9 4,19.0,First Samurai,,74
+587,8/28/19,9,GRD,With Anticipation S.,8.5,Turf,Tuggle,1,3.35,False,6,Jeremiah Englehart,Jose Ortiz,1:44.307,SAR 8/10 8,18.0,Point of Entry,,74
+588,8/29/19,1,MSW-NY-F,,6.0,Dirt,Irish Danzing,5,4.4,False,1,Christophe Clement,"Irad Ortiz, Jr.",1:10.550,,,Danza,,75
+589,8/29/19,1,MSW-NY-F,,6.0,Dirt,Aubrey Tate,2,3.2,False,2,Norm Casse,"Ricardo Santana, Jr.",1:11.563,SAR 7/31 3,29.0,Bayern,,75
+590,8/29/19,1,MSW-NY-F,,6.0,Dirt,More Glitter,4,2.2,True,3,Todd Pletcher,John Velazquez,1:11.836,,,More Than Ready,,75
+591,8/29/19,1,MSW-NY-F,,6.0,Dirt,Tequila Fog,1,14.5,False,4,Dermot Magner,Chris Landeros,1:12.615,,,Giant Surprise,,75
+592,8/29/19,1,MSW-NY-F,,6.0,Dirt,Bingolina,6,5.6,False,5,John Kimmel,Dylan Davis,1:13.200,,,Tapizar,,75
+593,8/29/19,1,MSW-NY-F,,6.0,Dirt,Welsh Gold,10,11.7,False,6,Gregory Sacco,Luis Saez,1:13.628,,,Bodemeister,,75
+594,8/29/19,1,MSW-NY-F,,6.0,Dirt,Keypit,8,10.0,False,7,Thomas Albertrani,Jose Lezcano,1:13.706,SAR 7/11 5,49.0,Congrats,,75
+595,8/29/19,1,MSW-NY-F,,6.0,Dirt,Ama Is a Rock,9,73.5,False,8,Gary Sciacca,Eric Cancel,1:14.525,,,Frost Giant,,75
+596,8/29/19,1,MSW-NY-F,,6.0,Dirt,Surprise Arrival,3,18.5,False,9,Michael Maker,Jose Ortiz,1:14.797,SAR 8/15 2,14.0,Lea,,75
+597,8/29/19,1,MSW-NY-F,,6.0,Dirt,Barker Lane,7,74.75,False,10,Edward Barker,Heman Harkie,1:14.992,SAR 7/31 3,29.0,Bellamy Road,,75
+598,8/29/19,7,MSW-NY-F,,6.0,Dirt,Critical Value,9,1.05,True,1,Jeremiah Englehart,Junior Alvarado,1:10.820,SAR 8/7 5,22.0,Bodemeister,,76
+599,8/29/19,7,MSW-NY-F,,6.0,Dirt,Myawaya,3,3.05,False,2,Todd Pletcher,John Velazquez,1:11.250,SAR 7/17 5,43.0,Wicked Strong,,76
+600,8/29/19,7,MSW-NY-F,,6.0,Dirt,Saratoga Beauty,6,3.95,False,3,Patrick McBurney,Paco Lopez,1:12.032,SAR 8/7 5,22.0,Macho Uno,,76
+601,8/29/19,7,MSW-NY-F,,6.0,Dirt,Courageous Girl,8,9.3,False,4,David Donk,Manuel Franco,1:12.463,SAR 7/31 3,29.0,Bourbon Courage,,76
+602,8/29/19,7,MSW-NY-F,,6.0,Dirt,Mebs Web,10,60.0,False,5,Nicholas Zito,Joey Martinez,1:12.658,SAR 8/21 5,8.0,Giant Surprise,,76
+603,8/29/19,7,MSW-NY-F,,6.0,Dirt,Canarsie Angel,7,12.5,False,6,Linda Dixon,Kendrick Carmouche,1:13.128,SAR 8/2 3,27.0,Big Brown,,76
+604,8/29/19,7,MSW-NY-F,,6.0,Dirt,Top Hat Invasion,1,79.25,False,7,Jeffrey Englehart,Andre Worrie,1:13.167,,,Normandy Invasion,,76
+605,8/29/19,7,MSW-NY-F,,6.0,Dirt,Smokin Hot Kiss,4,48.5,False,8,Marialice Coffey,Eric Cancel,1:13.832,SAR 7/31 3,29.0,The Lumber Guy,,76
+606,8/29/19,7,MSW-NY-F,,6.0,Dirt,Kefaliani,2,31.75,False,9,Charlton Baker,Dylan Davis,1:15.005,,,Hold Me Back,,76
+607,8/29/19,7,MSW-NY-F,,6.0,Dirt,Bellamy Bigs,5,66.25,False,10,Edmund Davis,Michael Luzzi,1:15.631,FL 7/15 1,45.0,Bellamy Road,,76
+608,8/29/19,9,STK-F,P. G. Johnson S.,8.5,Turf,Crystalle,5,1.65,True,1,John Kimmel,Joel Rosario,1:41.360,SAR 8/4 4,25.0,Palace Malice,,77
+609,8/29/19,9,STK-F,P. G. Johnson S.,8.5,Turf,Sweet Melania,7,2.6,False,2,Todd Pletcher,Jose Ortiz,1:41.399,SAR 7/14 1,46.0,American Pharoah,,77
+610,8/29/19,9,STK-F,P. G. Johnson S.,8.5,Turf,English Breeze,6,5.2,False,3,David Donk,Manuel Franco,1:41.478,SAR 8/14 6,15.0,English Channel,,77
+611,8/29/19,9,STK-F,P. G. Johnson S.,8.5,Turf,Ginseng,2,5.1,False,4,Brad Cox,Javier Castellano,1:41.952,IND 8/6 5,23.0,Tiznow,,77
+612,8/29/19,9,STK-F,P. G. Johnson S.,8.5,Turf,Apurate,3,5.6,False,5,Todd Pletcher,John Velazquez,1:42.150,SAR 8/11 3,18.0,Summer Front,,77
+613,8/29/19,9,STK-F,P. G. Johnson S.,8.5,Turf,Lively Kitten,4,28.5,False,6,Daniel Velazquez,Abner Adorno,1:43.257,LRL 8/11 1,18.0,Kitten's Joy,,77
+614,8/29/19,9,STK-F,P. G. Johnson S.,8.5,Turf,Lucky Jingle,1,25.75,False,7,H. Motion,Rajiv Maragh,1:43.336,LRL 8/10 3,19.0,Tonalist,,77
+615,8/30/19,6,MSW-NY,,5.5,Turf,Freewheeler,4,5.0,False,1,Todd Pletcher,"Irad Ortiz, Jr.",1:02.890,,,City Zip,,78
+616,8/30/19,6,MSW-NY,,5.5,Turf,Dante's Fire,2,43.75,False,2,Michael Maker,Manuel Franco,1:03.685,,,Temple City,,78
+617,8/30/19,6,MSW-NY,,5.5,Turf,First Deputy,6,1.1,True,3,Linda Rice,Jose Ortiz,1:03.685,SAR 8/9 4,21.0,Awesome Again,,78
+618,8/30/19,6,MSW-NY,,5.5,Turf,True Grace,5,4.5,False,4,Christophe Clement,Joel Rosario,1:03.723,SAR 8/23 4,7.0,Competitive Edge,,78
+619,8/30/19,6,MSW-NY,,5.5,Turf,Shandian,3,3.75,False,5,Gary Contessa,Javier Castellano,1:03.761,SAR 8/9 4,21.0,Emcee,,78
+620,8/30/19,6,MSW-NY,,5.5,Turf,My Father's Eyes,1,14.2,False,6,Steven Asmussen,"Ricardo Santana, Jr.",1:05.163,,,Forty Tales,,78
+621,8/30/19,6,MSW-NY,,5.5,Turf,Box of Rain,7,12.3,False,7,Jeremiah Englehart,Luis Saez,1:06.907,,,Mineshaft,,78
+622,8/30/19,7,MSW-F,,5.5,Dirt,Remain Anonymous,9,2.9,False,1,Michael Trombetta,Joel Rosario,1:04.750,,,Tapiture,,79
+623,8/30/19,7,MSW-F,,5.5,Dirt,Sixth Street,1,9.0,False,2,Mark Hennig,Luis Saez,1:05.257,,,Tapit,,79
+624,8/30/19,7,MSW-F,,5.5,Dirt,Kansas Kis,2,33.5,False,3,Raymond Handal,Dylan Davis,1:05.257,,,Constitution,,79
+625,8/30/19,7,MSW-F,,5.5,Dirt,Drop a Hint,8,5.3,False,4,D. Lukas,Manuel Franco,1:05.569,SAR 7/31 6,30.0,Into Mischief,,79
+626,8/30/19,7,MSW-F,,5.5,Dirt,Leaveuwithasmile,3,7.5,False,5,Jeremiah Englehart,"Jorge Vargas, Jr.",1:05.686,SAR 8/9 6,21.0,Conveyance,,79
+627,8/30/19,7,MSW-F,,5.5,Dirt,Hallajoori,6,2.4,True,6,Steven Asmussen,"Ricardo Santana, Jr.",1:05.920,SAR 7/31 6,30.0,Bayern,,79
+628,8/30/19,7,MSW-F,,5.5,Dirt,Snaffle,4,11.7,False,7,Kenneth McPeek,Jose Ortiz,1:05.920,,,Distorted Humor,,79
+629,8/30/19,7,MSW-F,,5.5,Dirt,Superbloodwolfmoon,5,6.5,False,8,Rudy Rodriguez,"Irad Ortiz, Jr.",1:06.076,,,Malibu Moon,,79
+630,8/30/19,7,MSW-F,,5.5,Dirt,Kemba,7,33.25,False,9,Raymond Handal,Javier Castellano,1:06.622,,,Hard Spun,,79
+631,8/31/19,1,MSW,,8.5,Turf,Structor,4,1.15,True,1,Chad Brown,"Irad Ortiz, Jr.",1:44.160,,,Palace Malice,,80
+632,8/31/19,1,MSW,,8.5,Turf,Sul Moon,6,2.2,False,2,William Mott,Junior Alvarado,1:44.363,SAR 7/27 7,35.0,Malibu Moon,,80
+633,8/31/19,1,MSW,,8.5,Turf,Eternal Summer,5,13.1,False,3,Todd Pletcher,John Velazquez,1:44.850,SAR 8/3 1,28.0,Summer Front,,80
+634,8/31/19,1,MSW,,8.5,Turf,Scanno,3,27.5,False,4,Thomas Albertrani,Luis Saez,1:45.012,,,Bernardini,,80
+635,8/31/19,1,MSW,,8.5,Turf,Myamanoi,2,20.1,False,5,Danny Gargan,Kendrick Carmouche,1:45.175,,,Temple City,,80
+636,8/31/19,1,MSW,,8.5,Turf,King's Honor (IRE),1,9.6,False,6,Jonathan Thomas,Javier Castellano,1:45.297,,,Kingman (GB),,80
+637,8/31/19,1,MSW,,8.5,Turf,Hard Sting,7,6.1,False,7,James Jerkens,Jose Ortiz,1:45.540,SAR 7/27 7,35.0,Hard Spun,,80
+638,8/31/19,1,MSW,,8.5,Turf,Pow Wow Prince,8,30.5,False,8,Norm Casse,"Ricardo Santana, Jr.",1:46.556,,,Cairo Prince,,80
+639,8/31/19,5,MSW,,7.0,Dirt,Famished,1,1.1,True,1,John Kimmel,Joel Rosario,1:23.770,SAR 8/10 5,21.0,Uncle Mo,,81
+640,8/31/19,5,MSW,,7.0,Dirt,Sonneman,2,25.25,False,2,Mark Hennig,Jose Lezcano,1:23.968,SAR 7/27 4,35.0,Curlin,,81
+641,8/31/19,5,MSW,,7.0,Dirt,Noble Empire,5,34.5,False,3,D. Lukas,Manuel Franco,1:24.126,,,Empire Maker,,81
+642,8/31/19,5,MSW,,7.0,Dirt,Hometown Pride,6,12.3,False,4,Ian Wilkes,Chris Landeros,1:24.245,SAR 7/13 4,49.0,To Honor and Serve,,81
+643,8/31/19,5,MSW,,7.0,Dirt,This Ill Defend,9,3.7,False,5,Thomas Albertrani,Luis Reyes,1:24.721,SAR 8/3 3,28.0,Sky Mesa,,81
+644,8/31/19,5,MSW,,7.0,Dirt,Height,3,5.4,False,6,William Mott,Junior Alvarado,1:24.801,SAR 8/3 3,28.0,Union Rags,,81
+645,8/31/19,5,MSW,,7.0,Dirt,Made Sense,4,8.8,False,7,Kenneth McPeek,Jose Ortiz,1:25.594,,,Street Sense,,81
+646,8/31/19,5,MSW,,7.0,Dirt,Mud Pie,7,11.3,False,8,Richard Valentine,Kendrick Carmouche,1:25.951,,,Morning Line,,81
+647,8/31/19,5,MSW,,7.0,Dirt,Stick Figure,8,37.25,False,9,Dale Romans,Luis Saez,1:29.838,SAR 8/10 7,21.0,Tiznow,,81
+648,8/31/19,7,MSW,,7.0,Dirt,Three Technique,2,1.0,True,1,Jeremiah Englehart,Jose Ortiz,1:22.930,SAR 7/21 8,41.0,Mr Speaker,,82
+649,8/31/19,7,MSW,,7.0,Dirt,Always Misbehaving,7,8.7,False,2,Danny Gargan,"Irad Ortiz, Jr.",1:23.793,SAR 7/27 4,35.0,Into Mischief,,82
+650,8/31/19,7,MSW,,7.0,Dirt,Necker Island,1,22.9,False,3,Stanley Hough,Luis Saez,1:23.911,,,Hard Spun,,82
+651,8/31/19,7,MSW,,7.0,Dirt,Kowalski,8,9.5,False,4,D. Lukas,Manuel Franco,1:23.911,SAR 7/27 4,35.0,Will Take Charge,,82
+652,8/31/19,7,MSW,,7.0,Dirt,Wayne O,4,11.2,False,5,Steven Asmussen,"Ricardo Santana, Jr.",1:24.461,SAR 8/3 3,28.0,Into Mischief,,82
+653,8/31/19,7,MSW,,7.0,Dirt,Extreme Force,3,20.3,False,6,Mark Hennig,Jose Lezcano,1:24.657,SAR 8/3 3,28.0,Constitution,,82
+654,8/31/19,7,MSW,,7.0,Dirt,Mischief Afoot,5,33.25,False,7,James Toner,Joel Rosario,1:24.814,,,Into Mischief,,82
+655,8/31/19,7,MSW,,7.0,Dirt,Tapage,9,10.9,False,8,Kiaran McLaughlin,Junior Alvarado,1:24.932,,,Tapit,,82
+656,8/31/19,7,MSW,,7.0,Dirt,Soviet,6,3.5,False,9,Todd Pletcher,John Velazquez,1:25.953,SAR 7/27 4,35.0,Super Saver,,82
+657,8/31/19,8,MSW,,8.5,Turf,No Word,4,3.55,False,1,Todd Pletcher,Jose Ortiz,1:40.870,,,Silent Name (JPN),,83
+658,8/31/19,8,MSW,,8.5,Turf,Gear Jockey,5,13.4,False,2,"George Arnold, II",Joel Rosario,1:41.223,SAR 8/10 7,21.0,Twirling Candy,,83
+659,8/31/19,8,MSW,,8.5,Turf,Shamrocket,6,14.4,False,3,Christophe Clement,Dylan Davis,1:41.420,SAR 8/3 1,28.0,Tonalist,,83
+660,8/31/19,8,MSW,,8.5,Turf,Mr Jaggers,3,1.65,True,4,William Mott,Junior Alvarado,1:41.420,SAR 7/13 6,49.0,Twirling Candy,,83
+661,8/31/19,8,MSW,,8.5,Turf,Policy Option,2,2.0,False,5,Chad Brown,"Irad Ortiz, Jr.",1:41.892,SAR 8/3 1,28.0,Empire Maker,,83
+662,8/31/19,8,MSW,,8.5,Turf,Get Set,1,10.7,False,6,Steve Klesaris,Javier Castellano,1:41.971,PRX 8/3 2,28.0,Awesome of Course,,83
+663,8/31/19,8,MSW,,8.5,Turf,Lord Byron,7,21.3,False,7,Danny Gargan,Jose Lezcano,1:42.718,,,Bodemeister,,83
+664,9/1/19,1,MSW,,5.5,Turf,Chimney Rock,6,3.65,False,1,Michael Maker,Jose Ortiz,1:02.640,SAR 8/3 1,29.0,Artie Schiller,,84
+665,9/1/19,1,MSW,,5.5,Turf,Summer Sangria,8,1.6,True,2,Wesley Ward,John Velazquez,1:02.904,SAR 8/1 1,31.0,Maclean's Music,,84
+666,9/1/19,1,MSW,,5.5,Turf,Bahamian Prince,4,5.6,False,3,George Weaver,"Irad Ortiz, Jr.",1:03.206,SAR 8/1 3,31.0,Bahamian Squall,,84
+667,9/1/19,1,MSW,,5.5,Turf,Las Ramblas,9,17.4,False,4,Wesley Ward,Dylan Davis,1:03.281,,,Karakontie (JPN),,84
+668,9/1/19,1,MSW,,5.5,Turf,Big Royal Lineage,3,21.1,False,5,Rudy Rodriguez,Luis Saez,1:03.583,SAR 8/1 3,31.0,Bodemeister,,84
+669,9/1/19,1,MSW,,5.5,Turf,Montana Man,2,17.5,False,6,Dale Romans,Kendrick Carmouche,1:03.847,SAR 8/14 2,18.0,Constitution,,84
+670,9/1/19,1,MSW,,5.5,Turf,Brickyard,1,65.5,False,7,Peter Pugh,Luis Reyes,1:03.961,,,Take Charge Indy,,84
+671,9/1/19,1,MSW,,5.5,Turf,More Thunder,5,3.15,False,8,Steve Klesaris,Joel Rosario,1:04.602,SAR 8/14 2,18.0,Goldencents,,84
+672,9/1/19,1,MSW,,5.5,Turf,Alex Love Candy,7,29.25,False,9,Randi Persaud,Joey Martinez,1:05.093,SAR 8/21 3,11.0,Candy Ride (ARG),,84
+673,9/1/19,5,MCL,,5.5,Dirt,Feeling It,8,23.9,False,1,D. Lukas,Luis Reyes,1:04.800,SAR 8/1 3,31.0,Majesticperfection,,85
+674,9/1/19,5,MCL,,5.5,Dirt,Vaya Con Dios,5,3.95,False,2,Eric Guillot,Dylan Davis,1:05.541,SAR 8/1 3,31.0,Majesticperfection,,85
+675,9/1/19,5,MCL,,5.5,Dirt,Bayern's Mirage,7,2.5,False,3,Gary Gullo,"Irad Ortiz, Jr.",1:05.659,SAR 8/1 3,31.0,Bayern,,85
+676,9/1/19,5,MCL,,5.5,Dirt,Aleph,1,25.5,False,4,Gary Contessa,Kendrick Carmouche,1:05.659,,,Alpha,,85
+677,9/1/19,5,MCL,,5.5,Dirt,O'Bushido,4,2.4,True,5,Todd Pletcher,John Velazquez,1:05.971,,,First Samurai,,85
+678,9/1/19,5,MCL,,5.5,Dirt,Forever Wicked,6,22.6,False,6,Randi Persaud,Joey Martinez,1:06.244,SAR 8/8 5,24.0,Wicked Strong,,85
+679,9/1/19,5,MCL,,5.5,Dirt,Bongga,3,12.2,False,7,Dermot Magner,Eric Cancel,1:06.283,,,Liam's Map,,85
+680,9/1/19,5,MCL,,5.5,Dirt,Bobbyfromthepalm,9,6.8,False,8,Rudy Rodriguez,Manuel Franco,1:06.361,,,Overanalyze,,85
+681,9/1/19,5,MCL,,5.5,Dirt,Tipazo,2,44.0,False,9,Mitchell Friedman,Tyler Gaffalione,1:07.494,,,Macho Uno,,85
+682,9/1/19,5,MCL,,5.5,Dirt,Florida Flash,10,14.2,False,10,Dale Romans,Luis Saez,1:07.572,,,Constitution,,85
+683,9/1/19,7,MSW-F,,8.5,Turf,Sparkling Sky,6,1.35,True,1,Todd Pletcher,Jose Ortiz,1:42.300,SAR 8/4 4,28.0,More Than Ready,,86
+684,9/1/19,7,MSW-F,,8.5,Turf,Our Little Jewel,5,10.1,False,2,Michael Trombetta,Luis Saez,1:42.698,SAR 8/9 6,23.0,Hat Trick (JPN),,86
+685,9/1/19,7,MSW-F,,8.5,Turf,Boxer Rebellion,2,2.2,False,3,Chad Brown,"Irad Ortiz, Jr.",1:43.057,,,Empire Maker,,86
+686,9/1/19,7,MSW-F,,8.5,Turf,Laughable,1,6.8,False,4,Todd Pletcher,Tyler Gaffalione,1:43.177,,,Distorted Humor,,86
+687,9/1/19,7,MSW-F,,8.5,Turf,Mirabell Mei,7,38.0,False,5,John Terranova II,Rajiv Maragh,1:43.257,,,Palace Malice,,86
+688,9/1/19,7,MSW-F,,8.5,Turf,Malibu June,8,51.25,False,6,Leah Gyarmati,Kendrick Carmouche,1:43.456,,,Malibu Moon,,86
+689,9/1/19,7,MSW-F,,8.5,Turf,Andiama,4,34.75,False,7,Cherie DeVaux,"Ricardo Santana, Jr.",1:43.696,,,Lea,,86
+690,9/1/19,7,MSW-F,,8.5,Turf,Bridal Path,3,4.8,False,8,Claude McGaughey III,Joel Rosario,1:43.855,SAR 8/4 4,28.0,Hard Spun,,86
+691,9/1/19,8,MSW-F,,7.0,Dirt,Alandra,7,7.4,False,1,Claude McGaughey III,Joel Rosario,1:23.340,,,Blame,,87
+692,9/1/19,8,MSW-F,,7.0,Dirt,Slam Dunk,9,1.75,True,2,Rodolphe Brisset,Javier Castellano,1:23.418,SAR 7/31 6,32.0,Into Mischief,,87
+693,9/1/19,8,MSW-F,,7.0,Dirt,Day Dayenu,1,6.7,False,3,Jorge Abreu,Manuel Franco,1:24.208,,,Into Mischief,,87
+694,9/1/19,8,MSW-F,,7.0,Dirt,Impeccable Style,8,17.3,False,4,Kenneth McPeek,Junior Alvarado,1:24.247,,,Uncle Mo,,87
+695,9/1/19,8,MSW-F,,7.0,Dirt,Always a Queen,4,3.6,False,5,Todd Pletcher,Jose Ortiz,1:24.365,,,Tonalist,,87
+696,9/1/19,8,MSW-F,,7.0,Dirt,Cleopatra's Charm,5,19.9,False,6,D. Lukas,Luis Saez,1:24.563,,,Pioneerof the Nile,,87
+697,9/1/19,8,MSW-F,,7.0,Dirt,One Time Around,3,12.2,False,7,Mark Hennig,Tyler Gaffalione,1:25.668,SAR 7/31 6,32.0,Empire Maker,,87
+698,9/1/19,8,MSW-F,,7.0,Dirt,Miss My Macho,2,29.25,False,8,Katherine Ritvo,Rajiv Maragh,1:25.904,SAR 8/4 4,28.0,Mucho Macho Man,,87
+699,9/1/19,8,MSW-F,,7.0,Dirt,Buxom Beast,6,5.4,False,9,Gary Contessa,Kendrick Carmouche,1:26.615,SAR 7/11 8,52.0,The Big Beast,,87
+700,9/1/19,11,GRD-F,Spinaway S.,7.0,Dirt,Perfect Alibi,3,5.2,False,1,Mark Casse,"Irad Ortiz, Jr.",1:23.440,SAR 8/4 10,28.0,Sky Mesa,,88
+701,9/1/19,11,GRD-F,Spinaway S.,7.0,Dirt,Frank's Rockette,2,1.95,True,2,William Mott,Julien Leparoux,1:23.637,SAR 8/4 10,28.0,Into Mischief,,88
+702,9/1/19,11,GRD-F,Spinaway S.,7.0,Dirt,Figure of Speech,5,3.65,False,3,Chad Brown,Javier Castellano,1:24.427,SAR 7/31 6,32.0,Into Mischief,,88
+703,9/1/19,11,GRD-F,Spinaway S.,7.0,Dirt,Miss Peppina,4,15.1,False,4,Gary Gullo,Joel Rosario,1:24.585,SAR 8/4 10,28.0,Bayern,,88
+704,9/1/19,11,GRD-F,Spinaway S.,7.0,Dirt,Shippy,7,3.7,False,5,Katherine Ritvo,Luis Saez,1:24.862,SAR 7/11 8,52.0,Midshipman,,88
+705,9/1/19,11,GRD-F,Spinaway S.,7.0,Dirt,Risky Mischief,6,6.6,False,6,Jeremiah Englehart,Jose Ortiz,1:25.099,SAR 7/31 3,32.0,Into Mischief,,88
+706,9/1/19,11,GRD-F,Spinaway S.,7.0,Dirt,Mundaye Call,1,12.3,False,7,Don Chatlos,Tyler Gaffalione,1:26.284,SAR 8/11 6,21.0,Into Mischief,,88
+707,9/2/19,6,MSW,,5.5,Dirt,Gouverneur Morris,6,0.65,True,1,Todd Pletcher,John Velazquez,1:04.290,,,Constitution,,89
+708,9/2/19,6,MSW,,5.5,Dirt,Maximiliano,1,3.75,False,2,Wesley Ward,Jose Ortiz,1:05.684,,,Quality Road,,89
+709,9/2/19,6,MSW,,5.5,Dirt,Secret Rules,7,5.1,False,3,William Mott,Junior Alvarado,1:05.878,,,Secret Circle,,89
+710,9/2/19,6,MSW,,5.5,Dirt,Malibu Edge,4,8.5,False,4,Claude McGaughey III,Joel Rosario,1:06.498,,,Malibu Moon,,89
+711,9/2/19,6,MSW,,5.5,Dirt,Nashvegas,3,37.75,False,5,Nicholas Zito,Eric Cancel,1:07.893,,,Aikenite,,89
+712,9/2/19,6,MSW,,5.5,Dirt,Tadeo,5,21.1,False,6,Kiaran McLaughlin,Jose Lezcano,1:08.009,,,Sky Mesa,,89
+713,9/2/19,6,MSW,,5.5,Dirt,Clifton Park,2,24.0,False,7,Dale Romans,Luis Saez,1:08.357,,,Awesome Again,,89
+714,9/2/19,10,GRD,Runhappy Hopeful S.,7.0,Dirt,Basin,6,3.1,False,1,Steven Asmussen,Jose Ortiz,1:23.480,SAR 7/21 8,43.0,Liam's Map,,90
+715,9/2/19,10,GRD,Runhappy Hopeful S.,7.0,Dirt,Shoplifted,1,2.8,False,2,Steven Asmussen,Joel Rosario,1:24.507,SAR 7/27 4,37.0,Into Mischief,,90
+716,9/2/19,10,GRD,Runhappy Hopeful S.,7.0,Dirt,Gozilla,3,1.3,True,3,Steven Asmussen,"Ricardo Santana, Jr.",1:24.547,SAR 8/10 7,23.0,Flatter,,90
+717,9/2/19,10,GRD,Runhappy Hopeful S.,7.0,Dirt,American Butterfly,2,14.1,False,4,D. Lukas,Luis Saez,1:24.863,SAR 8/17 7,16.0,American Pharoah,,90
+718,9/2/19,10,GRD,Runhappy Hopeful S.,7.0,Dirt,By Your Side,4,5.2,False,5,Eddie Kenneally,"Irad Ortiz, Jr.",1:24.982,SAR 7/13 3,51.0,Constitution,,90
+719,9/2/19,10,GRD,Runhappy Hopeful S.,7.0,Dirt,Inside Risk,5,37.25,False,6,Thomas Morley,Dylan Davis,1:25.693,SAR 8/1 3,32.0,Street Sense,,90
