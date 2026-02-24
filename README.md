@@ -7,6 +7,17 @@ Final Project - Interactive Data Visualization
 
 We would analyze the best-performing horses for each of the races and see their sires, trainers, and jockeys in hopes of finding the best conditions to produce the optimal racing horse. We plan on having a cycleable visualization using a drill-down technique, where we would first observe trainer-level trends, then horse-level, then sire-level, etc.
 
+# Preliminary Plan:
+- Chart 1 (Bar): Best-ranking horses (Klaudio)
+    - For each horse, we would calculated its average placement by looking at the races it has been in
+- Chart 2 (Bar): Jockey analysis (Ethan)
+    - Would look at the average placement for all the horses associated with the different jockeys
+- Chart 3 (Bar): Trainer analysis (Ethan)
+    - Same idea as the jockey chart
+- Chart 4 (Bar): Sire analysis (Klaudio)
+    - Same idea as the previous two charts
+- **As a note, we would ideally weigh the averages based on how many total races are associated with each entity
+
 # Data Source(s):
 - https://horseracingdatasets.com/racing/
 - https://docs.google.com/spreadsheets/d/1ahggu4Z09OxpIEA7cDUxdiTuG5vsKhpzig3J8hrjwu8/edit?gid=0#gid=0
