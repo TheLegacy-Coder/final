@@ -1,6 +1,17 @@
 Final Project - Interactive Data Visualization  
 ===
 
+# Group Members: Klaudio Fusha & Ethan Shanbaum
+
+# Our Experiment:
+
+We would analyze the best-performing horses for each of the races and see their sires, trainers, and jockeys in hopes of finding the best conditions to produce the optimal racing horse. We plan on having a cycleable visualization using a drill-down technique, where we would first observe trainer-level trends, then horse-level, then sire-level, etc.
+
+# Data Source(s):
+- https://horseracingdatasets.com/racing/
+- https://docs.google.com/spreadsheets/d/1ahggu4Z09OxpIEA7cDUxdiTuG5vsKhpzig3J8hrjwu8/edit?gid=0#gid=0
+
+---
 * Edit 04-Feb-2025 -> adding link to a Notion doc of ideas (totally optional, mainly ideas collected from recent convos w/ people) -> https://scented-flock-323.notion.site/Project-Ideas-18fcf1e51ce380f79f92d4faf3ae7b4a?pvs=4
 
 The key learning experience of this course is the final project. 
