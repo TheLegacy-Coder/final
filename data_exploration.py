@@ -6,6 +6,7 @@ print(read2019SaratogaJuv)
 
 # Referred to https://www.statology.org/pandas-plot-value-counts/ for calling .plot() on value_counts()
 # Also referred to https://stackoverflow.com/questions/32244019/how-to-rotate-x-axis-tick-labels-in-a-pandas-plot for rotating the axis labels
+# Referred to https://stackoverflow.com/questions/8213522/when-to-use-cla-clf-or-close-for-clearing-a-plot for resetting the plot (plt.close())
 
 surfaceCounts = read2019SaratogaJuv["SURF"].value_counts()
 print(surfaceCounts)
@@ -13,7 +14,8 @@ surfaceCounts.plot(kind="bar", rot=0)
 plt.title("Horse Race Surface Distribution")
 plt.xlabel("Surface Type")
 plt.ylabel("Count")
-plt.show()
+plt.savefig("surface_counts.png")
+plt.close()
 
 distanceCounts = read2019SaratogaJuv["DIST"].value_counts()
 print(distanceCounts)
@@ -21,4 +23,4 @@ distanceCounts.plot(kind="bar", rot=0)
 plt.title("Horse Race Distance Distribution")
 plt.xlabel("Distance Category")
 plt.ylabel("Measure")
-plt.show()
+plt.savefig("distance_counts.png")
