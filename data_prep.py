@@ -27,3 +27,58 @@ for i in range(len(read2019SaratogaJuv)):
     print(read2019SaratogaJuv.iloc[i])
 
 read2019SaratogaJuv.to_csv("updated_2019_Saratoga_Juveniles_ALL_STARTERS.csv")
+
+listOfHorses = read2019SaratogaJuv["STARTER NAME"].unique()
+
+allSpeedsAveraged = []
+allTrainers = []
+allSires = []
+allJockeys = []
+for singleHorse in listOfHorses:
+    print(singleHorse)
+    times = read2019SaratogaJuv[read2019SaratogaJuv["STARTER NAME"] == singleHorse]["TIME"]
+    distances = read2019SaratogaJuv[read2019SaratogaJuv["STARTER NAME"] == singleHorse]["DIST"]
+    trainers = read2019SaratogaJuv[read2019SaratogaJuv["STARTER NAME"] == singleHorse]["TRAINER"]
+    sires = read2019SaratogaJuv[read2019SaratogaJuv["STARTER NAME"] == singleHorse]["SIRE"]
+    jockeys = read2019SaratogaJuv[read2019SaratogaJuv["STARTER NAME"] == singleHorse]["JOCKEY"]
+    
+    print("Times")
+    print(times)
+    
+    print("Dists")
+    print(distances)
+    
+    print("Trainers")
+    print(trainers.unique())
+    
+    print("Sires")
+    print(sires.unique())
+    
+    print("Jockeys")
+    print(jockeys.unique())
+    
+    summedSpeed = 0
+    for singleTime, singleDist, singleTrainer, singleSire in zip(times, distances, trainers, sires):
+        # Referred to https://www.w3schools.com/python/ref_string_split.asp for properly splitting the time
+        timeComponentsSplit = singleTime.split(":")
+        firstTimeComponent = int(timeComponentsSplit[0])*60
+        secondTimeComponent = float(timeComponentsSplit[1])
+        timeConverted = firstTimeComponent + secondTimeComponent
+        calculatedSpeed = float(singleDist)/timeConverted
+        summedSpeed += calculatedSpeed
+    allSpeedsAveraged.append(summedSpeed/len(times))
+    allTrainers.append(singleTrainer)
+    allSires.append(singleSire)
+    allJockeys.append(jockeys.unique())
+
+# Referred to https://www.doubledtrailers.com/length-in-horse-racing/ to make sense of the units for average speed
+averageSpeedsDf = pd.DataFrame({"STARTER_NAME": listOfHorses, "AVERAGE_SPEED_furlongs_a_second": allSpeedsAveraged, "TRAINERS": allTrainers, "SIRES": allSires, "JOCKEYS": allJockeys})
+print(averageSpeedsDf)
+
+# Referred to https://stackoverflow.com/questions/34138634/pandas-groupby-how-to-get-top-n-values-based-on-a-column for grabbing the top 10 horses by speed (using nlargest)
+# From that, intuitively determined that nsmallest exists and works in a similar way
+averagedSpeedTop10 = averageSpeedsDf.nlargest(10, "AVERAGE_SPEED_furlongs_a_second")
+averagedSpeedBottom10 = averageSpeedsDf.nsmallest(10, "AVERAGE_SPEED_furlongs_a_second")
+
+averagedSpeedTop10.to_csv("2019_Saratoga_Juveniles_ALL_STARTERS_TOP_10_SPEED.csv")
+averagedSpeedBottom10.to_csv("2019_Saratoga_Juveniles_ALL_STARTERS_BOTTOM_10_SPEED.csv")
