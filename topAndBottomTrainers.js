@@ -61,7 +61,7 @@ top10Container.append("text")
 top10Container.append("text")
     .attr("x", 175)
     .attr("y", -20)
-    .text("Top 10 Trainers by Average Speed of Ridden Horses");
+    .text("Top 10 Trainers by Average Speed of Trained Horses");
 
 
 // ---------------- BOTTOM 10 ------------
