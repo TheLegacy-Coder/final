@@ -81,6 +81,27 @@ barContainerTop10.append("text")
     .attr("y", -20)
     .text("Top 10 Horses by Average Speed");
 
+// Referred to https://d3-graph-gallery.com/graph/interactivity_tooltip.html for adding an info pane for the bars, as well as the mouseover and mouseout functionality
+const pointInfoPaneTop10  = d3.select("#fastest_horses")
+    .append("div")
+        .style("visibility", "hidden");
+
+barContainerTop10.selectAll("rect")
+    .on("mouseover", function(singleMouseEvent, singleDataObject) {
+        pointInfoPaneTop10
+            .style("visibility", "visible")
+            .text("Average Speed (furlongs/second): " + singleDataObject.AVERAGE_SPEED_furlongs_a_second +
+            ", Trainer(s): " + singleDataObject.TRAINERS + 
+            ", Sire(s): " + singleDataObject.SIRES + 
+            ", Jockey(s): " + singleDataObject.JOCKEYS);
+        console.log("Hovering");
+    })
+    .on("mouseout", function() {
+        pointInfoPaneTop10
+            .style("visibility", "hidden");
+        console.log("Not hovering");
+    });
+
 
 // Rendering the bar chart for the bottom 10 horses by average speed
 const singleSVGBottom10 = d3.select("#slowest_horses");
@@ -143,3 +164,24 @@ barContainerBottom10.append("text")
     .attr("x", 175)
     .attr("y", -20)
     .text("Bottom 10 Horses by Average Speed");
+
+// Referred to https://d3-graph-gallery.com/graph/interactivity_tooltip.html for adding an info pane for the bars, as well as the mouseover and mouseout functionality
+const pointInfoPaneBottom10  = d3.select("#slowest_horses")
+    .append("div")
+        .style("visibility", "hidden");
+
+barContainerBottom10.selectAll("rect")
+    .on("mouseover", function(singleMouseEvent, singleDataObject) {
+        pointInfoPaneBottom10
+            .style("visibility", "visible")
+            .text("Average Speed (furlongs/second): " + singleDataObject.AVERAGE_SPEED_furlongs_a_second +
+            ", Trainer(s): " + singleDataObject.TRAINERS + 
+            ", Sire(s): " + singleDataObject.SIRES + 
+            ", Jockey(s): " + singleDataObject.JOCKEYS);
+        console.log("Hovering");
+    })
+    .on("mouseout", function() {
+        pointInfoPaneBottom10
+            .style("visibility", "hidden");
+        console.log("Not hovering");
+    });
