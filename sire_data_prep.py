@@ -28,22 +28,17 @@ for i in range(len(read2019SaratogaJuv)):
 
 read2019SaratogaJuv.to_csv("updated_2019_Saratoga_Juveniles_ALL_STARTERS.csv")
 
-listOfHorses = read2019SaratogaJuv["STARTER NAME"].unique()
+listOfSires = read2019SaratogaJuv["SIRE"].unique()
 
-allSpeedsAveraged = []
-allTrainers = []
-allSires = []
-allJockeys = []
-for singleHorse in listOfHorses:
-    print(singleHorse)
-    times = read2019SaratogaJuv[read2019SaratogaJuv["STARTER NAME"] == singleHorse]["TIME"]
-    distances = read2019SaratogaJuv[read2019SaratogaJuv["STARTER NAME"] == singleHorse]["DIST"]
-    trainers = read2019SaratogaJuv[read2019SaratogaJuv["STARTER NAME"] == singleHorse]["TRAINER"]
-    sires = read2019SaratogaJuv[read2019SaratogaJuv["STARTER NAME"] == singleHorse]["SIRE"]
-    jockeys = read2019SaratogaJuv[read2019SaratogaJuv["STARTER NAME"] == singleHorse]["JOCKEY"]
+allSpeedsAveragedForSire = []
+for singleSire in listOfSires:
+    print(singleSire)
+    horseNames = read2019SaratogaJuv[read2019SaratogaJuv["SIRE"] == singleSire]["STARTER NAME"]
+    times = read2019SaratogaJuv[read2019SaratogaJuv["SIRE"] == singleSire]["TIME"]
+    distances = read2019SaratogaJuv[read2019SaratogaJuv["SIRE"] == singleSire]["DIST"]
     
     summedSpeed = 0
-    for singleTime, singleDist, singleTrainer, singleSire in zip(times, distances, trainers, sires):
+    for singleHorse, singleTime, singleDist in zip(horseNames, times, distances):
         # Referred to https://www.w3schools.com/python/ref_string_split.asp for properly splitting the time
         timeComponentsSplit = singleTime.split(":")
         firstTimeComponent = int(timeComponentsSplit[0])*60
@@ -51,20 +46,16 @@ for singleHorse in listOfHorses:
         timeConverted = firstTimeComponent + secondTimeComponent
         calculatedSpeed = float(singleDist)/timeConverted
         summedSpeed += calculatedSpeed
-    allSpeedsAveraged.append(summedSpeed/len(times))
-    allTrainers.append(singleTrainer)
-    allSires.append(singleSire)
-    allJockeys.append(jockeys.unique())
-
+    allSpeedsAveragedForSire.append(summedSpeed/len(times))
+    
 # Referred to https://www.doubledtrailers.com/length-in-horse-racing/ to make sense of the units for average speed
-averageSpeedsDf = pd.DataFrame({"STARTER_NAME": listOfHorses, "AVERAGE_SPEED_furlongs_a_second": allSpeedsAveraged, "TRAINERS": allTrainers, "SIRES": allSires, "JOCKEYS": allJockeys})
-print(averageSpeedsDf)
-averageSpeedsDf.to_csv("average_speeds.csv")
+averageSpeedsForSireDf = pd.DataFrame({"SIRE": listOfSires, "AVERAGE_SPEED_furlongs_a_second": allSpeedsAveragedForSire})
+print(averageSpeedsForSireDf)
 
-# Referred to https://stackoverflow.com/questions/34138634/pandas-groupby-how-to-get-top-n-values-based-on-a-column for grabbing the top 10 horses by speed (using nlargest)
+# Referred to https://stackoverflow.com/questions/34138634/pandas-groupby-how-to-get-top-n-values-based-on-a-column for grabbing the top 10 sires based on their average horse speeds (using nlargest)
 # From that, intuitively determined that nsmallest exists and works in a similar way
-averagedSpeedTop10 = averageSpeedsDf.nlargest(10, "AVERAGE_SPEED_furlongs_a_second")
-averagedSpeedBottom10 = averageSpeedsDf.nsmallest(10, "AVERAGE_SPEED_furlongs_a_second")
+averagedSpeedForSireTop10 = averageSpeedsForSireDf.nlargest(10, "AVERAGE_SPEED_furlongs_a_second")
+averagedSpeedForSireBottom10 = averageSpeedsForSireDf.nsmallest(10, "AVERAGE_SPEED_furlongs_a_second")
 
-averagedSpeedTop10.to_csv("2019_Saratoga_Juveniles_ALL_STARTERS_TOP_10_SPEED.csv")
-averagedSpeedBottom10.to_csv("2019_Saratoga_Juveniles_ALL_STARTERS_BOTTOM_10_SPEED.csv")
+averagedSpeedForSireTop10.to_csv("2019_Saratoga_Juveniles_ALL_STARTERS_TOP_10_SPEED_FOR_SIRE.csv")
+averagedSpeedForSireBottom10.to_csv("2019_Saratoga_Juveniles_ALL_STARTERS_BOTTOM_10_SPEED_FOR_SIRE.csv")
