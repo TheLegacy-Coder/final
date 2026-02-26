@@ -74,6 +74,7 @@ for singleHorse in listOfHorses:
 # Referred to https://www.doubledtrailers.com/length-in-horse-racing/ to make sense of the units for average speed
 averageSpeedsDf = pd.DataFrame({"STARTER_NAME": listOfHorses, "AVERAGE_SPEED_furlongs_a_second": allSpeedsAveraged, "TRAINERS": allTrainers, "SIRES": allSires, "JOCKEYS": allJockeys})
 print(averageSpeedsDf)
+averageSpeedsDf.to_csv("average_speeds.csv")
 
 # Referred to https://stackoverflow.com/questions/34138634/pandas-groupby-how-to-get-top-n-values-based-on-a-column for grabbing the top 10 horses by speed (using nlargest)
 # From that, intuitively determined that nsmallest exists and works in a similar way
