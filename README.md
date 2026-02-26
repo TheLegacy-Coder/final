@@ -13,7 +13,7 @@ We would analyze the best-performing horses for each of the races and see their 
     - Would grab the top and bottom 10 horses based on average speed
     - For each set, allow the user to hover over each bar to see the corresponding information for that horse (trainer, jockey, sire, etc.)
 - Chart Series 2 (Bars): Jockey analysis (Ethan)
-    - Would look at the average speed for all the horses associated with the different jockeys
+    - Would look at the average speed for all the horses associated with the different jockeys (top 10 and bottom 10)
 - Chart Series 3 (Bars): Trainer analysis (Ethan)
     - Same idea as the jockey chart
 - Chart Series 4 (Bars): Sire analysis (Klaudio)

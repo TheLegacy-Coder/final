@@ -82,3 +82,35 @@ averagedSpeedBottom10 = averageSpeedsDf.nsmallest(10, "AVERAGE_SPEED_furlongs_a_
 
 averagedSpeedTop10.to_csv("2019_Saratoga_Juveniles_ALL_STARTERS_TOP_10_SPEED.csv")
 averagedSpeedBottom10.to_csv("2019_Saratoga_Juveniles_ALL_STARTERS_BOTTOM_10_SPEED.csv")
+
+listOfSires = read2019SaratogaJuv["SIRE"].unique()
+
+allSpeedsAveragedForSire = []
+for singleSire in listOfSires:
+    print(singleSire)
+    horseNames = read2019SaratogaJuv[read2019SaratogaJuv["SIRE"] == singleSire]["STARTER NAME"]
+    times = read2019SaratogaJuv[read2019SaratogaJuv["SIRE"] == singleSire]["TIME"]
+    distances = read2019SaratogaJuv[read2019SaratogaJuv["SIRE"] == singleSire]["DIST"]
+    
+    summedSpeed = 0
+    for singleHorse, singleTime, singleDist in zip(horseNames, times, distances):
+        # Referred to https://www.w3schools.com/python/ref_string_split.asp for properly splitting the time
+        timeComponentsSplit = singleTime.split(":")
+        firstTimeComponent = int(timeComponentsSplit[0])*60
+        secondTimeComponent = float(timeComponentsSplit[1])
+        timeConverted = firstTimeComponent + secondTimeComponent
+        calculatedSpeed = float(singleDist)/timeConverted
+        summedSpeed += calculatedSpeed
+    allSpeedsAveragedForSire.append(summedSpeed/len(times))
+    
+# Referred to https://www.doubledtrailers.com/length-in-horse-racing/ to make sense of the units for average speed
+averageSpeedsForSireDf = pd.DataFrame({"SIRE": listOfSires, "AVERAGE_SPEED_furlongs_a_second": allSpeedsAveragedForSire})
+print(averageSpeedsForSireDf)
+
+# Referred to https://stackoverflow.com/questions/34138634/pandas-groupby-how-to-get-top-n-values-based-on-a-column for grabbing the top 10 sires based on their average horse speeds (using nlargest)
+# From that, intuitively determined that nsmallest exists and works in a similar way
+averagedSpeedForSireTop10 = averageSpeedsForSireDf.nlargest(10, "AVERAGE_SPEED_furlongs_a_second")
+averagedSpeedForSireBottom10 = averageSpeedsForSireDf.nsmallest(10, "AVERAGE_SPEED_furlongs_a_second")
+
+averagedSpeedForSireTop10.to_csv("2019_Saratoga_Juveniles_ALL_STARTERS_TOP_10_SPEED_FOR_SIRE.csv")
+averagedSpeedForSireBottom10.to_csv("2019_Saratoga_Juveniles_ALL_STARTERS_BOTTOM_10_SPEED_FOR_SIRE.csv")
