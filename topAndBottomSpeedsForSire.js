@@ -81,6 +81,25 @@ barContainerTop10.append("text")
     .attr("y", -20)
     .text("Top 10 Sires by Average Speed of Offspring");
 
+// Referred to https://d3-graph-gallery.com/graph/interactivity_tooltip.html for adding an info pane for the bars, as well as the mouseover and mouseout functionality
+const pointInfoPaneTop10  = d3.select("#fastest_horses_for_sire")
+    .append("div")
+        .style("visibility", "hidden");
+
+barContainerTop10.selectAll("rect")
+    .on("mouseover", function(singleMouseEvent, singleDataObject) {
+        pointInfoPaneTop10
+            .style("visibility", "visible")
+            .text("Average Speed (furlongs/second): " + singleDataObject.AVERAGE_SPEED_furlongs_a_second +
+            ", Offspring: " + singleDataObject.OFFSPRING);
+        console.log("Hovering");
+    })
+    .on("mouseout", function() {
+        pointInfoPaneTop10
+            .style("visibility", "hidden");
+        console.log("Not hovering");
+    });
+
 
 // Rendering the bar chart for the bottom 10 sires based on average speed of their offspring
 const singleSVGBottom10 = d3.select("#slowest_horses_for_sire");
@@ -143,3 +162,22 @@ barContainerBottom10.append("text")
     .attr("x", 175)
     .attr("y", -20)
     .text("Bottom 10 Sires by Average Speed of Offspring");
+
+// Referred to https://d3-graph-gallery.com/graph/interactivity_tooltip.html for adding an info pane for the bars, as well as the mouseover and mouseout functionality
+const pointInfoPaneBottom10  = d3.select("#slowest_horses_for_sire")
+    .append("div")
+        .style("visibility", "hidden");
+
+barContainerBottom10.selectAll("rect")
+    .on("mouseover", function(singleMouseEvent, singleDataObject) {
+        pointInfoPaneBottom10
+            .style("visibility", "visible")
+            .text("Average Speed (furlongs/second): " + singleDataObject.AVERAGE_SPEED_furlongs_a_second +
+            ", Offspring: " + singleDataObject.OFFSPRING);
+        console.log("Hovering");
+    })
+    .on("mouseout", function() {
+        pointInfoPaneBottom10
+            .style("visibility", "hidden");
+        console.log("Not hovering");
+    });

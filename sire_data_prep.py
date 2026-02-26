@@ -31,6 +31,7 @@ read2019SaratogaJuv.to_csv("updated_2019_Saratoga_Juveniles_ALL_STARTERS.csv")
 listOfSires = read2019SaratogaJuv["SIRE"].unique()
 
 allSpeedsAveragedForSire = []
+allOffspring = []
 for singleSire in listOfSires:
     print(singleSire)
     horseNames = read2019SaratogaJuv[read2019SaratogaJuv["SIRE"] == singleSire]["STARTER NAME"]
@@ -47,9 +48,10 @@ for singleSire in listOfSires:
         calculatedSpeed = float(singleDist)/timeConverted
         summedSpeed += calculatedSpeed
     allSpeedsAveragedForSire.append(summedSpeed/len(times))
+    allOffspring.append(horseNames.unique())
     
 # Referred to https://www.doubledtrailers.com/length-in-horse-racing/ to make sense of the units for average speed
-averageSpeedsForSireDf = pd.DataFrame({"SIRE": listOfSires, "AVERAGE_SPEED_furlongs_a_second": allSpeedsAveragedForSire})
+averageSpeedsForSireDf = pd.DataFrame({"SIRE": listOfSires, "AVERAGE_SPEED_furlongs_a_second": allSpeedsAveragedForSire, "OFFSPRING": allOffspring})
 print(averageSpeedsForSireDf)
 
 # Referred to https://stackoverflow.com/questions/34138634/pandas-groupby-how-to-get-top-n-values-based-on-a-column for grabbing the top 10 sires based on their average horse speeds (using nlargest)
