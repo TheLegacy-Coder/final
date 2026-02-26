@@ -63,6 +63,24 @@ top10Container.append("text")
     .attr("y", -20)
     .text("Top 10 Jockeys by Average Speed of Ridden Horses");
 
+// Referred to https://d3-graph-gallery.com/graph/interactivity_tooltip.html for adding an info pane for the bars, as well as the mouseover and mouseout functionality
+
+const pointInfoPaneTop10  = d3.select("#best_jockeys")
+    .append("div")
+        .style("visibility", "hidden");
+
+top10Container.selectAll("rect")
+    .on("mouseover", function(singleMouseEvent, singleDataObject) {
+        pointInfoPaneTop10
+            .style("visibility", "visible")
+            .text("Average Speed (furlongs/second): " + singleDataObject.AVERAGE_SPEED_furlongs_a_second +
+            ", Ridden Horses: " + singleDataObject.HORSES);
+    })
+    .on("mouseout", function() {
+        pointInfoPaneTop10
+            .style("visibility", "hidden");
+    });
+
 
 // ---------------- BOTTOM 10 ------------
 let bottom10 = await fetch("jockey_bottom_10.csv")
@@ -125,3 +143,21 @@ bottom10Container.append("text")
     .attr("x", 175)
     .attr("y", -20)
     .text("Bottom 10 Jockeys by Average Speed of Ridden Horses");
+
+// Referred to https://d3-graph-gallery.com/graph/interactivity_tooltip.html for adding an info pane for the bars, as well as the mouseover and mouseout functionality
+
+const pointInfoPaneBottom10  = d3.select("#worst_jockeys")
+    .append("div")
+        .style("visibility", "hidden");
+
+bottom10Container.selectAll("rect")
+    .on("mouseover", function(singleMouseEvent, singleDataObject) {
+        pointInfoPaneBottom10
+            .style("visibility", "visible")
+            .text("Average Speed (furlongs/second): " + singleDataObject.AVERAGE_SPEED_furlongs_a_second +
+            ", Ridden Horses: " + singleDataObject.HORSES);
+    })
+    .on("mouseout", function() {
+        pointInfoPaneBottom10
+            .style("visibility", "hidden");
+    });
