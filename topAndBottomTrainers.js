@@ -10,6 +10,7 @@ let alltrainerRange = [0.076, 0.088];
 const alltrainerDiv = d3.select("#best_trainers");
 alltrainerDiv.selectAll("svg").remove();
 
+// Main reference for creating the bar chart: https://d3-graph-gallery.com/graph/barplot_basic.html
 const alltrainerContainer = d3.select("#best_trainers")
     .append("svg")
         .attr("width", 1500)
@@ -39,6 +40,7 @@ alltrainerContainer.selectAll("rect")
         .attr("fill", "green")
         .attr("stroke", "black");
 
+// Referred to https://d3-graph-gallery.com/graph/custom_axis.html#axistitles for creating both the x-axis and y-axis labels (technically also the title of the chart)
 alltrainerContainer.append("text")
     .attr("x", 700)
     .attr("y", 520)

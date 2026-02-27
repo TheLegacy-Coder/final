@@ -17,9 +17,12 @@ for trainer in trainerList:
     horsesList.append(horses.unique())
     averageSpeedList.append(speedsAvg)
 
+# Referred to https://www.doubledtrailers.com/length-in-horse-racing/ to make sense of the units for average speed
 trainerDf = pd.DataFrame({"TRAINER": trainerList, "AVERAGE_SPEED_furlongs_a_second": averageSpeedList, "HORSES": horsesList})
 trainerDf.to_csv("all_trainer_data.csv")
 
+# Initially referred to https://stackoverflow.com/questions/34138634/pandas-groupby-how-to-get-top-n-values-based-on-a-column for grabbing the top 10 sires based on their average horse speeds (using nlargest)
+# Then, used it just for sorting
 trainerTop10 = trainerDf.nlargest(len(trainerList), "AVERAGE_SPEED_furlongs_a_second")
 
 trainerTop10.to_csv("trainer_sorted.csv")
