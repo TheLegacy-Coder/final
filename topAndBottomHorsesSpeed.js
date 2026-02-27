@@ -18,7 +18,7 @@ singleSVGTop200.selectAll("svg").remove();
 const barContainerTop200 = d3.select("#fastest_horses")
     .append("svg")
         .attr("width", 1500)
-        .attr("height", 800)
+        .attr("height", 275)
     .append("g")
         .attr("transform", "translate(100, 100)");
 
@@ -30,7 +30,7 @@ const xAxisTop200 = d3.scaleBand()
 
 const yAxisTop200 = d3.scaleLinear()
     .domain(rangeTop200)
-    .range([500, 0]);
+    .range([150, 0]);
 barContainerTop200.append("g")
     .call(d3.axisLeft(yAxisTop200));
 
@@ -46,19 +46,20 @@ barContainerTop200.selectAll("rect")
         })
         .attr("width", xAxisTop200.bandwidth())
         .attr("height", function(singleDataObject) {
-            return 500 - yAxisTop200(singleDataObject.AVERAGE_SPEED_furlongs_a_second);
+            return 150 - yAxisTop200(singleDataObject.AVERAGE_SPEED_furlongs_a_second);
         })
-        .attr("fill", "green")
-        .attr("stroke", "black");
+        .attr("fill", "#6cd46c")
+        .attr("stroke", "#227422");
 
 // Referred to https://d3-graph-gallery.com/graph/custom_axis.html#axistitles for creating both the x-axis and y-axis labels (technically also the title of the chart)
 barContainerTop200.append("text")
     .attr("x", 700)
-    .attr("y", 520)
+    .attr("y", 175)
     .text("Horse");
 barContainerTop200.append("text")
     .attr("transform", "rotate(-90)")
-    .attr("x", -400)
+    .attr("font-size", "12px")
+    .attr("x", -150)
     .attr("y", -50)
     .text("Average Speed (furlongs/second)");
 barContainerTop200.append("text")
@@ -67,12 +68,14 @@ barContainerTop200.append("text")
     .text("Top 200 Horses by Average Speed");
 
 // Referred to https://d3-graph-gallery.com/graph/interactivity_tooltip.html for adding an info pane for the bars, as well as the mouseover and mouseout functionality
+// Referred to https://stackoverflow.com/questions/25123003/how-to-assign-click-event-to-every-svg-element-in-d3js for changing bar color on mouse hover
 const pointInfoPaneTop200  = d3.select("#fastest_horses")
     .append("div")
         .style("visibility", "hidden");
 
 barContainerTop200.selectAll("rect")
     .on("mouseover", function(singleMouseEvent, singleDataObject) {
+        d3.select(this).attr("fill", "blue")
         pointInfoPaneTop200
             .style("visibility", "visible")
             .text("Horse Name: " + singleDataObject.STARTER_NAME +
@@ -83,6 +86,7 @@ barContainerTop200.selectAll("rect")
         console.log("Hovering");
     })
     .on("mouseout", function() {
+        d3.select(this).attr("fill", "#6cd46c")
         pointInfoPaneTop200
             .style("visibility", "hidden");
         console.log("Not hovering");

@@ -14,7 +14,7 @@ alljockeyDiv.selectAll("svg").remove();
 const alljockeyContainer = d3.select("#best_jockeys")
     .append("svg")
         .attr("width", 1500)
-        .attr("height", 800)
+        .attr("height", 275)
     .append("g")
         .attr("transform", "translate(100, 100)")
 
@@ -31,7 +31,7 @@ alljockeyContainer.append("g")
 
 const alljockeyyAxis = d3.scaleLinear()
     .domain(alljockeyRange)
-    .range([500, 0]);
+    .range([150, 0]);
 
 alljockeyContainer.append("g")
     .call(d3.axisLeft(alljockeyyAxis))
@@ -43,19 +43,20 @@ alljockeyContainer.selectAll("rect")
         .attr("x", (e) => alljockeyxAxis(e.JOCKEY))
         .attr("y", (e) => alljockeyyAxis(e.AVERAGE_SPEED_furlongs_a_second))
         .attr("width", alljockeyxAxis.bandwidth())
-        .attr("height", (e) => 500 - alljockeyyAxis(e.AVERAGE_SPEED_furlongs_a_second))
-        .attr("fill", "green")
-        .attr("stroke", "black");
+        .attr("height", (e) => 150 - alljockeyyAxis(e.AVERAGE_SPEED_furlongs_a_second))
+        .attr("fill", "#6cd46c")
+        .attr("stroke", "#227422");
 
 // Referred to https://d3-graph-gallery.com/graph/custom_axis.html#axistitles for creating both the x-axis and y-axis labels (technically also the title of the chart)
 alljockeyContainer.append("text")
     .attr("x", 700)
-    .attr("y", 575)
+    .attr("y", 175)
     .text("Jockey");
 
 alljockeyContainer.append("text")
     .attr("transform", "rotate(-90)")
-    .attr("x", -400)
+    .attr("font-size", "12px")
+    .attr("x", -150)
     .attr("y", -50)
     .text("Average Speed of Horses (furlongs/second)");
 
@@ -65,19 +66,21 @@ alljockeyContainer.append("text")
     .text("Jockeys' Average Speed of Ridden Horses");
 
 // Referred to https://d3-graph-gallery.com/graph/interactivity_tooltip.html for adding an info pane for the bars, as well as the mouseover and mouseout functionality
-
+// Referred to https://stackoverflow.com/questions/25123003/how-to-assign-click-event-to-every-svg-element-in-d3js for changing bar color on mouse hover
 const pointInfoPaneAllJockey  = d3.select("#best_jockeys")
     .append("div")
         .style("visibility", "hidden");
 
 alljockeyContainer.selectAll("rect")
     .on("mouseover", function(singleMouseEvent, singleDataObject) {
+        d3.select(this).attr("fill", "blue")
         pointInfoPaneAllJockey
             .style("visibility", "visible")
             .text("Average Speed (furlongs/second): " + singleDataObject.AVERAGE_SPEED_furlongs_a_second +
             ", Ridden Horses: " + singleDataObject.HORSES);
     })
     .on("mouseout", function() {
+        d3.select(this).attr("fill", "#6cd46c")
         pointInfoPaneAllJockey
             .style("visibility", "hidden");
     });
