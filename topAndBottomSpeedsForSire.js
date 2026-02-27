@@ -1,183 +1,87 @@
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
-let top10HorsesSpeedForSire = await fetch("2019_Saratoga_Juveniles_ALL_STARTERS_TOP_10_SPEED_FOR_SIRE.csv")
+let HorsesSpeedForSire = await fetch("2019_Saratoga_Juveniles_ALL_STARTERS_SPEED_FOR_SIRE.csv")
     .then(response => response.text())
     .then(dataString => d3.csvParse(dataString));
 
-top10HorsesSpeedForSire = top10HorsesSpeedForSire.reverse();
+HorsesSpeedForSire = HorsesSpeedForSire.reverse();
 
-// console.log(top10HorsesSpeedForSire)
+// console.log(HorsesSpeedForSire)
 
-let bottom10HorsesSpeedForSire = await fetch("2019_Saratoga_Juveniles_ALL_STARTERS_BOTTOM_10_SPEED_FOR_SIRE.csv")
-    .then(response => response.text())
-    .then(dataString => d3.csvParse(dataString));
+let range = [0.073, 0.09];
 
-bottom10HorsesSpeedForSire = bottom10HorsesSpeedForSire.reverse();
-
-// console.log(bottom10HorsesSpeedForSire)
-
-let rangeTop10 = [0.08, 0.09];
-let rangeBottom10 = [0.07, 0.085];
-
-// Rendering the bar chart for the top 10 sires based on average speed of their offspring
-const singleSVGTop10 = d3.select("#fastest_horses_for_sire");
-singleSVGTop10.selectAll("svg").remove();
+// Rendering the bar chart for the sires based on average speed of their offspring
+const singleSVG = d3.select("#fastest_horses_for_sire");
+singleSVG.selectAll("svg").remove();
 
 // Main reference for creating the bar chart: https://d3-graph-gallery.com/graph/barplot_basic.html
-const barContainerTop10 = d3.select("#fastest_horses_for_sire")
+const barContainer = d3.select("#fastest_horses_for_sire")
     .append("svg")
-        .attr("width", 800)
+        .attr("width", 1500)
         .attr("height", 800)
     .append("g")
         .attr("transform", "translate(100, 100)");
 
-const xAxisTop10 = d3.scaleBand()
-    .domain(top10HorsesSpeedForSire.map(function(singleDataObject) {
+const xAxis = d3.scaleBand()
+    .domain(HorsesSpeedForSire.map(function(singleDataObject) {
         return singleDataObject.SIRE;
     }))
-    .range([0, 500]);
-barContainerTop10.append("g")
-    .attr("transform", "translate(0, 500)")
-    .call(d3.axisBottom(xAxisTop10))
-    .selectAll("text")
-        .attr("transform", "translate(-5, 0) rotate(-30)")
-        .style("text-anchor", "end");
+    .range([0, 1400]);
 
-const yAxisTop10 = d3.scaleLinear()
-    .domain(rangeTop10)
+const yAxis = d3.scaleLinear()
+    .domain(range)
     .range([500, 0]);
-barContainerTop10.append("g")
-    .call(d3.axisLeft(yAxisTop10));
+barContainer.append("g")
+    .call(d3.axisLeft(yAxis));
 
-barContainerTop10.selectAll("rect")
-    .data(top10HorsesSpeedForSire)
+barContainer.selectAll("rect")
+    .data(HorsesSpeedForSire)
     .enter()
     .append("rect")
         .attr("x", function(singleDataObject) {
-            return xAxisTop10(singleDataObject.SIRE);
+            return xAxis(singleDataObject.SIRE);
         })
         .attr("y", function(singleDataObject) {
-            return yAxisTop10(singleDataObject.AVERAGE_SPEED_furlongs_a_second);
+            return yAxis(singleDataObject.AVERAGE_SPEED_furlongs_a_second);
         })
-        .attr("width", xAxisTop10.bandwidth())
+        .attr("width", xAxis.bandwidth())
         .attr("height", function(singleDataObject) {
-            return 500 - yAxisTop10(singleDataObject.AVERAGE_SPEED_furlongs_a_second);
+            return 500 - yAxis(singleDataObject.AVERAGE_SPEED_furlongs_a_second);
         })
         .attr("fill", "green")
         .attr("stroke", "black");
 
 // Referred to https://d3-graph-gallery.com/graph/custom_axis.html#axistitles for creating both the x-axis and y-axis labels (technically also the title of the chart)
-barContainerTop10.append("text")
-    .attr("x", 225)
-    .attr("y", 575)
-    .text("Sire Name");
-barContainerTop10.append("text")
+barContainer.append("text")
+    .attr("x", 700)
+    .attr("y", 520)
+    .text("Sire");
+barContainer.append("text")
     .attr("transform", "rotate(-90)")
     .attr("x", -400)
     .attr("y", -50)
     .text("Average Speed of Offspring (furlongs/second)");
-barContainerTop10.append("text")
-    .attr("x", 175)
+barContainer.append("text")
+    .attr("x", 600)
     .attr("y", -20)
-    .text("Top 10 Sires by Average Speed of Offspring");
+    .text("Sires' Average Speed of Offspring");
 
 // Referred to https://d3-graph-gallery.com/graph/interactivity_tooltip.html for adding an info pane for the bars, as well as the mouseover and mouseout functionality
-const pointInfoPaneTop10  = d3.select("#fastest_horses_for_sire")
+const pointInfoPane  = d3.select("#fastest_horses_for_sire")
     .append("div")
         .style("visibility", "hidden");
 
-barContainerTop10.selectAll("rect")
+barContainer.selectAll("rect")
     .on("mouseover", function(singleMouseEvent, singleDataObject) {
-        pointInfoPaneTop10
+        pointInfoPane
             .style("visibility", "visible")
-            .text("Average Speed (furlongs/second): " + singleDataObject.AVERAGE_SPEED_furlongs_a_second +
+            .text("Sire: " + singleDataObject.SIRE + 
+            ", Average Speed (furlongs/second): " + singleDataObject.AVERAGE_SPEED_furlongs_a_second +
             ", Offspring: " + singleDataObject.OFFSPRING);
         console.log("Hovering");
     })
     .on("mouseout", function() {
-        pointInfoPaneTop10
-            .style("visibility", "hidden");
-        console.log("Not hovering");
-    });
-
-
-// Rendering the bar chart for the bottom 10 sires based on average speed of their offspring
-const singleSVGBottom10 = d3.select("#slowest_horses_for_sire");
-singleSVGBottom10.selectAll("svg").remove();
-
-// Main reference for creating the bar chart: https://d3-graph-gallery.com/graph/barplot_basic.html
-const barContainerBottom10 = d3.select("#slowest_horses_for_sire")
-    .append("svg")
-        .attr("width", 800)
-        .attr("height", 800)
-    .append("g")
-        .attr("transform", "translate(100, 100)");
-
-const xAxisBottom10 = d3.scaleBand()
-    .domain(bottom10HorsesSpeedForSire.map(function(singleDataObject) {
-        return singleDataObject.SIRE;
-    }))
-    .range([0, 500]);
-barContainerBottom10.append("g")
-    .attr("transform", "translate(0, 500)")
-    .call(d3.axisBottom(xAxisBottom10))
-    .selectAll("text")
-        .attr("transform", "translate(-5, 0) rotate(-30)")
-        .style("text-anchor", "end");
-
-const yAxisBottom10 = d3.scaleLinear()
-    .domain(rangeBottom10)
-    .range([500, 0]);
-barContainerBottom10.append("g")
-    .call(d3.axisLeft(yAxisBottom10));
-
-barContainerBottom10.selectAll("rect")
-    .data(bottom10HorsesSpeedForSire)
-    .enter()
-    .append("rect")
-        .attr("x", function(singleDataObject) {
-            return xAxisBottom10(singleDataObject.SIRE);
-        })
-        .attr("y", function(singleDataObject) {
-            return yAxisBottom10(singleDataObject.AVERAGE_SPEED_furlongs_a_second);
-        })
-        .attr("width", xAxisBottom10.bandwidth())
-        .attr("height", function(singleDataObject) {
-            return 500 - yAxisBottom10(singleDataObject.AVERAGE_SPEED_furlongs_a_second);
-        })
-        .attr("fill", "orange")
-        .attr("stroke", "black");
-
-// Referred to https://d3-graph-gallery.com/graph/custom_axis.html#axistitles for creating both the x-axis and y-axis labels (technically also the title of the chart)
-barContainerBottom10.append("text")
-    .attr("x", 225)
-    .attr("y", 575)
-    .text("Sire Name");
-barContainerBottom10.append("text")
-    .attr("transform", "rotate(-90)")
-    .attr("x", -400)
-    .attr("y", -50)
-    .text("Average Speed of Offspring (furlongs/second)");
-barContainerBottom10.append("text")
-    .attr("x", 175)
-    .attr("y", -20)
-    .text("Bottom 10 Sires by Average Speed of Offspring");
-
-// Referred to https://d3-graph-gallery.com/graph/interactivity_tooltip.html for adding an info pane for the bars, as well as the mouseover and mouseout functionality
-const pointInfoPaneBottom10  = d3.select("#slowest_horses_for_sire")
-    .append("div")
-        .style("visibility", "hidden");
-
-barContainerBottom10.selectAll("rect")
-    .on("mouseover", function(singleMouseEvent, singleDataObject) {
-        pointInfoPaneBottom10
-            .style("visibility", "visible")
-            .text("Average Speed (furlongs/second): " + singleDataObject.AVERAGE_SPEED_furlongs_a_second +
-            ", Offspring: " + singleDataObject.OFFSPRING);
-        console.log("Hovering");
-    })
-    .on("mouseout", function() {
-        pointInfoPaneBottom10
+        pointInfoPane
             .style("visibility", "hidden");
         console.log("Not hovering");
     });

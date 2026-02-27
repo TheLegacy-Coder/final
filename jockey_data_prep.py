@@ -22,8 +22,6 @@ for jockey in jockeyList:
 jockeysDf = pd.DataFrame({"JOCKEY": jockeyList, "AVERAGE_SPEED_furlongs_a_second": averageSpeedList, "HORSES": horsesList})
 jockeysDf.to_csv("all_jockey_data.csv")
 
-jockeyTop10 = jockeysDf.nlargest(10, "AVERAGE_SPEED_furlongs_a_second")
-jockeyBottom10 = jockeysDf.nsmallest(10, "AVERAGE_SPEED_furlongs_a_second")
+jockeySorted = jockeysDf.nlargest(len(jockeyList), "AVERAGE_SPEED_furlongs_a_second")
 
-jockeyTop10.to_csv("jockey_top_10.csv")
-jockeyBottom10.to_csv("jockey_bottom_10.csv")
+jockeySorted.to_csv("jockey_sorted.csv")

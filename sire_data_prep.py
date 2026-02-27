@@ -54,10 +54,8 @@ for singleSire in listOfSires:
 averageSpeedsForSireDf = pd.DataFrame({"SIRE": listOfSires, "AVERAGE_SPEED_furlongs_a_second": allSpeedsAveragedForSire, "OFFSPRING": allOffspring})
 print(averageSpeedsForSireDf)
 
-# Referred to https://stackoverflow.com/questions/34138634/pandas-groupby-how-to-get-top-n-values-based-on-a-column for grabbing the top 10 sires based on their average horse speeds (using nlargest)
-# From that, intuitively determined that nsmallest exists and works in a similar way
-averagedSpeedForSireTop10 = averageSpeedsForSireDf.nlargest(10, "AVERAGE_SPEED_furlongs_a_second")
-averagedSpeedForSireBottom10 = averageSpeedsForSireDf.nsmallest(10, "AVERAGE_SPEED_furlongs_a_second")
+# Initially referred to https://stackoverflow.com/questions/34138634/pandas-groupby-how-to-get-top-n-values-based-on-a-column for grabbing the top 10 sires based on their average horse speeds (using nlargest)
+# Then, used it just for sorting
+averagedSpeedForSireSorted = averageSpeedsForSireDf.nlargest(len(listOfSires), "AVERAGE_SPEED_furlongs_a_second")
 
-averagedSpeedForSireTop10.to_csv("2019_Saratoga_Juveniles_ALL_STARTERS_TOP_10_SPEED_FOR_SIRE.csv")
-averagedSpeedForSireBottom10.to_csv("2019_Saratoga_Juveniles_ALL_STARTERS_BOTTOM_10_SPEED_FOR_SIRE.csv")
+averagedSpeedForSireSorted.to_csv("2019_Saratoga_Juveniles_ALL_STARTERS_SPEED_FOR_SIRE.csv")

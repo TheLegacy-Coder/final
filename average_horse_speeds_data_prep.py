@@ -61,10 +61,7 @@ averageSpeedsDf = pd.DataFrame({"STARTER_NAME": listOfHorses, "AVERAGE_SPEED_fur
 print(averageSpeedsDf)
 averageSpeedsDf.to_csv("average_speeds.csv")
 
-# Referred to https://stackoverflow.com/questions/34138634/pandas-groupby-how-to-get-top-n-values-based-on-a-column for grabbing the top 10 horses by speed (using nlargest)
-# From that, intuitively determined that nsmallest exists and works in a similar way
-averagedSpeedTop10 = averageSpeedsDf.nlargest(10, "AVERAGE_SPEED_furlongs_a_second")
-averagedSpeedBottom10 = averageSpeedsDf.nsmallest(10, "AVERAGE_SPEED_furlongs_a_second")
+# Referred to https://stackoverflow.com/questions/34138634/pandas-groupby-how-to-get-top-n-values-based-on-a-column for grabbing the top 200 horses by speed (using nlargest)
+averagedSpeedTop200 = averageSpeedsDf.nlargest(200, "AVERAGE_SPEED_furlongs_a_second")
 
-averagedSpeedTop10.to_csv("2019_Saratoga_Juveniles_ALL_STARTERS_TOP_10_SPEED.csv")
-averagedSpeedBottom10.to_csv("2019_Saratoga_Juveniles_ALL_STARTERS_BOTTOM_10_SPEED.csv")
+averagedSpeedTop200.to_csv("2019_Saratoga_Juveniles_ALL_STARTERS_TOP_200_SPEED.csv")

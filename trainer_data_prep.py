@@ -20,8 +20,6 @@ for trainer in trainerList:
 trainerDf = pd.DataFrame({"TRAINER": trainerList, "AVERAGE_SPEED_furlongs_a_second": averageSpeedList, "HORSES": horsesList})
 trainerDf.to_csv("all_trainer_data.csv")
 
-trainerTop10 = trainerDf.nlargest(10, "AVERAGE_SPEED_furlongs_a_second")
-trainerBottom10 = trainerDf.nsmallest(10, "AVERAGE_SPEED_furlongs_a_second")
+trainerTop10 = trainerDf.nlargest(len(trainerList), "AVERAGE_SPEED_furlongs_a_second")
 
-trainerTop10.to_csv("trainer_top_10.csv")
-trainerBottom10.to_csv("trainer_bottom_10.csv")
+trainerTop10.to_csv("trainer_sorted.csv")
