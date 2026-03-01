@@ -1,153 +1,39 @@
 ,JOCKEY,AVERAGE_SPEED_furlongs_a_second,HORSES
 32,Luca Panici,0.08846710632137687,['Champagne Humor']
-24,"Jorge Vargas, Jr.",0.08409772209822125,['Cleon Jones' 'American Song' 'Leaveuwithasmile']
-9,John Velazquez,0.0838181475917258,"['Kiss the Girl' 'Apurate' 'Memorable' 'High Tide' 'Mr Everything'
- 'Myawaya' 'Violent Point' 'Barleewon' 'Beyond Brown' 'Close Shave'
- 'Soviet' 'Eagerly' 'Magnetique' 'Summer Sangria' 'Good Credence'
- 'Glory Road' 'Integral' 'Dream Bigger' 'Divided Sky (IRE)' 'Noudha'
- 'Kimari' 'Mystic Lancelot' 'Now Is' 'Portos' ""O'Trouble"" 'Papa King'
- 'Nic and Zoe' 'More Glitter' 'Eternal Summer' ""O'Bushido""
- 'Gouverneur Morris']"
-15,"Irad Ortiz, Jr.",0.08375188638230026,"['By Your Side' 'Decorated Invader' 'Sign of the Times' 'Bank On Shea'
- 'Fly Fly Away' 'Kiawah Sunset' 'Queen of Shades' 'Stunning Munnings'
- 'Aubrey Tate' 'Girlntheyellowtaxi' 'Tulanian' 'Inside Risk'
- 'Policy Option' 'Sketches of Spain (IRE)' 'Perfect Alibi' 'Indochine'
- 'Gran Chemin' 'Palace Avenger' 'Mazal Eighteen' ""Ain't None Lucky""
- 'Aye Aye Sir' 'Maxwell Esquire' 'Venerate' 'Americano Girl' 'Water White'
- 'Rejected Again' 'Manage My Credit' 'Legend of Bam' 'Cowtown'
- 'Time Limit' 'Complexifier' 'Roman City' 'Lorenzen' 'Jazzique (IRE)'
- 'Irish Danzing' 'Freewheeler' 'Superbloodwolfmoon' 'Structor'
- 'Always Misbehaving' 'Bahamian Prince' ""Bayern's Mirage""
- 'Boxer Rebellion']"
-8,Javier Castellano,0.0836736364948594,"['Helen by Night' 'Comical' 'Raging Whiskey' 'Kokokomo' 'Blame the Cake'
- 'Fierce Lady' 'Shandian' 'Fly So Pretty' 'Assault Breaker'
- 'Blanket of Roses' 'Kit Kat Katie' 'Figure of Speech' 'Get Smokin'
- 'Brewmeister' 'Dubai Bobby' 'Situation Room' 'Lady Kaza'
- 'Voting Agreement' 'Secondary Market' 'Abscond' 'British Idiom'
- 'Croi Mor' 'Noble Emotion' 'Market Impact' 'Cost Basis'
- 'Quantum Computing' 'Deeply Analytical' 'Theitalianamerican' 'Selflessly'
- 'Andesite' 'Ginseng' 'Kemba' ""King's Honor (IRE)"" 'Get Set' 'Slam Dunk']"
-0,Joel Rosario,0.08362692078695765,"['Big Q' 'Buxom Beast' 'Foreign Exchange' 'Macho Boy' 'Theitalianamerican'
- 'Devils Rendezvous' 'Darken a Day' 'Justintimeforwine' 'Jewel of Arabia'
- 'City Man' 'Mrs. Danvers' 'American Butterfly' ""Jen's Battle""
- 'Mrs. Awesome' 'Kowalski' 'Mo and Go' 'Sister Beauty' 'Frosted Rose'
- 'Feeling It' 'U S Army Corps' 'Amends' 'Pure Wow' 'Bridal Path'
- 'Miss Peppina' 'Kierkegaard' 'Our Little Jewel' 'Famished' 'Long Weekend'
- 'Windfall Profit' 'More Thunder' 'Katama Bay' 'Wicked Title'
- 'Crossing the Moon' ""Ava K's Girl"" 'True Grace' 'Moonshine Now'
- 'Sea of Blue' 'Logic N Reason' 'Crystalle' 'Remain Anonymous'
- 'Mischief Afoot' 'Gear Jockey' 'Alandra' 'Malibu Edge' 'Shoplifted']"
-22,Luis Reyes,0.08362679454468226,"['Imperio D' 'Giggle Factory' ""Shackleford's Joy"" 'Strong Legacy'
- 'This Ill Defend' 'Pharoah Cat' 'Like You' 'Sweet Leaf' 'Wharf Cat'
- 'Brickyard' 'Feeling It']"
-5,"Ricardo Santana, Jr.",0.08353585053529931,"['Ghostghostghost' 'Lotta Ott' 'Ninth of April' 'Finite' ""Mom's Pass""
- 'Basin' 'Shoplifted' 'Smokin Hot Kiss' 'Hallajoori' 'Silver Prospector'
- 'Indian Cross' 'Weekend Fun' 'Magic Dance' 'Leaveuwithasmile'
- 'Tumbling Sky' 'Gozilla' 'Zyramid' 'Memorable' 'Excession' ""Breed's Hill""
- 'Desbordes' 'Solar Fire' 'Bull of Bayern' 'Icecap' 'Wicked Whisper'
- 'Eli Rocks' 'Candygramformongo' 'Aubrey Tate' ""My Father's Eyes""
- 'Pow Wow Prince' 'Wayne O' 'Andiama']"
-2,Jose Ortiz,0.08353428309947325,"['Funfetti' 'Shippy' 'Sweet Melania' 'South Africa' 'Light in the Sky'
- 'January Won' 'Time Limit' 'Turbo Drive' 'Sweet Kisses' 'Meritaten'
- 'Three Technique' 'Mo Ready' 'Are You Kitten Me' ""Brian's Last Song""
- 'Risky Mischief' 'Slam Dunk' 'Justintimeforwine' 'Eternal Summer'
- 'Wayne O' 'Daphne Moon' 'Sparkling Sky' ""Thea's Theme"" 'Brilliant Brooks'
- 'First Deputy' ""She's Into Me"" 'Yukon Eric' 'Kittansett' 'Sprawl'
- 'Morning Gold' 'Mundaye Call' 'Beyond Gone' 'Big Bounty'
- ""Esther's Fortune"" 'Relentless Dancer' 'River Hawk' 'Fort McHenry'
- 'Candy Tycoon' 'Chaysenbryn' 'Melisande' 'Sophie Rules' 'Flute Maker'
- 'Enforceable' 'Scilly Cay' 'Onward' 'Bow Maker' 'Moonachie' 'Hai Bobbi'
- 'Tuggle' 'Surprise Arrival' 'Snaffle' 'Hard Sting' 'Made Sense' 'No Word'
- 'Chimney Rock' 'Always a Queen' 'Maximiliano' 'Basin']"
+24,"Jorge Vargas, Jr.",0.08409772209822125,"['Cleon Jones', 'American Song', 'Leaveuwithasmile']"
+9,John Velazquez,0.0838181475917258,"['Kiss the Girl', 'Apurate', 'Memorable', 'High Tide', 'Mr Everything', 'Myawaya', 'Violent Point', 'Barleewon', 'Beyond Brown', 'Close Shave', 'Soviet', 'Eagerly', 'Magnetique', 'Summer Sangria', 'Good Credence', 'Glory Road', 'Integral', 'Dream Bigger', 'Divided Sky (IRE)', 'Noudha', 'Kimari', 'Mystic Lancelot', 'Now Is', 'Portos', ""O'Trouble"", 'Papa King', 'Nic and Zoe', 'More Glitter', 'Eternal Summer', ""O'Bushido"", 'Gouverneur Morris']"
+15,"Irad Ortiz, Jr.",0.08375188638230026,"['By Your Side', 'Decorated Invader', 'Sign of the Times', 'Bank On Shea', 'Fly Fly Away', 'Kiawah Sunset', 'Queen of Shades', 'Stunning Munnings', 'Aubrey Tate', 'Girlntheyellowtaxi', 'Tulanian', 'Inside Risk', 'Policy Option', 'Sketches of Spain (IRE)', 'Perfect Alibi', 'Indochine', 'Gran Chemin', 'Palace Avenger', 'Mazal Eighteen', ""Ain't None Lucky"", 'Aye Aye Sir', 'Maxwell Esquire', 'Venerate', 'Americano Girl', 'Water White', 'Rejected Again', 'Manage My Credit', 'Legend of Bam', 'Cowtown', 'Time Limit', 'Complexifier', 'Roman City', 'Lorenzen', 'Jazzique (IRE)', 'Irish Danzing', 'Freewheeler', 'Superbloodwolfmoon', 'Structor', 'Always Misbehaving', 'Bahamian Prince', ""Bayern's Mirage"", 'Boxer Rebellion']"
+8,Javier Castellano,0.0836736364948594,"['Helen by Night', 'Comical', 'Raging Whiskey', 'Kokokomo', 'Blame the Cake', 'Fierce Lady', 'Shandian', 'Fly So Pretty', 'Assault Breaker', 'Blanket of Roses', 'Kit Kat Katie', 'Figure of Speech', 'Get Smokin', 'Brewmeister', 'Dubai Bobby', 'Situation Room', 'Lady Kaza', 'Voting Agreement', 'Secondary Market', 'Abscond', 'British Idiom', 'Croi Mor', 'Noble Emotion', 'Market Impact', 'Cost Basis', 'Quantum Computing', 'Deeply Analytical', 'Theitalianamerican', 'Selflessly', 'Andesite', 'Ginseng', 'Kemba', ""King's Honor (IRE)"", 'Get Set', 'Slam Dunk']"
+0,Joel Rosario,0.08362692078695765,"['Big Q', 'Buxom Beast', 'Foreign Exchange', 'Macho Boy', 'Theitalianamerican', 'Devils Rendezvous', 'Darken a Day', 'Justintimeforwine', 'Jewel of Arabia', 'City Man', 'Mrs. Danvers', 'American Butterfly', ""Jen's Battle"", 'Mrs. Awesome', 'Kowalski', 'Mo and Go', 'Sister Beauty', 'Frosted Rose', 'Feeling It', 'U S Army Corps', 'Amends', 'Pure Wow', 'Bridal Path', 'Miss Peppina', 'Kierkegaard', 'Our Little Jewel', 'Famished', 'Long Weekend', 'Windfall Profit', 'More Thunder', 'Katama Bay', 'Wicked Title', 'Crossing the Moon', ""Ava K's Girl"", 'True Grace', 'Moonshine Now', 'Sea of Blue', 'Logic N Reason', 'Crystalle', 'Remain Anonymous', 'Mischief Afoot', 'Gear Jockey', 'Alandra', 'Malibu Edge', 'Shoplifted']"
+22,Luis Reyes,0.08362679454468226,"['Imperio D', 'Giggle Factory', ""Shackleford's Joy"", 'Strong Legacy', 'This Ill Defend', 'Pharoah Cat', 'Like You', 'Sweet Leaf', 'Wharf Cat', 'Brickyard', 'Feeling It']"
+5,"Ricardo Santana, Jr.",0.08353585053529931,"['Ghostghostghost', 'Lotta Ott', 'Ninth of April', 'Finite', ""Mom's Pass"", 'Basin', 'Shoplifted', 'Smokin Hot Kiss', 'Hallajoori', 'Silver Prospector', 'Indian Cross', 'Weekend Fun', 'Magic Dance', 'Leaveuwithasmile', 'Tumbling Sky', 'Gozilla', 'Zyramid', 'Memorable', 'Excession', ""Breed's Hill"", 'Desbordes', 'Solar Fire', 'Bull of Bayern', 'Icecap', 'Wicked Whisper', 'Eli Rocks', 'Candygramformongo', 'Aubrey Tate', ""My Father's Eyes"", 'Pow Wow Prince', 'Wayne O', 'Andiama']"
+2,Jose Ortiz,0.08353428309947325,"['Funfetti', 'Shippy', 'Sweet Melania', 'South Africa', 'Light in the Sky', 'January Won', 'Time Limit', 'Turbo Drive', 'Sweet Kisses', 'Meritaten', 'Three Technique', 'Mo Ready', 'Are You Kitten Me', ""Brian's Last Song"", 'Risky Mischief', 'Slam Dunk', 'Justintimeforwine', 'Eternal Summer', 'Wayne O', 'Daphne Moon', 'Sparkling Sky', ""Thea's Theme"", 'Brilliant Brooks', 'First Deputy', ""She's Into Me"", 'Yukon Eric', 'Kittansett', 'Sprawl', 'Morning Gold', 'Mundaye Call', 'Beyond Gone', 'Big Bounty', ""Esther's Fortune"", 'Relentless Dancer', 'River Hawk', 'Fort McHenry', 'Candy Tycoon', 'Chaysenbryn', 'Melisande', 'Sophie Rules', 'Flute Maker', 'Enforceable', 'Scilly Cay', 'Onward', 'Bow Maker', 'Moonachie', 'Hai Bobbi', 'Tuggle', 'Surprise Arrival', 'Snaffle', 'Hard Sting', 'Made Sense', 'No Word', 'Chimney Rock', 'Always a Queen', 'Maximiliano', 'Basin']"
 20,Johan Rosado,0.08335101385142302,"[""Ain't None Lucky""]"
-6,Manuel Franco,0.08334310783269949,"['Rewarded' 'Zyramid' 'Our Country' 'Days of Spring' 'Listentoyourheart'
- 'Dan the Man Can' 'Diannesimpazible' 'Sharing' 'Excession' 'Sky Kitten'
- 'Another Miracle' 'Wedontbelieveher' 'Leading West' 'Fame to Famous'
- 'Macho Boy' 'Courageous Girl' 'Morality Clause' 'Drop a Hint'
- ""Bayern's Mirage"" 'My Sassy Sarah' 'Osaka Girl' 'La Negrita'
- 'Summer to Remember' 'Irish Front' 'Ox Bridge' 'Velvet Crush'
- 'English Breeze' 'Little Farina' 'Inside Info' ""Brady's Palace""
- 'Imperare' ""Jen's Battle"" 'Tapizearance' 'Double Down Dare'
- ""Dante's Fire"" 'Noble Empire' 'Kowalski' 'Bobbyfromthepalm' 'Day Dayenu']"
-13,Tyler Gaffalione,0.08330922042291973,"['Drop a Hint' 'Cucina' ""Kickin' Kirby"" 'Enforceable' 'Raggedy Annie'
- 'Single Verse' 'Inveterate' 'Sequin' 'Lucky Curlin' 'Polished Copper'
- 'No Bad Days' 'Proven Strategies' 'Playtone' 'Blessingsofliberty'
- 'One Time Around' 'Mr Phil' 'Stuy Town Baby' 'Funnypointofview'
- 'Perpetrate' 'Lord Camden' 'Love of My Heart' 'Bellavia' 'Iberico'
- 'Catherineofaragon' 'Devils Rendezvous' 'Classy Sadie'
- 'Miraculousblessing' 'Kobe' 'Unprecedented' 'In Good Spirits'
- 'Speed Talks' 'Never Heard of Her' 'Justintimeforwine' 'Opportunist'
- 'Tap It to Win' 'Tipazo' 'Laughable' 'Mundaye Call']"
-30,Corey Lanerie,0.08317079787801472,['Social Afleet' 'Stick Figure' 'Noose']
-14,Kendrick Carmouche,0.08298292162709105,"['Mylastfirstkiss' 'Tomato Bill' 'Project Whiskey' 'Miss My Macho'
- 'Mr Thrifty' 'Mazal Eighteen' 'Speed Talks' 'Always Misbehaving'
- 'Mrs. Phelps' 'Wicked Title' 'Saint Marco' 'Canarsie Angel' 'Fishman'
- ""A d'Oro"" 'Geta Lode of Lucky' 'Stone Guitar' 'Glynn County'
- 'Astoria Kitten' ""Barbara's Bank"" 'Hold My Call' 'More Or Less'
- 'Coin the Phrase' 'Myamanoi' 'Mud Pie' 'Montana Man' 'Aleph'
- 'Malibu June' 'Buxom Beast']"
-29,Jaime Rodriguez,0.08293782398568914,['Disco Deano' 'Very Replaceable']
-11,Junior Alvarado,0.0829060750755736,"['Vast' 'Peddlers Pride' 'Mr Jaggers' 'Pearlescent' 'No Salt'
- 'American Song' ""Cat's Pajamas"" 'Crack of Dawn' 'Eagles Palace'
- 'Adriatic Holiday' 'Hemlock' 'No Lime' 'Acre' 'Sul Moon'
- 'Central Capital' 'Magic Motion' 'Height' 'Lucky Dime' 'Critical Value'
- 'Tiz the Law' 'Decorated Invader' 'Ghost of the Mambo' 'Gear Jockey'
- 'Green Light Go' 'Plea' 'Sainte Mere Eglise' 'Talk You Out of It'
- 'Striking Beauty' 'Be Magic' 'Stretchthestory' 'Highland Glory'
- 'Unrelenting Force' 'Tulanian' 'Tapage' 'Impeccable Style' 'Secret Rules']"
-1,Luis Saez,0.08280185284950287,"['Impazible Donna' 'Integral' 'Good Shabbos' 'Field Pass' 'Miss Marissa'
- ""Titan's Will"" 'Sky of Hook' 'Just Fly' 'My Italian Rabbi' ""Larry's Baby""
- 'Blackberry Wine' 'Persian Queen' 'Kobe' 'Complexifier' 'Hard Sting'
- 'Fifty Cents' 'Darken a Day' 'Cairo Express' 'Smite' 'Big Royal Lineage'
- 'Wall Eye' 'Chimney Rock' 'Atoka' 'Foreign Exchange' 'Swanage'
- 'Graphite Dutchess' 'Boston Beauties (IRE)' 'Fame to Famous' 'Ajaaweed'
- 'Option Value' 'Tuggle' 'Montana Man' 'Tetrahydro' 'Art Collector'
- 'Victory Built' 'American Butterfly' 'Shadilee' 'Abilene Trail'
- 'Naked Avenger' 'Mo and Go' 'A Freud of Mama' 'Three Jokers'
- 'Cryptographer' 'Trash Panda' 'Welsh Gold' 'Box of Rain' 'Sixth Street'
- 'Scanno' 'Stick Figure' 'Necker Island' 'Florida Flash'
- 'Our Little Jewel' ""Cleopatra's Charm"" 'Shippy' 'Clifton Park']"
-4,Jose Lezcano,0.08274925605567,"['Keypit' 'His Glory' 'Irked' 'Cardiac Kid' 'Double Down Dare'
- 'Power Up Paynter' 'Cold Hard Cash' 'Sonneman' 'Astarte Gold'
- 'Gloriously' 'Blues City' 'Imincomunicado' 'Extreme Force' 'Big Q'
- 'Go Rudy Go' 'My Sacred Place' 'Hostile Witness' 'Micheline'
- 'Kiss and Run' 'Surprise Arrival' 'Buy Land and See' 'Montauk Daddy'
- 'Adorable Maya' 'Lord Byron' 'Tadeo']"
-12,Julien Leparoux,0.0827353626508729,"['Bird Tycoon' 'Beyond Gone' 'Driftwood' ""Frank's Rockette"" 'Cardiac Kid'
- 'Peruvian Boy' 'Blame the Cake']"
+6,Manuel Franco,0.08334310783269949,"['Rewarded', 'Zyramid', 'Our Country', 'Days of Spring', 'Listentoyourheart', 'Dan the Man Can', 'Diannesimpazible', 'Sharing', 'Excession', 'Sky Kitten', 'Another Miracle', 'Wedontbelieveher', 'Leading West', 'Fame to Famous', 'Macho Boy', 'Courageous Girl', 'Morality Clause', 'Drop a Hint', ""Bayern's Mirage"", 'My Sassy Sarah', 'Osaka Girl', 'La Negrita', 'Summer to Remember', 'Irish Front', 'Ox Bridge', 'Velvet Crush', 'English Breeze', 'Little Farina', 'Inside Info', ""Brady's Palace"", 'Imperare', ""Jen's Battle"", 'Tapizearance', 'Double Down Dare', ""Dante's Fire"", 'Noble Empire', 'Kowalski', 'Bobbyfromthepalm', 'Day Dayenu']"
+13,Tyler Gaffalione,0.08330922042291973,"['Drop a Hint', 'Cucina', ""Kickin' Kirby"", 'Enforceable', 'Raggedy Annie', 'Single Verse', 'Inveterate', 'Sequin', 'Lucky Curlin', 'Polished Copper', 'No Bad Days', 'Proven Strategies', 'Playtone', 'Blessingsofliberty', 'One Time Around', 'Mr Phil', 'Stuy Town Baby', 'Funnypointofview', 'Perpetrate', 'Lord Camden', 'Love of My Heart', 'Bellavia', 'Iberico', 'Catherineofaragon', 'Devils Rendezvous', 'Classy Sadie', 'Miraculousblessing', 'Kobe', 'Unprecedented', 'In Good Spirits', 'Speed Talks', 'Never Heard of Her', 'Justintimeforwine', 'Opportunist', 'Tap It to Win', 'Tipazo', 'Laughable', 'Mundaye Call']"
+30,Corey Lanerie,0.08317079787801472,"['Social Afleet', 'Stick Figure', 'Noose']"
+14,Kendrick Carmouche,0.08298292162709105,"['Mylastfirstkiss', 'Tomato Bill', 'Project Whiskey', 'Miss My Macho', 'Mr Thrifty', 'Mazal Eighteen', 'Speed Talks', 'Always Misbehaving', 'Mrs. Phelps', 'Wicked Title', 'Saint Marco', 'Canarsie Angel', 'Fishman', ""A d'Oro"", 'Geta Lode of Lucky', 'Stone Guitar', 'Glynn County', 'Astoria Kitten', ""Barbara's Bank"", 'Hold My Call', 'More Or Less', 'Coin the Phrase', 'Myamanoi', 'Mud Pie', 'Montana Man', 'Aleph', 'Malibu June', 'Buxom Beast']"
+29,Jaime Rodriguez,0.08293782398568914,"['Disco Deano', 'Very Replaceable']"
+11,Junior Alvarado,0.0829060750755736,"['Vast', 'Peddlers Pride', 'Mr Jaggers', 'Pearlescent', 'No Salt', 'American Song', ""Cat's Pajamas"", 'Crack of Dawn', 'Eagles Palace', 'Adriatic Holiday', 'Hemlock', 'No Lime', 'Acre', 'Sul Moon', 'Central Capital', 'Magic Motion', 'Height', 'Lucky Dime', 'Critical Value', 'Tiz the Law', 'Decorated Invader', 'Ghost of the Mambo', 'Gear Jockey', 'Green Light Go', 'Plea', 'Sainte Mere Eglise', 'Talk You Out of It', 'Striking Beauty', 'Be Magic', 'Stretchthestory', 'Highland Glory', 'Unrelenting Force', 'Tulanian', 'Tapage', 'Impeccable Style', 'Secret Rules']"
+1,Luis Saez,0.08280185284950287,"['Impazible Donna', 'Integral', 'Good Shabbos', 'Field Pass', 'Miss Marissa', ""Titan's Will"", 'Sky of Hook', 'Just Fly', 'My Italian Rabbi', ""Larry's Baby"", 'Blackberry Wine', 'Persian Queen', 'Kobe', 'Complexifier', 'Hard Sting', 'Fifty Cents', 'Darken a Day', 'Cairo Express', 'Smite', 'Big Royal Lineage', 'Wall Eye', 'Chimney Rock', 'Atoka', 'Foreign Exchange', 'Swanage', 'Graphite Dutchess', 'Boston Beauties (IRE)', 'Fame to Famous', 'Ajaaweed', 'Option Value', 'Tuggle', 'Montana Man', 'Tetrahydro', 'Art Collector', 'Victory Built', 'American Butterfly', 'Shadilee', 'Abilene Trail', 'Naked Avenger', 'Mo and Go', 'A Freud of Mama', 'Three Jokers', 'Cryptographer', 'Trash Panda', 'Welsh Gold', 'Box of Rain', 'Sixth Street', 'Scanno', 'Stick Figure', 'Necker Island', 'Florida Flash', 'Our Little Jewel', ""Cleopatra's Charm"", 'Shippy', 'Clifton Park']"
+4,Jose Lezcano,0.08274925605567,"['Keypit', 'His Glory', 'Irked', 'Cardiac Kid', 'Double Down Dare', 'Power Up Paynter', 'Cold Hard Cash', 'Sonneman', 'Astarte Gold', 'Gloriously', 'Blues City', 'Imincomunicado', 'Extreme Force', 'Big Q', 'Go Rudy Go', 'My Sacred Place', 'Hostile Witness', 'Micheline', 'Kiss and Run', 'Surprise Arrival', 'Buy Land and See', 'Montauk Daddy', 'Adorable Maya', 'Lord Byron', 'Tadeo']"
+12,Julien Leparoux,0.0827353626508729,"['Bird Tycoon', 'Beyond Gone', 'Driftwood', ""Frank's Rockette"", 'Cardiac Kid', 'Peruvian Boy', 'Blame the Cake']"
 27,Flavien Prat,0.08264302103994088,['Shamrocket']
-16,Chris Landeros,0.08263476943151493,"['Hometown Pride' 'Kobe' 'Tapizearance' 'Ill Will' 'Yankee Empire'
- 'Mitzrayim' 'Bye Bye Melvin' 'Tokyo Bay' 'Lido Legacy' 'Crystalle'
- 'Mylastfirstkiss' 'Leeway' 'Feisty Bird' 'Make Or Break' 'Bird Tycoon'
- 'Unicorn Sally' 'Tequila Fog']"
-25,Paco Lopez,0.08253870491876865,['Bahamian Prince' 'Saratoga Beauty']
-3,Dylan Davis,0.0824415739309624,"['Love Me Tomorrow' 'Lady Fatima' 'Pure Wow' 'Vaya Con Dios' 'Cloudbased'
- 'Morning Gold' 'Mission Wrapitup' 'Jamflowman' 'Federale'
- 'Crossing the Moon' 'Stanhope' 'Barker Lane' 'Positive Power'
- 'Livin At the Beach' 'Star Command' 'City Guy' 'Revelment' 'Miss Marissa'
- 'Turbo Drive' 'Bovary' 'Wicked Spirit' 'Zuzudini' 'Yellen' 'Bingolina'
- 'Kefaliani' 'Kansas Kis' 'Shamrocket' 'Las Ramblas' 'Inside Risk']"
-7,Eric Cancel,0.08237329159635023,"['Time Shift' 'Classy Sadie' 'Dangerous Edge' 'Perfect Banker'
- 'Prince of Caps' 'Nikki My Angel' 'Beyond Brown' 'Stop Shoppin Tammy'
- 'Crack of Dawn' 'Chowda' 'Swirling Candy' 'Ama Is a Rock'
- 'Smokin Hot Kiss' 'Bongga' 'Nashvegas']"
+16,Chris Landeros,0.08263476943151493,"['Hometown Pride', 'Kobe', 'Tapizearance', 'Ill Will', 'Yankee Empire', 'Mitzrayim', 'Bye Bye Melvin', 'Tokyo Bay', 'Lido Legacy', 'Crystalle', 'Mylastfirstkiss', 'Leeway', 'Feisty Bird', 'Make Or Break', 'Bird Tycoon', 'Unicorn Sally', 'Tequila Fog']"
+25,Paco Lopez,0.08253870491876865,"['Bahamian Prince', 'Saratoga Beauty']"
+3,Dylan Davis,0.0824415739309624,"['Love Me Tomorrow', 'Lady Fatima', 'Pure Wow', 'Vaya Con Dios', 'Cloudbased', 'Morning Gold', 'Mission Wrapitup', 'Jamflowman', 'Federale', 'Crossing the Moon', 'Stanhope', 'Barker Lane', 'Positive Power', 'Livin At the Beach', 'Star Command', 'City Guy', 'Revelment', 'Miss Marissa', 'Turbo Drive', 'Bovary', 'Wicked Spirit', 'Zuzudini', 'Yellen', 'Bingolina', 'Kefaliani', 'Kansas Kis', 'Shamrocket', 'Las Ramblas', 'Inside Risk']"
+7,Eric Cancel,0.08237329159635023,"['Time Shift', 'Classy Sadie', 'Dangerous Edge', 'Perfect Banker', 'Prince of Caps', 'Nikki My Angel', 'Beyond Brown', 'Stop Shoppin Tammy', 'Crack of Dawn', 'Chowda', 'Swirling Candy', 'Ama Is a Rock', 'Smokin Hot Kiss', 'Bongga', 'Nashvegas']"
 37,Abner Adorno,0.08231887426518299,['Lively Kitten']
 35,"Brian Hernandez, Jr.",0.08225275788658797,['Fighting Seabee']
-31,Joe Bravo,0.08221444012290904,['Slip Sliding Away' 'Dustinthewind' 'Ninth of April' 'Austrian']
-18,Joey Martinez,0.0820350402324167,"['Our Destiny' ""Gabi's Tuff"" 'Lil Morning Star' 'Ninth of April'
- 'King of American' 'Mebs Web' 'Sir Ludlow' 'Alex Love Candy'
- 'Forever Wicked']"
+31,Joe Bravo,0.08221444012290904,"['Slip Sliding Away', 'Dustinthewind', 'Ninth of April', 'Austrian']"
+18,Joey Martinez,0.0820350402324167,"['Our Destiny', ""Gabi's Tuff"", 'Lil Morning Star', 'Ninth of April', 'King of American', 'Mebs Web', 'Sir Ludlow', 'Alex Love Candy', 'Forever Wicked']"
 36,Andre Worrie,0.08200418221329288,['Top Hat Invasion']
 26,Jevian Toledo,0.08195622047713422,['Determined Force']
-23,Heman Harkie,0.08173701993631188,"['Dustinthewind' 'Wicked Amber' 'E Z for You to Say' 'Alex Love Candy'
- 'Barker Lane']"
+23,Heman Harkie,0.08173701993631188,"['Dustinthewind', 'Wicked Amber', 'E Z for You to Say', 'Alex Love Candy', 'Barker Lane']"
 10,Mychel Sanchez,0.0816982339565093,"[""Lula's Roadrunner""]"
-17,Rajiv Maragh,0.08168404266266278,"['Pharoah Cat' 'Lucky Jingle' ""He's Super Lucky"" 'More Than Silver'
- 'Irish Mias' 'Miss My Macho' 'Forever Wicked' 'Good Scout' 'Hard Won'
- 'King of American' 'Managing Risk' ""Shackleford's Joy"" 'Raggedy Annie'
- 'Mirabell Mei']"
-21,Benjamin Hernandez,0.08112378803871029,"[""Apollo's Abraxas"" 'Sir Ludlow' 'Kampai']"
-33,Jose Gallego,0.0801466734136354,['African Heritage' 'Blossom Bow' 'Bychance' 'Lovedisc']
+17,Rajiv Maragh,0.08168404266266278,"['Pharoah Cat', 'Lucky Jingle', ""He's Super Lucky"", 'More Than Silver', 'Irish Mias', 'Miss My Macho', 'Forever Wicked', 'Good Scout', 'Hard Won', 'King of American', 'Managing Risk', ""Shackleford's Joy"", 'Raggedy Annie', 'Mirabell Mei']"
+21,Benjamin Hernandez,0.08112378803871029,"[""Apollo's Abraxas"", 'Sir Ludlow', 'Kampai']"
+33,Jose Gallego,0.0801466734136354,"['African Heritage', 'Blossom Bow', 'Bychance', 'Lovedisc']"
 19,Weston Hamilton,0.07966857871255577,['Torres Del Paine']
-34,Michael Luzzi,0.07928188975498013,['Let It Slide' 'Bellamy Bigs']
-28,Samuel Jimenez,0.07909346919181723,['Bella Invasion' 'Cherokee Song']
+34,Michael Luzzi,0.07928188975498013,"['Let It Slide', 'Bellamy Bigs']"
+28,Samuel Jimenez,0.07909346919181723,"['Bella Invasion', 'Cherokee Song']"

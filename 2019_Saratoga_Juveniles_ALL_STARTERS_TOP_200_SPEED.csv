@@ -50,7 +50,7 @@
 456,Swirling Candy,0.08633951838246837,George Weaver,Twirling Candy,['Eric Cancel']
 414,Ava K's Girl,0.08624745177983377,Michelle Nevin,Giant's Causeway,['Joel Rosario']
 430,Tap It to Win,0.08620689655172414,Mark Casse,Tapit,['Tyler Gaffalione']
-91,Classy Sadie,0.08620321089118878,Gary Contessa,Emcee,['Eric Cancel' 'Tyler Gaffalione']
+91,Classy Sadie,0.08620321089118878,Gary Contessa,Emcee,"['Eric Cancel', 'Tyler Gaffalione']"
 210,Saint Marco,0.08619743915244409,Niall Saville,Tonalist,['Kendrick Carmouche']
 457,Nic and Zoe,0.08613264427217916,Wesley Ward,Street Boss,['John Velazquez']
 439,Roman City,0.0861070232019288,Robertino Diodoro,City Zip,"['Irad Ortiz, Jr.']"
@@ -63,8 +63,8 @@
 55,Bank On Shea,0.0859106529209622,Jason Servis,Central Banker,"['Irad Ortiz, Jr.']"
 316,Green Light Go,0.08588794926004227,James Jerkens,Hard Spun,['Junior Alvarado']
 299,Tumbling Sky,0.0858860578299456,Steven Asmussen,Competitive Edge,"['Ricardo Santana, Jr.']"
-288,Leaveuwithasmile,0.08578503529634326,Jeremiah Englehart,Conveyance,"['Ricardo Santana, Jr.' 'Jorge Vargas, Jr.']"
-29,Memorable,0.08578432073278881,Steven Asmussen,Uncle Mo,"['John Velazquez' 'Ricardo Santana, Jr.']"
+288,Leaveuwithasmile,0.08578503529634326,Jeremiah Englehart,Conveyance,"['Ricardo Santana, Jr.', 'Jorge Vargas, Jr.']"
+29,Memorable,0.08578432073278881,Steven Asmussen,Uncle Mo,"['John Velazquez', 'Ricardo Santana, Jr.']"
 415,Stretchthestory,0.08578335802854246,Christophe Clement,Lookin at Lucky,['Junior Alvarado']
 143,Persian Queen,0.08578166096367493,Carlos Martin,Union Rags,['Luis Saez']
 140,Hemlock,0.08576195599632003,William Mott,Into Mischief,['Junior Alvarado']
@@ -76,13 +76,13 @@
 300,Bellavia,0.08565065951007823,Jena Antonucci,Honor Code,['Tyler Gaffalione']
 416,Unicorn Sally,0.08562843486789869,John Kimmel,Point of Entry,['Chris Landeros']
 104,Mrs. Danvers,0.08562786438220413,Claude McGaughey III,Tapit,['Joel Rosario']
-37,Pharoah Cat,0.08561058171652222,D. Lukas,American Pharoah,['Rajiv Maragh' 'Luis Reyes']
+37,Pharoah Cat,0.08561058171652222,D. Lukas,American Pharoah,"['Rajiv Maragh', 'Luis Reyes']"
 514,Gouverneur Morris,0.08554985223207341,Todd Pletcher,Constitution,['John Velazquez']
 431,O'Trouble,0.08554563859819213,Anthony Dutrow,In Trouble,['John Velazquez']
 441,Yellen,0.0855431993156544,Wesley Ward,Fed Biz,['Dylan Davis']
 103,Finite,0.0855191152392917,Steven Asmussen,Munnings,"['Ricardo Santana, Jr.']"
 82,January Won,0.08547008547008547,Kenneth McPeek,New Year's Day,['Jose Ortiz']
-215,Bahamian Prince,0.08541775989428928,George Weaver,Bahamian Squall,"['Paco Lopez' 'Irad Ortiz, Jr.']"
+215,Bahamian Prince,0.08541775989428928,George Weaver,Bahamian Squall,"['Paco Lopez', 'Irad Ortiz, Jr.']"
 420,Three Jokers,0.08541699021587203,John Terranova II,Twirling Candy,['Luis Saez']
 417,A Freud of Mama,0.08537323626655076,Michael Maker,Freud,['Luis Saez']
 309,Ox Bridge,0.08537157980108422,Todd Pletcher,Oxbow,['Manuel Franco']
@@ -94,24 +94,24 @@
 105,Kiawah Sunset,0.08518492226875843,Wesley Ward,Uncle Mo,"['Irad Ortiz, Jr.']"
 423,True Grace,0.08518068650415378,Christophe Clement,Competitive Edge,['Joel Rosario']
 111,Sharing,0.08517527437428665,H. Motion,Speightstown,['Manuel Franco']
-158,Complexifier,0.08513590949396627,Brian Lynch,Overanalyze,"['Luis Saez' 'Irad Ortiz, Jr.']"
+158,Complexifier,0.08513590949396627,Brian Lynch,Overanalyze,"['Luis Saez', 'Irad Ortiz, Jr.']"
 418,Deeply Analytical,0.08511955428306121,Chad Brown,Majestic City,['Javier Castellano']
 32,Peddlers Pride,0.0851063829787234,William Mott,Liam's Map,['Junior Alvarado']
-290,Our Little Jewel,0.08509463055153688,Michael Trombetta,Hat Trick (JPN),['Joel Rosario' 'Luis Saez']
+290,Our Little Jewel,0.08509463055153688,Michael Trombetta,Hat Trick (JPN),"['Joel Rosario', 'Luis Saez']"
 120,Three Technique,0.0850846894601787,Jeremiah Englehart,Mr Speaker,['Jose Ortiz']
 169,Proven Strategies,0.08505837671834571,Mark Casse,Sky Mesa,['Tyler Gaffalione']
 461,Irish Danzing,0.08504606661941885,Christophe Clement,Danza,"['Irad Ortiz, Jr.']"
 89,Fierce Lady,0.08502025052376751,Dermot Magner,Competitive Edge,['Javier Castellano']
-30,Zyramid,0.08501460540622571,Steven Asmussen,City Zip,"['Manuel Franco' 'Ricardo Santana, Jr.']"
+30,Zyramid,0.08501460540622571,Steven Asmussen,City Zip,"['Manuel Franco', 'Ricardo Santana, Jr.']"
 302,Irish Front,0.0849942628872551,Todd Pletcher,Summer Front,['Manuel Franco']
 106,Inveterate,0.0849521436257575,Dermot Magner,Palace Malice,['Tyler Gaffalione']
 303,Ajaaweed,0.08494853534566975,Kiaran McLaughlin,Curlin,['Luis Saez']
 476,Remain Anonymous,0.08494208494208494,Michael Trombetta,Tapiture,['Joel Rosario']
-119,Basin,0.08492463326177002,Steven Asmussen,Liam's Map,"['Ricardo Santana, Jr.' 'Jose Ortiz']"
+119,Basin,0.08492463326177002,Steven Asmussen,Liam's Map,"['Ricardo Santana, Jr.', 'Jose Ortiz']"
 217,Big Royal Lineage,0.08491027777290672,Rudy Rodriguez,Bodemeister,['Luis Saez']
 26,Tomato Bill,0.0848836386786447,Christophe Clement,More Than Ready,['Kendrick Carmouche']
-118,Crack of Dawn,0.08487151344093037,Philip Serpe,Bernardini,['Junior Alvarado' 'Eric Cancel']
-71,Double Down Dare,0.08486259172589951,Steve Klesaris,Cross Traffic,['Jose Lezcano' 'Manuel Franco']
+118,Crack of Dawn,0.08487151344093037,Philip Serpe,Bernardini,"['Junior Alvarado', 'Eric Cancel']"
+71,Double Down Dare,0.08486259172589951,Steve Klesaris,Cross Traffic,"['Jose Lezcano', 'Manuel Franco']"
 421,Scilly Cay,0.0848555912120464,Linda Rice,Fed Biz,['Jose Ortiz']
 77,Single Verse,0.08478997863815826,Bruce Brown,Mineshaft,['Tyler Gaffalione']
 93,City Man,0.08477635559041566,Christophe Clement,Mucho Macho Man,['Joel Rosario']
@@ -119,8 +119,8 @@
 310,Sprawl,0.0847685113236603,William Mott,City Zip,['Jose Ortiz']
 20,Lotta Ott,0.08475622463928947,Steven Asmussen,Tapiture,"['Ricardo Santana, Jr.']"
 84,Dan the Man Can,0.08472928555547099,Edward Barker,Can the Man,['Manuel Franco']
-83,Beyond Gone,0.08472580153442541,Kenneth McPeek,Can the Man,['Julien Leparoux' 'Jose Ortiz']
-235,Chimney Rock,0.08472112300079544,Michael Maker,Artie Schiller,['Luis Saez' 'Jose Ortiz']
+83,Beyond Gone,0.08472580153442541,Kenneth McPeek,Can the Man,"['Julien Leparoux', 'Jose Ortiz']"
+235,Chimney Rock,0.08472112300079544,Michael Maker,Artie Schiller,"['Luis Saez', 'Jose Ortiz']"
 33,High Tide,0.08470269354565477,Todd Pletcher,Malibu Moon,['John Velazquez']
 422,Hold My Call,0.08470269354565477,"Robert Falcone, Jr.",Hold Me Back,['Kendrick Carmouche']
 145,Stunning Munnings,0.08469878033756313,Wesley Ward,Munnings,"['Irad Ortiz, Jr.']"
@@ -141,7 +141,7 @@
 58,South Africa,0.08443612023703521,Michelle Nevin,Will Take Charge,['Jose Ortiz']
 141,Blackberry Wine,0.08440631666180691,Joe Sharp,Oxbow,['Luis Saez']
 474,My Father's Eyes,0.0844037260408514,Steven Asmussen,Forty Tales,"['Ricardo Santana, Jr.']"
-156,Shoplifted,0.08439215229140354,Steven Asmussen,Into Mischief,"['Ricardo Santana, Jr.' 'Joel Rosario']"
+156,Shoplifted,0.08439215229140354,Steven Asmussen,Into Mischief,"['Ricardo Santana, Jr.', 'Joel Rosario']"
 331,Secondary Market,0.0843217718814998,Chad Brown,Into Mischief,['Javier Castellano']
 432,Onward,0.08429807800382151,Christophe Clement,Street Sense,['Jose Ortiz']
 224,Canarsie Angel,0.08428948244828802,Linda Dixon,Big Brown,['Kendrick Carmouche']
@@ -149,30 +149,30 @@
 478,Kansas Kis,0.08428214597667683,Raymond Handal,Constitution,['Dylan Davis']
 493,No Word,0.08426687816000793,Todd Pletcher,Silent Name (JPN),['Jose Ortiz']
 107,Cat's Pajamas,0.08426256214363957,William Mott,Street Sense,['Junior Alvarado']
-56,Blame the Cake,0.08425761392321691,Ian Wilkes,Blame,['Javier Castellano' 'Julien Leparoux']
+56,Blame the Cake,0.08425761392321691,Ian Wilkes,Blame,"['Javier Castellano', 'Julien Leparoux']"
 319,Peruvian Boy,0.08425582661447126,"Ignacio Correas, IV",Tapiture,['Julien Leparoux']
 433,Icecap,0.08425309630128908,Steven Asmussen,Carpe Diem,"['Ricardo Santana, Jr.']"
 162,Acre,0.0842507068525334,William Mott,Blame,['Junior Alvarado']
-157,Kowalski,0.08422523790579958,D. Lukas,Will Take Charge,['Joel Rosario' 'Manuel Franco']
+157,Kowalski,0.08422523790579958,D. Lukas,Will Take Charge,"['Joel Rosario', 'Manuel Franco']"
 214,Blues City,0.08422019753464512,Linda Rice,Frost Giant,['Jose Lezcano']
-146,Speed Talks,0.08421620859628892,Gary Contessa,Afleet Express,['Kendrick Carmouche' 'Tyler Gaffalione']
+146,Speed Talks,0.08421620859628892,Gary Contessa,Afleet Express,"['Kendrick Carmouche', 'Tyler Gaffalione']"
 311,Prince of Caps,0.08417390328418511,Michelle Nevin,Awesome Again,['Eric Cancel']
 337,More Thunder,0.08415645288265047,Steve Klesaris,Goldencents,['Joel Rosario']
 436,Highland Glory,0.08415029242226617,Barclay Tagg,Sky Mesa,['Junior Alvarado']
-69,Ain't None Lucky,0.08412813686613632,Lacey Gaudet,Candy Ride (ARG),"['Johan Rosado' 'Irad Ortiz, Jr.']"
+69,Ain't None Lucky,0.08412813686613632,Lacey Gaudet,Candy Ride (ARG),"['Johan Rosado', 'Irad Ortiz, Jr.']"
 293,La Negrita,0.0841187981187426,Rudy Rodriguez,Fed Biz,['Manuel Franco']
 96,Imperio D,0.08409785932721711,Rudy Rodriguez,Frost Giant,['Luis Reyes']
-160,Always Misbehaving,0.08405712330394347,Danny Gargan,Into Mischief,"['Kendrick Carmouche' 'Irad Ortiz, Jr.']"
+160,Always Misbehaving,0.08405712330394347,Danny Gargan,Into Mischief,"['Kendrick Carmouche', 'Irad Ortiz, Jr.']"
 3,Love Me Tomorrow,0.0840537059423459,Wesley Ward,Mineshaft,['Dylan Davis']
 35,Vaya Con Dios,0.08403113115067996,Eric Guillot,Majesticperfection,['Dylan Davis']
 509,Alandra,0.08399328053755699,Claude McGaughey III,Blame,['Joel Rosario']
 434,Moonshine Now,0.08398068444257821,Christophe Clement,Malibu Moon,['Joel Rosario']
 383,Quantum Computing,0.08397074764500222,Chad Brown,Competitive Edge,['Javier Castellano']
 190,Girlntheyellowtaxi,0.08396946564885496,Wesley Ward,Elusive Quality,"['Irad Ortiz, Jr.']"
-338,Montana Man,0.08396816851474825,Dale Romans,Constitution,['Luis Saez' 'Kendrick Carmouche']
-219,Feeling It,0.08395021194850619,D. Lukas,Majesticperfection,['Joel Rosario' 'Luis Reyes']
+338,Montana Man,0.08396816851474825,Dale Romans,Constitution,"['Luis Saez', 'Kendrick Carmouche']"
+219,Feeling It,0.08395021194850619,D. Lukas,Majesticperfection,"['Joel Rosario', 'Luis Reyes']"
 175,Cleon Jones,0.08394626734199515,Jeremiah Englehart,Tale of the Cat,"['Jorge Vargas, Jr.']"
-249,Crystalle,0.08393825587118481,John Kimmel,Palace Malice,['Chris Landeros' 'Joel Rosario']
+249,Crystalle,0.08393825587118481,John Kimmel,Palace Malice,"['Chris Landeros', 'Joel Rosario']"
 283,Stone Guitar,0.08391932750322792,Gary Contessa,Bustin Stones,['Kendrick Carmouche']
 25,By Your Side,0.08390806313526906,Eddie Kenneally,Constitution,"['Irad Ortiz, Jr.']"
 86,Jamflowman,0.08390285574810838,John Terranova II,Awesome of Course,['Dylan Davis']
@@ -182,20 +182,20 @@
 161,Leading West,0.08386362742488065,Joe Sharp,Distorted Humor,['Manuel Franco']
 332,Noudha,0.08386213065719958,Todd Pletcher,American Pharoah,['John Velazquez']
 34,Hometown Pride,0.08384732744460431,Ian Wilkes,To Honor and Serve,['Chris Landeros']
-205,Tulanian,0.08384025137661341,Thomas Amoss,Twirling Candy,"['Irad Ortiz, Jr.' 'Junior Alvarado']"
+205,Tulanian,0.08384025137661341,Thomas Amoss,Twirling Candy,"['Irad Ortiz, Jr.', 'Junior Alvarado']"
 498,Aleph,0.08376612497905846,Gary Contessa,Alpha,['Kendrick Carmouche']
 515,Maximiliano,0.0837342427379575,Wesley Ward,Quality Road,['Jose Ortiz']
 387,Water White,0.08373159515129655,Rudy Rodriguez,Conveyance,"['Irad Ortiz, Jr.']"
 9,Comical,0.08372871895060006,Doug O'Neill,Into Mischief,['Javier Castellano']
 250,Sketches of Spain (IRE),0.08372322088155626,Chad Brown,Lope de Vega (IRE),"['Irad Ortiz, Jr.']"
-117,Miss My Macho,0.08371581067278626,Katherine Ritvo,Mucho Macho Man,['Kendrick Carmouche' 'Rajiv Maragh']
+117,Miss My Macho,0.08371581067278626,Katherine Ritvo,Mucho Macho Man,"['Kendrick Carmouche', 'Rajiv Maragh']"
 163,Sonneman,0.08369614285950504,Mark Hennig,Curlin,['Jose Lezcano']
-101,Tapizearance,0.08368996794686374,Gary Contessa,Tapizar,['Chris Landeros' 'Manuel Franco']
+101,Tapizearance,0.08368996794686374,Gary Contessa,Tapizar,"['Chris Landeros', 'Manuel Franco']"
 10,Kiss the Girl,0.08368317549756622,Todd Pletcher,Into Mischief,['John Velazquez']
 371,Market Impact,0.08367200573750896,Chad Brown,Carpe Diem,['Javier Castellano']
 388,Striking Beauty,0.08364862430185571,James Jerkens,Curlin,['Junior Alvarado']
 322,Micheline,0.08364577490429939,Michael Stidham,Bernardini,['Jose Lezcano']
 323,Slip Sliding Away,0.08364577490429939,James Toner,American Pharoah,['Joe Bravo']
 176,Stanhope,0.08361087498780675,Claude McGaughey III,Street Sense,['Dylan Davis']
-19,Pure Wow,0.08360496163229472,John Terranova II,The Factor,['Dylan Davis' 'Joel Rosario']
+19,Pure Wow,0.08360496163229472,John Terranova II,The Factor,"['Dylan Davis', 'Joel Rosario']"
 442,Bow Maker,0.08360187268194808,Linda Rice,Oxbow,['Jose Ortiz']

@@ -22,6 +22,8 @@ for jockey in jockeyList:
 
 # Referred to https://www.doubledtrailers.com/length-in-horse-racing/ to make sense of the units for average speed
 jockeysDf = pd.DataFrame({"JOCKEY": jockeyList, "AVERAGE_SPEED_furlongs_a_second": averageSpeedList, "HORSES": horsesList})
+# Referred to https://github.com/huggingface/datasets/issues/6778 for getting correct list format in CSV for jockeys
+jockeysDf["HORSES"] = jockeysDf["HORSES"].apply(lambda arr: list(arr))
 jockeysDf.to_csv("all_jockey_data.csv")
 
 # Initially referred to https://stackoverflow.com/questions/34138634/pandas-groupby-how-to-get-top-n-values-based-on-a-column for grabbing the top 10 sires based on their average horse speeds (using nlargest)
