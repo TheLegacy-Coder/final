@@ -1,6 +1,6 @@
 import pandas as pd
 
-read2019SaratogaJuv = pd.read_csv("2019_Saratoga_Juveniles_ALL_STARTERS.csv")
+read2019SaratogaJuv = pd.read_csv("data/2019_Saratoga_Juveniles_ALL_STARTERS.csv")
 print(read2019SaratogaJuv)
 
 read2019SaratogaJuv["RACE_ID"] = 0
@@ -26,7 +26,7 @@ for i in range(len(read2019SaratogaJuv)):
     read2019SaratogaJuv.loc[i, "RACE_ID"] = raceID
     print(read2019SaratogaJuv.iloc[i])
 
-read2019SaratogaJuv.to_csv("updated_2019_Saratoga_Juveniles_ALL_STARTERS.csv")
+read2019SaratogaJuv.to_csv("data/updated_2019_Saratoga_Juveniles_ALL_STARTERS.csv")
 
 listOfSires = read2019SaratogaJuv["SIRE"].unique()
 
@@ -60,4 +60,4 @@ print(averageSpeedsForSireDf)
 # Then, used it just for sorting
 averagedSpeedForSireSorted = averageSpeedsForSireDf.nlargest(len(listOfSires), "AVERAGE_SPEED_furlongs_a_second")
 
-averagedSpeedForSireSorted.to_csv("2019_Saratoga_Juveniles_ALL_STARTERS_SPEED_FOR_SIRE.csv")
+averagedSpeedForSireSorted.to_csv("data/2019_Saratoga_Juveniles_ALL_STARTERS_SPEED_FOR_SIRE.csv")

@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-read2019SaratogaJuv = pd.read_csv("2019_Saratoga_Juveniles_ALL_STARTERS.csv")
+read2019SaratogaJuv = pd.read_csv("data/2019_Saratoga_Juveniles_ALL_STARTERS.csv")
 print(read2019SaratogaJuv)
 
 # Referred to https://www.statology.org/pandas-plot-value-counts/ for calling .plot() on value_counts()

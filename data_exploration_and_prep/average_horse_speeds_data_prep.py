@@ -1,6 +1,6 @@
 import pandas as pd
 
-read2019SaratogaJuv = pd.read_csv("2019_Saratoga_Juveniles_ALL_STARTERS.csv")
+read2019SaratogaJuv = pd.read_csv("data/2019_Saratoga_Juveniles_ALL_STARTERS.csv")
 print(read2019SaratogaJuv)
 
 read2019SaratogaJuv["RACE_ID"] = 0
@@ -26,7 +26,7 @@ for i in range(len(read2019SaratogaJuv)):
     read2019SaratogaJuv.loc[i, "RACE_ID"] = raceID
     print(read2019SaratogaJuv.iloc[i])
 
-read2019SaratogaJuv.to_csv("updated_2019_Saratoga_Juveniles_ALL_STARTERS.csv")
+read2019SaratogaJuv.to_csv("data/updated_2019_Saratoga_Juveniles_ALL_STARTERS.csv")
 
 listOfHorses = read2019SaratogaJuv["STARTER NAME"].unique()
 
@@ -61,9 +61,9 @@ averageSpeedsDf = pd.DataFrame({"STARTER_NAME": listOfHorses, "AVERAGE_SPEED_fur
 print(averageSpeedsDf)
 # Referred to https://github.com/huggingface/datasets/issues/6778 for getting correct list format in CSV for jockeys
 averageSpeedsDf["JOCKEYS"] = averageSpeedsDf["JOCKEYS"].apply(lambda arr: list(arr))
-averageSpeedsDf.to_csv("average_speeds.csv")
+averageSpeedsDf.to_csv("data/average_speeds.csv")
 
 # Referred to https://stackoverflow.com/questions/34138634/pandas-groupby-how-to-get-top-n-values-based-on-a-column for grabbing the top 200 horses by speed (using nlargest)
 averagedSpeedTop200 = averageSpeedsDf.nlargest(200, "AVERAGE_SPEED_furlongs_a_second")
 
-averagedSpeedTop200.to_csv("2019_Saratoga_Juveniles_ALL_STARTERS_TOP_200_SPEED.csv")
+averagedSpeedTop200.to_csv("data/2019_Saratoga_Juveniles_ALL_STARTERS_TOP_200_SPEED.csv")

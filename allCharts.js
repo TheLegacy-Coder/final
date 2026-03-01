@@ -1,7 +1,7 @@
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
 // ---------------- JOCKEYS ------------------
-let alljockey = await fetch("jockey_sorted.csv")
+let alljockey = await fetch("data/jockey_sorted.csv")
     .then(response => response.text())
     .then(dataString => d3.csvParse(dataString));
 
@@ -107,7 +107,7 @@ alljockeyContainer.selectAll("rect")
 
 
 // ------------- SIRES ----------------
-let HorsesSpeedForSire = await fetch("2019_Saratoga_Juveniles_ALL_STARTERS_SPEED_FOR_SIRE.csv")
+let HorsesSpeedForSire = await fetch("data/2019_Saratoga_Juveniles_ALL_STARTERS_SPEED_FOR_SIRE.csv")
     .then(response => response.text())
     .then(dataString => d3.csvParse(dataString));
 
@@ -207,7 +207,7 @@ sireBarContainer.selectAll("rect")
 
 
 // ------------ TRAINERS ----------
-let alltrainer = await fetch("trainer_sorted.csv")
+let alltrainer = await fetch("data/trainer_sorted.csv")
     .then(response => response.text())
     .then(dataString => d3.csvParse(dataString));
 
@@ -298,7 +298,7 @@ alltrainerContainer.selectAll("rect")
 
 // ----------------- HORSES ------------------
 
-let top200HorsesSpeed = await fetch("2019_Saratoga_Juveniles_ALL_STARTERS_TOP_200_SPEED.csv")
+let top200HorsesSpeed = await fetch("data/2019_Saratoga_Juveniles_ALL_STARTERS_TOP_200_SPEED.csv")
     .then(response => response.text())
     .then(dataString => d3.csvParse(dataString));
 

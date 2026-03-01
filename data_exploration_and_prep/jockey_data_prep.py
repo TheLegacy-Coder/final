@@ -1,6 +1,6 @@
 import pandas as pd
 
-allData = pd.read_csv("2019_Saratoga_Juveniles_ALL_STARTERS.csv")
+allData = pd.read_csv("data/2019_Saratoga_Juveniles_ALL_STARTERS.csv")
 
 jockeyList = allData["JOCKEY"].unique()
 horsesList = []
@@ -24,10 +24,10 @@ for jockey in jockeyList:
 jockeysDf = pd.DataFrame({"JOCKEY": jockeyList, "AVERAGE_SPEED_furlongs_a_second": averageSpeedList, "HORSES": horsesList})
 # Referred to https://github.com/huggingface/datasets/issues/6778 for getting correct list format in CSV for jockeys
 jockeysDf["HORSES"] = jockeysDf["HORSES"].apply(lambda arr: list(arr))
-jockeysDf.to_csv("all_jockey_data.csv")
+jockeysDf.to_csv("data/all_jockey_data.csv")
 
 # Initially referred to https://stackoverflow.com/questions/34138634/pandas-groupby-how-to-get-top-n-values-based-on-a-column for grabbing the top 10 sires based on their average horse speeds (using nlargest)
 # Then, used it just for sorting
 jockeySorted = jockeysDf.nlargest(len(jockeyList), "AVERAGE_SPEED_furlongs_a_second")
 
-jockeySorted.to_csv("jockey_sorted.csv")
+jockeySorted.to_csv("data/jockey_sorted.csv")
