@@ -14,7 +14,7 @@ alljockeyDiv.selectAll("svg").remove();
 const alljockeyContainer = d3.select("#best_jockeys")
     .append("svg")
         .attr("width", 1500)
-        .attr("height", 275)
+        .attr("height", 280)
     .append("g")
         .attr("transform", "translate(100, 100)")
 
@@ -405,6 +405,12 @@ barContainerTop200.selectAll("rect")
                 }
                 return "#6cd46c";
             })
+        
+        document.getElementById("info_pane_horse_name").textContent = dataPoint.STARTER_NAME;
+        document.getElementById("info_pane_average_speed").textContent = dataPoint.AVERAGE_SPEED_furlongs_a_second;
+        document.getElementById("info_pane_trainer").textContent = dataPoint.TRAINERS;
+        document.getElementById("info_pane_sire").textContent = dataPoint.SIRES;
+        document.getElementById("info_pane_jockey").textContent = dataPoint.JOCKEYS;
     })
 
 
@@ -418,5 +424,5 @@ document.getElementById("clear").onclick = () => {
     sireBarContainer.selectAll("rect")
         .attr("fill", "#6cd46c")            
     alljockeyContainer.selectAll("rect")
-        .attr("fill", "#6cd46c")            
+        .attr("fill", "#6cd46c");            
 }

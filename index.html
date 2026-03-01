@@ -1,12 +1,117 @@
 <!DOCTYPE html>
 
-<div>
-    <button id="clear">Clear All Connections</button>
-</div>
-<div id="fastest_horses"></div>
-<div id="fastest_horses_for_sire"></div>
-<div id="best_trainers"></div>
-<div id="best_jockeys"></div>
+<body>
+    <div id="title_text">
+        <h1>
+            Klaudio Fusha & Ethan Shanbaum - Horse Race Analysis
+        </h1>
+    </div>
+    <div>
+        <button id="clear">Clear All Connections</button>
+    </div>
+    <div id="fastest_horses"></div>
+    <div id="fastest_horses_for_sire"></div>
+    <div id="best_trainers"></div>
+    <div id="best_jockeys"></div>
+    <div id="info_pane">
+        <table>
+            <tr>
+                <th>
+                    Horse Name
+                </th>
+                <td id="info_pane_horse_name"></td>
+            </tr>
+            <tr>
+                <th>
+                    Average Speed (furlongs/second)
+                </th>
+                <td id="info_pane_average_speed"></td>
+            </tr>
+            <tr>
+                <th>
+                    Trainer(s)
+                </th>
+                <td id="info_pane_trainer"></td>
+            </tr>
+            <tr>
+                <th>
+                    Sire(s)
+                </th>
+                <td id="info_pane_sire"></td>
+            </tr>
+            <tr>
+                <th>
+                    Jockey(s)
+                </th>
+                <td id="info_pane_jockey"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+<!-- Referred to https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/text-shadow for using text shadow for the title-->
+<style>
+
+    body {
+        background-color: rgb(4, 104, 4);
+    }
+
+    #title_text {
+        text-align: center;
+        text-shadow: 1px 1px 1px black;
+        color: rgb(221, 216, 175);
+    }
+
+    #clear {
+        width: 200px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #fastest_horses {
+        width: 1500px;
+        margin: 0 auto;
+        border: 2px solid black;
+        padding: 10px 20px;
+        background-color: rgb(238, 233, 189);
+    }
+
+    #fastest_horses_for_sire {
+        width: 1500px;
+        margin: 0 auto;
+        border: 2px solid black;
+        padding: 10px 20px;
+        background-color: rgb(238, 233, 189);
+    }
+
+    #best_trainers {
+        width: 1500px;
+        margin: 0 auto;
+        border: 2px solid black;
+        padding: 10px 20px;
+        background-color: rgb(238, 233, 189);
+    }
+
+    #best_jockeys {
+        width: 1500px;
+        margin: 0 auto;
+        border: 2px solid black;
+        padding: 10px 20px;
+        background-color: rgb(238, 233, 189);
+    }
+
+    #info_pane {
+        width: 400px;
+        margin: 20px auto;
+        background-color: rgb(238, 233, 189);
+    }
+
+    td, th {
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+
+</style>
 
 <script type="module">
 
