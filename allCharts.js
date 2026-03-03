@@ -2,7 +2,6 @@ import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
 // Referenced https://developer.mozilla.org/en-US/docs/Web/API/Screen/width for working with different screen sizes
 let chartWidths = Math.ceil(window.screen.width * 0.65)
-let chartHeights = Math.ceil(window.screen.height * 0.2);
 
 // ---------------- JOCKEYS ------------------
 let alljockey = await fetch("data/jockey_sorted.csv")
@@ -18,7 +17,7 @@ alljockeyDiv.selectAll("svg").remove();
 const alljockeyContainer = d3.select("#best_jockeys")
     .append("svg")
         .attr("width", chartWidths)
-        .attr("height", chartHeights)
+        .attr("height", 240)
     .append("g")
         .attr("transform", "translate(100, 50)")
 
@@ -35,7 +34,7 @@ alljockeyContainer.append("g")
 
 const alljockeyyAxis = d3.scaleLinear()
     .domain(alljockeyRange)
-    .range([chartHeights - 100, 0]);
+    .range([150, 0]);
 
 // Referenced https://d3js.org/d3-axis#axis_ticks for custom amount of ticks
 alljockeyContainer.append("g")
@@ -131,7 +130,7 @@ sireSingleSVG.selectAll("svg").remove();
 const sireBarContainer = d3.select("#fastest_horses_for_sire")
     .append("svg")
         .attr("width", chartWidths)
-        .attr("height", chartHeights)
+        .attr("height", 240)
     .append("g")
         .attr("transform", "translate(100, 50)");
 
@@ -143,7 +142,7 @@ const sirexAxis = d3.scaleBand()
 
 const sireyAxis = d3.scaleLinear()
     .domain(sireRange)
-    .range([chartHeights - 100, 0]);
+    .range([150, 0]);
 
 // Referenced https://d3js.org/d3-axis#axis_ticks for custom amount of ticks
 sireBarContainer.append("g")
@@ -228,7 +227,7 @@ alltrainerDiv.selectAll("svg").remove();
 const alltrainerContainer = d3.select("#best_trainers")
     .append("svg")
         .attr("width", chartWidths)
-        .attr("height", chartHeights)
+        .attr("height", 240)
     .append("g")
         .attr("transform", "translate(100, 50)")
 
@@ -238,7 +237,7 @@ const alltrainerxAxis = d3.scaleBand()
 
 const alltraineryAxis = d3.scaleLinear()
     .domain(alltrainerRange)
-    .range([chartHeights - 100, 0]);
+    .range([150, 0]);
 
 // Referenced https://d3js.org/d3-axis#axis_ticks for custom amount of ticks
 alltrainerContainer.append("g")
@@ -323,7 +322,7 @@ singleSVGTop200.selectAll("svg").remove();
 const barContainerTop200 = d3.select("#fastest_horses")
     .append("svg")
         .attr("width", chartWidths)
-        .attr("height", chartHeights)
+        .attr("height", 240)
     .append("g")
         .attr("transform", "translate(100, 50)");
 
@@ -335,7 +334,7 @@ const xAxisTop200 = d3.scaleBand()
 
 const yAxisTop200 = d3.scaleLinear()
     .domain(rangeTop200)
-    .range([chartHeights - 100, 0]);
+    .range([150, 0]);
 
 // Referenced https://d3js.org/d3-axis#axis_ticks for custom amount of ticks
 barContainerTop200.append("g")
