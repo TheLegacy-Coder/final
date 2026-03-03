@@ -17,7 +17,7 @@ alljockeyDiv.selectAll("svg").remove();
 const alljockeyContainer = d3.select("#best_jockeys")
     .append("svg")
         .attr("width", chartWidths)
-        .attr("height", 240)
+        .attr("height", 165)
     .append("g")
         .attr("transform", "translate(100, 50)")
 
@@ -34,13 +34,13 @@ alljockeyContainer.append("g")
 
 const alljockeyyAxis = d3.scaleLinear()
     .domain(alljockeyRange)
-    .range([150, 0]);
+    .range([90, 0]);
 
 // Referenced https://d3js.org/d3-axis#axis_ticks for custom amount of ticks
 alljockeyContainer.append("g")
     .call(
         d3.axisLeft(alljockeyyAxis)
-            .ticks(7)
+            .ticks(4)
     )
 
 alljockeyContainer.selectAll("rect")
@@ -50,21 +50,21 @@ alljockeyContainer.selectAll("rect")
         .attr("x", (e) => alljockeyxAxis(e.JOCKEY))
         .attr("y", (e) => alljockeyyAxis(e.AVERAGE_SPEED_furlongs_a_second))
         .attr("width", alljockeyxAxis.bandwidth())
-        .attr("height", (e) => 150 - alljockeyyAxis(e.AVERAGE_SPEED_furlongs_a_second))
+        .attr("height", (e) => 90 - alljockeyyAxis(e.AVERAGE_SPEED_furlongs_a_second))
         .attr("fill", "#6cd46c")
         .attr("stroke", "#227422");
 
 // Referred to https://d3-graph-gallery.com/graph/custom_axis.html#axistitles for creating both the x-axis and y-axis labels (technically also the title of the chart)
 alljockeyContainer.append("text")
     .attr("x", chartWidths / 2)
-    .attr("y", 175)
+    .attr("y", 105)
     .text("Jockey")
     .attr("font-weight", "bold");
 
 alljockeyContainer.append("text")
     .attr("transform", "rotate(-90)")
-    .attr("font-size", "12px")
-    .attr("x", -175)
+    .attr("font-size", "10px")
+    .attr("x", -110)
     .attr("y", -50)
     .attr("font-weight", "bold")
     .text("Avg. Speed of Horses (furlongs/sec)");
@@ -130,7 +130,7 @@ sireSingleSVG.selectAll("svg").remove();
 const sireBarContainer = d3.select("#fastest_horses_for_sire")
     .append("svg")
         .attr("width", chartWidths)
-        .attr("height", 240)
+        .attr("height", 165)
     .append("g")
         .attr("transform", "translate(100, 50)");
 
@@ -142,13 +142,13 @@ const sirexAxis = d3.scaleBand()
 
 const sireyAxis = d3.scaleLinear()
     .domain(sireRange)
-    .range([150, 0]);
+    .range([90, 0]);
 
 // Referenced https://d3js.org/d3-axis#axis_ticks for custom amount of ticks
 sireBarContainer.append("g")
     .call(
         d3.axisLeft(sireyAxis)
-            .ticks(7)
+            .ticks(4)
     );
 
 sireBarContainer.selectAll("rect")
@@ -163,7 +163,7 @@ sireBarContainer.selectAll("rect")
         })
         .attr("width", sirexAxis.bandwidth())
         .attr("height", function(singleDataObject) {
-            return 150 - sireyAxis(singleDataObject.AVERAGE_SPEED_furlongs_a_second);
+            return 90 - sireyAxis(singleDataObject.AVERAGE_SPEED_furlongs_a_second);
         })
         .attr("fill", "#6cd46c")
         .attr("stroke", "#227422");
@@ -171,13 +171,13 @@ sireBarContainer.selectAll("rect")
 // Referred to https://d3-graph-gallery.com/graph/custom_axis.html#axistitles for creating both the x-axis and y-axis labels (technically also the title of the chart)
 sireBarContainer.append("text")
     .attr("x", chartWidths / 2)
-    .attr("y", 175)
+    .attr("y", 105)
     .attr("font-weight", "bold")
     .text("Sire");
 sireBarContainer.append("text")
     .attr("transform", "rotate(-90)")
-    .attr("font-size", "12px")
-    .attr("x", -185)
+    .attr("font-size", "10px")
+    .attr("x", -115)
     .attr("y", -50)
     .attr("font-weight", "bold")
     .text("Avg. Speed of Offspring (furlongs/sec)");
@@ -227,7 +227,7 @@ alltrainerDiv.selectAll("svg").remove();
 const alltrainerContainer = d3.select("#best_trainers")
     .append("svg")
         .attr("width", chartWidths)
-        .attr("height", 240)
+        .attr("height", 165)
     .append("g")
         .attr("transform", "translate(100, 50)")
 
@@ -237,13 +237,13 @@ const alltrainerxAxis = d3.scaleBand()
 
 const alltraineryAxis = d3.scaleLinear()
     .domain(alltrainerRange)
-    .range([150, 0]);
+    .range([90, 0]);
 
 // Referenced https://d3js.org/d3-axis#axis_ticks for custom amount of ticks
 alltrainerContainer.append("g")
     .call(
         d3.axisLeft(alltraineryAxis)
-            .ticks(7)
+            .ticks(4)
     )
 
 alltrainerContainer.selectAll("rect")
@@ -253,21 +253,21 @@ alltrainerContainer.selectAll("rect")
         .attr("x", (e) => alltrainerxAxis(e.TRAINER))
         .attr("y", (e) => alltraineryAxis(e.AVERAGE_SPEED_furlongs_a_second))
         .attr("width", alltrainerxAxis.bandwidth())
-        .attr("height", (e) => 150 - alltraineryAxis(e.AVERAGE_SPEED_furlongs_a_second))
+        .attr("height", (e) => 90 - alltraineryAxis(e.AVERAGE_SPEED_furlongs_a_second))
         .attr("fill", "#6cd46c")
         .attr("stroke", "#227422");
 
 // Referred to https://d3-graph-gallery.com/graph/custom_axis.html#axistitles for creating both the x-axis and y-axis labels (technically also the title of the chart)
 alltrainerContainer.append("text")
     .attr("x", chartWidths / 2)
-    .attr("y", 175)
+    .attr("y", 105)
     .attr("font-weight", "bold")
     .text("Trainer");
 
 alltrainerContainer.append("text")
     .attr("transform", "rotate(-90)")
-    .attr("font-size", "12px")
-    .attr("x", -175)
+    .attr("font-size", "10px")
+    .attr("x", -110)
     .attr("y", -50)
     .attr("font-weight", "bold")
     .text("Avg. Speed of Horses (furlongs/sec)");
@@ -322,7 +322,7 @@ singleSVGTop200.selectAll("svg").remove();
 const barContainerTop200 = d3.select("#fastest_horses")
     .append("svg")
         .attr("width", chartWidths)
-        .attr("height", 240)
+        .attr("height", 165)
     .append("g")
         .attr("transform", "translate(100, 50)");
 
@@ -334,13 +334,13 @@ const xAxisTop200 = d3.scaleBand()
 
 const yAxisTop200 = d3.scaleLinear()
     .domain(rangeTop200)
-    .range([150, 0]);
+    .range([90, 0]);
 
 // Referenced https://d3js.org/d3-axis#axis_ticks for custom amount of ticks
 barContainerTop200.append("g")
     .call(
         d3.axisLeft(yAxisTop200)
-            .ticks(7)
+            .ticks(4)
     );
 
 barContainerTop200.selectAll("rect")
@@ -355,7 +355,7 @@ barContainerTop200.selectAll("rect")
         })
         .attr("width", xAxisTop200.bandwidth())
         .attr("height", function(singleDataObject) {
-            return 150 - yAxisTop200(singleDataObject.AVERAGE_SPEED_furlongs_a_second);
+            return 90 - yAxisTop200(singleDataObject.AVERAGE_SPEED_furlongs_a_second);
         })
         .attr("fill", "#6cd46c")
         .attr("stroke", "#227422");
@@ -363,13 +363,13 @@ barContainerTop200.selectAll("rect")
 // Referred to https://d3-graph-gallery.com/graph/custom_axis.html#axistitles for creating both the x-axis and y-axis labels (technically also the title of the chart)
 barContainerTop200.append("text")
     .attr("x", chartWidths / 2)
-    .attr("y", 175)
+    .attr("y", 105)
     .attr("font-weight", "bold")
     .text("Horse");
 barContainerTop200.append("text")
     .attr("transform", "rotate(-90)")
-    .attr("font-size", "12px")
-    .attr("x", -160)
+    .attr("font-size", "10px")
+    .attr("x", -95)
     .attr("y", -50)
     .attr("font-weight", "bold")
     .text("Avg. Speed (furlongs/sec)");
