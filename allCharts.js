@@ -13,14 +13,14 @@ alljockeyDiv.selectAll("svg").remove();
 // Main reference for creating the bar chart: https://d3-graph-gallery.com/graph/barplot_basic.html
 const alljockeyContainer = d3.select("#best_jockeys")
     .append("svg")
-        .attr("width", 1500)
-        .attr("height", 280)
+        .attr("width", 1300)
+        .attr("height", 240)
     .append("g")
-        .attr("transform", "translate(100, 100)")
+        .attr("transform", "translate(100, 50)")
 
 const alljockeyxAxis = d3.scaleBand()
     .domain(alljockey.map((e) => e.JOCKEY))
-    .range([0, 1400])
+    .range([0, 1200])
 
 alljockeyContainer.append("g")
     .attr("transform", "translate(0, 500)")
@@ -33,8 +33,12 @@ const alljockeyyAxis = d3.scaleLinear()
     .domain(alljockeyRange)
     .range([150, 0]);
 
+// Referenced https://d3js.org/d3-axis#axis_ticks for custom amount of ticks
 alljockeyContainer.append("g")
-    .call(d3.axisLeft(alljockeyyAxis))
+    .call(
+        d3.axisLeft(alljockeyyAxis)
+            .ticks(7)
+    )
 
 alljockeyContainer.selectAll("rect")
     .data(alljockey)
@@ -51,39 +55,37 @@ alljockeyContainer.selectAll("rect")
 alljockeyContainer.append("text")
     .attr("x", 700)
     .attr("y", 175)
-    .text("Jockey");
+    .text("Jockey")
+    .attr("font-weight", "bold");
 
 alljockeyContainer.append("text")
     .attr("transform", "rotate(-90)")
     .attr("font-size", "12px")
-    .attr("x", -150)
+    .attr("x", -175)
     .attr("y", -50)
-    .text("Average Speed of Horses (furlongs/second)");
+    .attr("font-weight", "bold")
+    .text("Avg. Speed of Horses (furlongs/sec)");
 
 alljockeyContainer.append("text")
     .attr("x", 600)
     .attr("y", -20)
+    .attr("font-weight", "bold")
     .text("Jockeys' Average Speed of Ridden Horses");
 
 // Referred to https://d3-graph-gallery.com/graph/interactivity_tooltip.html for adding an info pane for the bars, as well as the mouseover and mouseout functionality
 // Referred to https://stackoverflow.com/questions/25123003/how-to-assign-click-event-to-every-svg-element-in-d3js for changing bar color on mouse click and changing the stroke color on hover
-const pointInfoPaneAllJockey  = d3.select("#best_jockeys")
-    .append("div")
-        .style("visibility", "hidden");
+
 
 alljockeyContainer.selectAll("rect")
     .on("mouseover", function(singleMouseEvent, singleDataObject) {
         d3.select(this).attr("stroke", "blue")
-        pointInfoPaneAllJockey
-            .style("visibility", "visible")
-            .text( "Jockey: " + singleDataObject.JOCKEY +
-            ", Average Speed (furlongs/second): " + singleDataObject.AVERAGE_SPEED_furlongs_a_second +
-            ", Ridden Horses: " + singleDataObject.HORSES);
+        document.getElementById("hover_pane_text").innerHTML = "<b>Jockey: </b><p>" + singleDataObject.JOCKEY + "</p>" +
+            "\n\n<b>Average Speed (furlongs/second): </b><p>" + singleDataObject.AVERAGE_SPEED_furlongs_a_second + "</p>" +
+            "\n\n<b>Ridden Horses: </b><p>" + singleDataObject.HORSES + "</p>"
     })
     .on("mouseout", function() {
         d3.select(this).attr("stroke", "#227422")
-        pointInfoPaneAllJockey
-            .style("visibility", "hidden");
+        document.getElementById("hover_pane_text").innerText = ""
     })
     .on("click", (event, dataPoint) => {
         alljockeyContainer.selectAll("rect")
@@ -124,22 +126,27 @@ sireSingleSVG.selectAll("svg").remove();
 // Main reference for creating the bar chart: https://d3-graph-gallery.com/graph/barplot_basic.html
 const sireBarContainer = d3.select("#fastest_horses_for_sire")
     .append("svg")
-        .attr("width", 1500)
-        .attr("height", 275)
+        .attr("width", 1300)
+        .attr("height", 240)
     .append("g")
-        .attr("transform", "translate(100, 100)");
+        .attr("transform", "translate(100, 50)");
 
 const sirexAxis = d3.scaleBand()
     .domain(HorsesSpeedForSire.map(function(singleDataObject) {
         return singleDataObject.SIRE;
     }))
-    .range([0, 1400]);
+    .range([0, 1200]);
 
 const sireyAxis = d3.scaleLinear()
     .domain(sireRange)
     .range([150, 0]);
+
+// Referenced https://d3js.org/d3-axis#axis_ticks for custom amount of ticks
 sireBarContainer.append("g")
-    .call(d3.axisLeft(sireyAxis));
+    .call(
+        d3.axisLeft(sireyAxis)
+            .ticks(7)
+    );
 
 sireBarContainer.selectAll("rect")
     .data(HorsesSpeedForSire)
@@ -162,37 +169,34 @@ sireBarContainer.selectAll("rect")
 sireBarContainer.append("text")
     .attr("x", 700)
     .attr("y", 175)
+    .attr("font-weight", "bold")
     .text("Sire");
 sireBarContainer.append("text")
     .attr("transform", "rotate(-90)")
     .attr("font-size", "12px")
-    .attr("x", -150)
+    .attr("x", -185)
     .attr("y", -50)
-    .text("Average Speed of Offspring (furlongs/second)");
+    .attr("font-weight", "bold")
+    .text("Avg. Speed of Offspring (furlongs/sec)");
 sireBarContainer.append("text")
     .attr("x", 600)
     .attr("y", -20)
+    .attr("font-weight", "bold")
     .text("Sires' Average Speed of Offspring");
 
 // Referred to https://d3-graph-gallery.com/graph/interactivity_tooltip.html for adding an info pane for the bars, as well as the mouseover and mouseout functionality
 // Referred to https://stackoverflow.com/questions/25123003/how-to-assign-click-event-to-every-svg-element-in-d3js for changing bar color on mouse click and changing the stroke color on hover
-const sirePointInfoPane  = d3.select("#fastest_horses_for_sire")
-    .append("div")
-        .style("visibility", "hidden");
 
 sireBarContainer.selectAll("rect")
     .on("mouseover", function(singleMouseEvent, singleDataObject) {
         d3.select(this).attr("stroke", "blue")
-        sirePointInfoPane
-            .style("visibility", "visible")
-            .text("Sire: " + singleDataObject.SIRE + 
-            ", Average Speed (furlongs/second): " + singleDataObject.AVERAGE_SPEED_furlongs_a_second +
-            ", Offspring: " + singleDataObject.OFFSPRING);
+        document.getElementById("hover_pane_text").innerHTML = "<b>Sire: </b><p>" + singleDataObject.SIRE + "</p>" +
+            "\n\n<b>Average Speed (furlongs/second): </b><p>" + singleDataObject.AVERAGE_SPEED_furlongs_a_second + "</p>" +
+            "\n\n<b>Offspring: </b><p>" + singleDataObject.OFFSPRING + "</p>"
     })
     .on("mouseout", function() {
         d3.select(this).attr("stroke", "#227422")
-        sirePointInfoPane
-            .style("visibility", "hidden");
+        document.getElementById("hover_pane_text").innerText = "";
     })
     .on("click", (event, dataPoint) => {
         sireBarContainer.selectAll("rect")
@@ -219,21 +223,25 @@ alltrainerDiv.selectAll("svg").remove();
 // Main reference for creating the bar chart: https://d3-graph-gallery.com/graph/barplot_basic.html
 const alltrainerContainer = d3.select("#best_trainers")
     .append("svg")
-        .attr("width", 1500)
-        .attr("height", 275)
+        .attr("width", 1300)
+        .attr("height", 240)
     .append("g")
-        .attr("transform", "translate(100, 100)")
+        .attr("transform", "translate(100, 50)")
 
 const alltrainerxAxis = d3.scaleBand()
     .domain(alltrainer.map((e) => e.TRAINER))
-    .range([0, 1400])
+    .range([0, 1200])
 
 const alltraineryAxis = d3.scaleLinear()
     .domain(alltrainerRange)
     .range([150, 0]);
 
+// Referenced https://d3js.org/d3-axis#axis_ticks for custom amount of ticks
 alltrainerContainer.append("g")
-    .call(d3.axisLeft(alltraineryAxis))
+    .call(
+        d3.axisLeft(alltraineryAxis)
+            .ticks(7)
+    )
 
 alltrainerContainer.selectAll("rect")
     .data(alltrainer)
@@ -250,40 +258,35 @@ alltrainerContainer.selectAll("rect")
 alltrainerContainer.append("text")
     .attr("x", 700)
     .attr("y", 175)
+    .attr("font-weight", "bold")
     .text("Trainer");
 
 alltrainerContainer.append("text")
     .attr("transform", "rotate(-90)")
     .attr("font-size", "12px")
-    .attr("x", -150)
+    .attr("x", -175)
     .attr("y", -50)
-    .text("Average Speed of Horses (furlongs/second)");
+    .attr("font-weight", "bold")
+    .text("Avg. Speed of Horses (furlongs/sec)");
 
 alltrainerContainer.append("text")
     .attr("x", 600)
-    .attr("y", -20)
+    .attr("y", 0)
+    .attr("font-weight", "bold")
     .text("Trainers' Average Speed of Trained Horses");
-
-
-const pointInfoPaneAllTrainer  = d3.select("#best_trainers")
-    .append("div")
-        .style("visibility", "hidden");
 
 // Referred to https://d3-graph-gallery.com/graph/interactivity_tooltip.html for adding an info pane for the bars, as well as the mouseover and mouseout functionality
 // Referred to https://stackoverflow.com/questions/25123003/how-to-assign-click-event-to-every-svg-element-in-d3js for changing bar color on mouse click and changing the stroke color on hover
 alltrainerContainer.selectAll("rect")
     .on("mouseover", function(singleMouseEvent, singleDataObject) {
         d3.select(this).attr("stroke", "blue")
-        pointInfoPaneAllTrainer
-            .style("visibility", "visible")
-            .text("Trainer: " + singleDataObject.TRAINER +
-            ", Average Speed (furlongs/second): " + singleDataObject.AVERAGE_SPEED_furlongs_a_second +
-            ", Trained Horses: " + singleDataObject.HORSES);
+        document.getElementById("hover_pane_text").innerHTML = "<b>Trainer: </b><p>" + singleDataObject.TRAINER + "</p>" +
+            "\n\n<b>Average Speed (furlongs/second): </b><p>" + singleDataObject.AVERAGE_SPEED_furlongs_a_second + "</p>" +
+            "\n\n<b>Trained Horses: </b><p>" + singleDataObject.HORSES + "</p>"
     })
     .on("mouseout", function() {
         d3.select(this).attr("stroke", "#227422")
-        pointInfoPaneAllTrainer
-            .style("visibility", "hidden");
+        document.getElementById("hover_pane_text").innerText = "";
     })
     .on("click", (event, dataPoint) => {
         alltrainerContainer.selectAll("rect")
@@ -315,22 +318,27 @@ singleSVGTop200.selectAll("svg").remove();
 // Main reference for creating the bar chart: https://d3-graph-gallery.com/graph/barplot_basic.html
 const barContainerTop200 = d3.select("#fastest_horses")
     .append("svg")
-        .attr("width", 1500)
-        .attr("height", 275)
+        .attr("width", 1300)
+        .attr("height", 240)
     .append("g")
-        .attr("transform", "translate(100, 100)");
+        .attr("transform", "translate(100, 50)");
 
 const xAxisTop200 = d3.scaleBand()
     .domain(top200HorsesSpeed.map(function(singleDataObject) {
         return singleDataObject.STARTER_NAME;
     }))
-    .range([0, 1400]);
+    .range([0, 1200]);
 
 const yAxisTop200 = d3.scaleLinear()
     .domain(rangeTop200)
     .range([150, 0]);
+
+// Referenced https://d3js.org/d3-axis#axis_ticks for custom amount of ticks
 barContainerTop200.append("g")
-    .call(d3.axisLeft(yAxisTop200));
+    .call(
+        d3.axisLeft(yAxisTop200)
+            .ticks(7)
+    );
 
 barContainerTop200.selectAll("rect")
     .data(top200HorsesSpeed)
@@ -353,39 +361,35 @@ barContainerTop200.selectAll("rect")
 barContainerTop200.append("text")
     .attr("x", 700)
     .attr("y", 175)
+    .attr("font-weight", "bold")
     .text("Horse");
 barContainerTop200.append("text")
     .attr("transform", "rotate(-90)")
     .attr("font-size", "12px")
-    .attr("x", -150)
+    .attr("x", -160)
     .attr("y", -50)
-    .text("Average Speed (furlongs/second)");
+    .attr("font-weight", "bold")
+    .text("Avg. Speed (furlongs/sec)");
 barContainerTop200.append("text")
     .attr("x", 600)
     .attr("y", -20)
+    .attr("font-weight", "bold")
     .text("Top 200 Horses by Average Speed");
 
 // Referred to https://d3-graph-gallery.com/graph/interactivity_tooltip.html for adding an info pane for the bars, as well as the mouseover and mouseout functionality
 // Referred to https://stackoverflow.com/questions/25123003/how-to-assign-click-event-to-every-svg-element-in-d3js for changing bar color on mouse click and changing the stroke color on hover
-const pointInfoPaneTop200  = d3.select("#fastest_horses")
-    .append("div")
-        .style("visibility", "hidden");
-
 barContainerTop200.selectAll("rect")
     .on("mouseover", function(singleMouseEvent, singleDataObject) {
         d3.select(this).attr("stroke", "blue")
-        pointInfoPaneTop200
-            .style("visibility", "visible")
-            .text("Horse Name: " + singleDataObject.STARTER_NAME +
-            ", Average Speed (furlongs/second): " + singleDataObject.AVERAGE_SPEED_furlongs_a_second +
-            ", Trainer(s): " + singleDataObject.TRAINERS + 
-            ", Sire(s): " + singleDataObject.SIRES + 
-            ", Jockey(s): " + singleDataObject.JOCKEYS);
+        document.getElementById("hover_pane_text").innerHTML = "<b>Horse Name: </b><p>" + singleDataObject.STARTER_NAME + "</p>" + 
+            "\n\n<b>Average Speed (furlongs/second): </b><p>" + singleDataObject.AVERAGE_SPEED_furlongs_a_second + "</p>" +
+            "\n\n<b>Trainer(s): </b><p>" + singleDataObject.TRAINERS + "</p>" +
+            "\n\n<b>Sire(s): </b><p>" + singleDataObject.SIRES + "</p>" + 
+            "\n\n<b>Jockey(s): </b><p>" + singleDataObject.JOCKEYS + "</p>"
     })
     .on("mouseout", function() {
         d3.select(this).attr("stroke", "#227422")
-        pointInfoPaneTop200
-            .style("visibility", "hidden");
+        document.getElementById("hover_pane_text").innerText = "";
     })
     .on("click", (event, dataPoint) => {
         barContainerTop200.selectAll("rect")
