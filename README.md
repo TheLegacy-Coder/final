@@ -27,6 +27,9 @@ We would analyze the best-performing horses for each of the races and see their 
 ---
 * Edit 04-Feb-2025 -> adding link to a Notion doc of ideas (totally optional, mainly ideas collected from recent convos w/ people) -> https://scented-flock-323.notion.site/Project-Ideas-18fcf1e51ce380f79f92d4faf3ae7b4a?pvs=4
 
+# Project References:
+- https://www.publicdomainpictures.net/en/free-download.php?image=damask-pattern-background-green&id=44740 (background image)
+
 The key learning experience of this course is the final project. 
 You will design a web site and interactive visualizations that answer questions you have, provide an exploratory interface to some topic of your own choosing, or take on a more ambitious experiment than A3. 
 You will acquire the data, design your visualizations, implement them, and critically evaluate the results. 
