@@ -56,7 +56,7 @@ alljockeyContainer.selectAll("rect")
 
 // Referred to https://d3-graph-gallery.com/graph/custom_axis.html#axistitles for creating both the x-axis and y-axis labels (technically also the title of the chart)
 alljockeyContainer.append("text")
-    .attr("x", 700)
+    .attr("x", chartWidths / 2)
     .attr("y", 175)
     .text("Jockey")
     .attr("font-weight", "bold");
@@ -70,7 +70,7 @@ alljockeyContainer.append("text")
     .text("Avg. Speed of Horses (furlongs/sec)");
 
 alljockeyContainer.append("text")
-    .attr("x", 600)
+    .attr("x", chartWidths / 2 - 100)
     .attr("y", -20)
     .attr("font-weight", "bold")
     .text("Jockeys' Average Speed of Ridden Horses");
@@ -170,7 +170,7 @@ sireBarContainer.selectAll("rect")
 
 // Referred to https://d3-graph-gallery.com/graph/custom_axis.html#axistitles for creating both the x-axis and y-axis labels (technically also the title of the chart)
 sireBarContainer.append("text")
-    .attr("x", 700)
+    .attr("x", chartWidths / 2)
     .attr("y", 175)
     .attr("font-weight", "bold")
     .text("Sire");
@@ -182,7 +182,7 @@ sireBarContainer.append("text")
     .attr("font-weight", "bold")
     .text("Avg. Speed of Offspring (furlongs/sec)");
 sireBarContainer.append("text")
-    .attr("x", 600)
+    .attr("x", chartWidths / 2 - 100)
     .attr("y", -20)
     .attr("font-weight", "bold")
     .text("Sires' Average Speed of Offspring");
@@ -259,7 +259,7 @@ alltrainerContainer.selectAll("rect")
 
 // Referred to https://d3-graph-gallery.com/graph/custom_axis.html#axistitles for creating both the x-axis and y-axis labels (technically also the title of the chart)
 alltrainerContainer.append("text")
-    .attr("x", 700)
+    .attr("x", chartWidths / 2)
     .attr("y", 175)
     .attr("font-weight", "bold")
     .text("Trainer");
@@ -273,7 +273,7 @@ alltrainerContainer.append("text")
     .text("Avg. Speed of Horses (furlongs/sec)");
 
 alltrainerContainer.append("text")
-    .attr("x", 600)
+    .attr("x", chartWidths / 2 - 100)
     .attr("y", 0)
     .attr("font-weight", "bold")
     .text("Trainers' Average Speed of Trained Horses");
@@ -362,7 +362,7 @@ barContainerTop200.selectAll("rect")
 
 // Referred to https://d3-graph-gallery.com/graph/custom_axis.html#axistitles for creating both the x-axis and y-axis labels (technically also the title of the chart)
 barContainerTop200.append("text")
-    .attr("x", 700)
+    .attr("x", chartWidths / 2)
     .attr("y", 175)
     .attr("font-weight", "bold")
     .text("Horse");
@@ -374,7 +374,7 @@ barContainerTop200.append("text")
     .attr("font-weight", "bold")
     .text("Avg. Speed (furlongs/sec)");
 barContainerTop200.append("text")
-    .attr("x", 600)
+    .attr("x", chartWidths / 2 - 100)
     .attr("y", -20)
     .attr("font-weight", "bold")
     .text("Top 200 Horses by Average Speed");
