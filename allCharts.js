@@ -1,5 +1,8 @@
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
+// Referenced https://developer.mozilla.org/en-US/docs/Web/API/Screen/width for working with different screen sizes
+let chartWidths = Math.ceil(window.screen.width * 0.65)
+
 // ---------------- JOCKEYS ------------------
 let alljockey = await fetch("data/jockey_sorted.csv")
     .then(response => response.text())
@@ -13,14 +16,14 @@ alljockeyDiv.selectAll("svg").remove();
 // Main reference for creating the bar chart: https://d3-graph-gallery.com/graph/barplot_basic.html
 const alljockeyContainer = d3.select("#best_jockeys")
     .append("svg")
-        .attr("width", 1300)
+        .attr("width", chartWidths)
         .attr("height", 240)
     .append("g")
         .attr("transform", "translate(100, 50)")
 
 const alljockeyxAxis = d3.scaleBand()
     .domain(alljockey.map((e) => e.JOCKEY))
-    .range([0, 1200])
+    .range([0, chartWidths - 100])
 
 alljockeyContainer.append("g")
     .attr("transform", "translate(0, 500)")
@@ -126,7 +129,7 @@ sireSingleSVG.selectAll("svg").remove();
 // Main reference for creating the bar chart: https://d3-graph-gallery.com/graph/barplot_basic.html
 const sireBarContainer = d3.select("#fastest_horses_for_sire")
     .append("svg")
-        .attr("width", 1300)
+        .attr("width", chartWidths)
         .attr("height", 240)
     .append("g")
         .attr("transform", "translate(100, 50)");
@@ -135,7 +138,7 @@ const sirexAxis = d3.scaleBand()
     .domain(HorsesSpeedForSire.map(function(singleDataObject) {
         return singleDataObject.SIRE;
     }))
-    .range([0, 1200]);
+    .range([0, chartWidths - 100]);
 
 const sireyAxis = d3.scaleLinear()
     .domain(sireRange)
@@ -223,14 +226,14 @@ alltrainerDiv.selectAll("svg").remove();
 // Main reference for creating the bar chart: https://d3-graph-gallery.com/graph/barplot_basic.html
 const alltrainerContainer = d3.select("#best_trainers")
     .append("svg")
-        .attr("width", 1300)
+        .attr("width", chartWidths)
         .attr("height", 240)
     .append("g")
         .attr("transform", "translate(100, 50)")
 
 const alltrainerxAxis = d3.scaleBand()
     .domain(alltrainer.map((e) => e.TRAINER))
-    .range([0, 1200])
+    .range([0, chartWidths - 100])
 
 const alltraineryAxis = d3.scaleLinear()
     .domain(alltrainerRange)
@@ -318,7 +321,7 @@ singleSVGTop200.selectAll("svg").remove();
 // Main reference for creating the bar chart: https://d3-graph-gallery.com/graph/barplot_basic.html
 const barContainerTop200 = d3.select("#fastest_horses")
     .append("svg")
-        .attr("width", 1300)
+        .attr("width", chartWidths)
         .attr("height", 240)
     .append("g")
         .attr("transform", "translate(100, 50)");
@@ -327,7 +330,7 @@ const xAxisTop200 = d3.scaleBand()
     .domain(top200HorsesSpeed.map(function(singleDataObject) {
         return singleDataObject.STARTER_NAME;
     }))
-    .range([0, 1200]);
+    .range([0, chartWidths - 100]);
 
 const yAxisTop200 = d3.scaleLinear()
     .domain(rangeTop200)
