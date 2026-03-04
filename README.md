@@ -31,10 +31,13 @@ The main goal and/or motivation of our project is to determine what conditions (
 
 # URLs:
 - Add project website link here
-- Add recording link here
+- Add recording link here: https://youtu.be/4lmHWP66mXg
+- Project book link: [Project Book Link](https://github.com/TheLegacy-Coder/final/blob/69ae6ffbb517f65524d212c2d8f2e7a155353747/Klaudio%20Fusha%20%26%20Ethan%20Shanbaum%20-%20CS%204804%20-%20Proposal%20%26%20Process%20Book.pdf)
 
 # Project References (VERIFY BEFORE SUBMITTING):
 - https://www.publicdomainpictures.net/en/free-download.php?image=damask-pattern-background-green&id=44740 (background image)
+- index.html:
+    - https://www.w3schools.com/html/html_youtube.asp
 - allCharts.js:
     - https://developer.mozilla.org/en-US/docs/Web/API/Screen/width
     - https://d3-graph-gallery.com/graph/barplot_basic.html

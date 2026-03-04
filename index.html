@@ -55,9 +55,42 @@
         <h3>Hovered Info</h3>
         <p id="hover_pane_text"></p>
     </div>
+    <div id="more_info">
+        <h2>Summary of Findings and Stories (with External Links to Screencast and Related Documents/Data)</h2>
+        <!-- Reference for embedding youtube vid: https://www.w3schools.com/html/html_youtube.asp -->
+        <iframe width="640" height="480" src="https://youtube.com/embed/4lmHWP66mXg"></iframe>
+        <p>
+            <a href="https://github.com/TheLegacy-Coder/final/blob/69ae6ffbb517f65524d212c2d8f2e7a155353747/Klaudio%20Fusha%20%26%20Ethan%20Shanbaum%20-%20CS%204804%20-%20Proposal%20%26%20Process%20Book.pdf">Process Book Link</a>
+            &nbsp; &nbsp;
+            <a href="https://horseracingdatasets.com/racing/">Website we grabbed data from</a>
+            &nbsp; &nbsp;
+            <a href="https://docs.google.com/spreadsheets/d/1ahggu4Z09OxpIEA7cDUxdiTuG5vsKhpzig3J8hrjwu8/edit?gid=0#gid=0">Raw data source</a>
+
+        </p>
+        <p>
+            <b>Project Summary: </b> The main goal and/or motivation of our project is to determine what conditions (jockey, trainer, sire, etc.) would produce the best racing horse. To illustrate the data, we created charts for the average horse speeds of the top 200 horses, as well as charts for sires, trainers, and jockeys looking at the average speeds of their associated horses.
+            We added interactivity by letting the user hover over data to show more in-depth information, and clicking on the data highlights related info in different charts to show connections that exist between the data.
+            Our data exploration and evaluation showed that jockeys do not have much of an influence on the average horse speed, but trainer and sire have a positive relationship with horse speed. Further analysis of other factors not included in the data (such as age, size, and diet) could provide more insight into other factors that may affect horse speed.
+        </p>
+        <p>
+            <b>Stories</b>
+            <ul>
+                <li>Most trainers tend to have the same performance. However, starting at around the top 16th trainer (right to left), there is a linear incline in performance. Starting from the bottom 18th (left to right), we begin to notice a significant decline in the average speed of the trained horses, with the trainer “Alexis Delgado” being much worse compared to the other trainers.</li>
+                <li>One jockey, Luca Panici, is significantly better than the rest of the jockeys. Then there is a fairly linear decline until the last 5, where there is a more significant drop in average speed of ridden horses.</li>
+                <li>Most sires tend to have the same performance. However, starting at around the top 12th sire (right to left), there is a linear incline in performance. Starting from the bottom 9th (left to right), there is a fairly significant decline in average speed of offspring, with the sire “Rule by Night” being much worse compared to the other sires.</li>
+                <li>Horses that had the best speeds tended to have at least one exceptional factor, with the other factors ranging from excellent to below average. For example, the horse “Buy Land and See” had an excellent trainer, but an average jockey and below average sire. On the other hand, the horse “Aye Aye Sir” had 3 excellent factors. It seems like there is no correlation between good trainers and good sires.</li>
+            </ul>
+        </p>
+    </div>
 </body>
 
 <style>
+    #more_info {
+        padding: 12px;
+        margin-top: 20px;
+        clear: both;
+        background-color: rgb(238, 233, 189);
+    }
     h3 {
         padding: 0 auto;
         margin: 5px auto;
