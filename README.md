@@ -9,6 +9,9 @@ The main goal and/or motivation of our project is to determine what conditions (
 
 ![project_website_screenshot](Project_Website_Screenshot.png)
 
+# Disclaimer:
+This site was developed with the Chrome browser in mind. Correct sizing of charts is not guaranteed in other browsers. Additionally, we sized the heights of the charts with a screen resolution of 1920x1080 in mind. Chart formatting and sizing may be an issue with other screen sizes.
+
 # Data Source(s):
 - https://horseracingdatasets.com/racing/
 - https://docs.google.com/spreadsheets/d/1ahggu4Z09OxpIEA7cDUxdiTuG5vsKhpzig3J8hrjwu8/edit?gid=0#gid=0
