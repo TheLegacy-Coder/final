@@ -7,6 +7,8 @@ Final Project - Interactive Data Visualization
 
 The main goal and/or motivation of our project is to determine what conditions (jockey, trainer, sire, etc.) would produce the best racing horse. We think that having a detailed visualization that can properly communicate the optimal conditions would open new doors in either sports betting or recreational horse racing.
 
+![project_website_screenshot](Project_Website_Screenshot.png)
+
 # Data Source(s):
 - https://horseracingdatasets.com/racing/
 - https://docs.google.com/spreadsheets/d/1ahggu4Z09OxpIEA7cDUxdiTuG5vsKhpzig3J8hrjwu8/edit?gid=0#gid=0
@@ -30,9 +32,9 @@ The main goal and/or motivation of our project is to determine what conditions (
     - Pandas
 
 # URLs:
-- Add project website link here
-- Add recording link here: https://youtu.be/4lmHWP66mXg
-- Project book link: [Project Book Link](https://github.com/TheLegacy-Coder/final/blob/69ae6ffbb517f65524d212c2d8f2e7a155353747/Klaudio%20Fusha%20%26%20Ethan%20Shanbaum%20-%20CS%204804%20-%20Proposal%20%26%20Process%20Book.pdf)
+- Project Website: https://thelegacy-coder.github.io/final/
+- Recording Link: https://youtu.be/4lmHWP66mXg
+- Project Book Link: [Link](https://github.com/TheLegacy-Coder/final/blob/69ae6ffbb517f65524d212c2d8f2e7a155353747/Klaudio%20Fusha%20%26%20Ethan%20Shanbaum%20-%20CS%204804%20-%20Proposal%20%26%20Process%20Book.pdf)
 
 # Project References (VERIFY BEFORE SUBMITTING):
 - https://www.publicdomainpictures.net/en/free-download.php?image=damask-pattern-background-green&id=44740 (background image)
@@ -74,108 +76,7 @@ The main goal and/or motivation of our project is to determine what conditions (
     - https://github.com/huggingface/datasets/issues/6778
     - https://stackoverflow.com/questions/34138634/pandas-groupby-how-to-get-top-n-values-based-on-a-column
 
----
-
-* Edit 04-Feb-2025 -> adding link to a Notion doc of ideas (totally optional, mainly ideas collected from recent convos w/ people) -> https://scented-flock-323.notion.site/Project-Ideas-18fcf1e51ce380f79f92d4faf3ae7b4a?pvs=4
-
-### Process Book
-
-An important part of your project is your process book. Your process book details your steps in developing your solution, including the alternative designs you tried, and the insights you got. Develop your process book out of the project proposal. Equally important to your final results is how you got there! Your process book is the place you describe and document the space of possibilities you explored at each step of your project. It is not, however, a journal or lab notebook that describes every detail - you should think carefully about the important decisions you made and insights you gained and present your reasoning in a concise way.
-
-We strongly advise you to include many figures in your process book, including photos of your sketches of potential designs, screen shots from different visualization tools you explored, inspirations of visualizations you found online, etc. Several images illustrating changes in your design or focus over time will be far more informative than text describing those changes. Instead, use text to describe the rationale behind the evolution of your project.
-
-Your process book should include the following topics. Depending on your project type the amount of discussion you devote to each of them will vary:
-
-- Overview and Motivation: Provide an overview of the project goals and the motivation for it. Consider that this will be read by people who did not see your project proposal.
-- Related Work: Anything that inspired you, such as a paper, a web site, visualizations we discussed in class, etc.
-- Questions: What questions are you trying to answer? How did these questions evolve over the course of the project? What new questions did you consider in the course of your analysis?
-- Data: Source, scraping method, cleanup, etc.
-- Exploratory Data Analysis: What visualizations did you use to initially look at your data? What insights did you gain? How did these insights inform your design?
-- Design Evolution: What are the different visualizations you considered? Justify the design decisions you made using the perceptual and design principles you learned in the course. Did you deviate from your proposal?
-- Implementation: Describe the intent and functionality of the interactive visualizations you implemented. Provide clear and well-referenced images showing the key design and interaction elements.
-- Evaluation: What did you learn about the data by using your visualizations? How did you answer your questions? How well does your visualization work, and how could you further improve it?
-
-As this will be your only chance to describe your project in detail make sure that your process book is a standalone document that fully describes your results and the final design. 
-[Here](http://dataviscourse.net/2015/assets/process_books/bansal_cao_hou.pdf) are a [few examples](http://dataviscourse.net/2015/assets/process_books/walsh_trevino_bett.pdf) of process books from a similar course final.
-
-Tip: Start your process book on Day 1. Make entries after each meeting, and trim / edit as needed towards the end of the project. Many folks use either slides software (like PowerPoint) or Google Docs to make this book, as both allow for flexible layouts and export to PDF.
-
-
-### Project Website
-
-Create a public website for your project using GitHub pages or another web hosting service of your choice. 
-The web site should contain your interactive visualization, summarize the main results of the project, and tell a story. 
-Consider your audience (the site should be public if possible, unless you're running an experiment, etc.) and keep the level of discussion at the appropriate level. 
-Your process book and data should be linked from the web site as well. 
-Also embed your interactive visualization and your screen-cast in your website. 
-If you are not able to publish your work (e.g., due to confidential data) please let us know in your project proposal.
-
-### Project Screen-Cast
-
-Each team will create a two minute screen-cast with narration showing a demo of your visualization and/or some slides. 
-
-You can use any screencast tool of your choice, such as Camtasia or Loom (new and recommended). 
-Please make sure that the sound quality of your video is good -- it may be worthwhile to invest in an external USB microphone-- campus IT should have some you can borrow. 
-Upload the video to an online video-platform such as YouTube or Vimeo and embed it into your project web page. 
-For our final project presentation day, we will show as many videos in class as possible, and ask teams to field questions.
-
-We will strictly enforce the two minute time limit for the video, so please make sure you are not running longer. 
-Use principles of good storytelling and presentations to get your key points across. Focus the majority of your screencast on your main contributions rather than on technical details. 
-What do you feel is the best part of your project? 
-What insights did you gain? 
-What is the single most important thing you would like your audience to take away? Make sure it is front and center rather than at the end.
-
-Outside Libraries/References
----
-
-For this project you *do not* have to write everything from scratch.
-
-You may *reference* demo programs from books or the web, and *include* popular web libraries like Material UI, React, Svelte, etcetera. 
-
-Please *do not* use libraries on top of d3 without consulting staff, however. 
-Libraries like nvd3.js look tempting, but such libraries often have poor defaults and result in poor visualizations.
-There may be exceptions.
-Instead, draw from the numerous existing d3 examples on the web.
-
-If you use outside sources please provide a References section with links at the end of your Readme.
-
-Resources
----
-The "[Data is Plural](https://tinyletter.com/data-is-plural/archive)" weekly letter often contains interesting datasets.
-
-KAGGLE IS BANNED! You may propose to use a dataset from there if you really have a deep/cool idea, but please run it by me first.
-
-Think of something you're interested in, go find data on it! Include data collection and processing as part of your work on this project.
-
-Requirements
----
-
-Store the following in your GitHub repository:
-
-- Code - All web site files and libraries assuming they are not too big to include
-- Data - Include all the data that you used in your project. If the data is too large for github store it on a cloud storage provider, such as Dropbox or Yousendit.
-- Process Book- Your Process Book in PDF format.
-- README - The README file must give an overview of what you are handing in: which parts are your code, which parts are libraries, and so on. The README must contain URLs to your project websites and screencast videos. The README must also explain any non-obvious features of your interface.
-
-GitHub Details
----
-
-- Fork the repo. You now have a copy associated with your username.
-- Make changes to index.html to fulfill the project requirements. 
-- Make sure your "main" branch matches your "gh-pages" branch. See the GitHub Guides referenced above if you need help.
-- Edit the README.md with a link to your gh-pages or other external site: for example http://YourUsernameGoesHere.github.io/DataVisFinal/index.html
-- To submit, make a [Pull Request](https://help.github.com/articles/using-pull-requests/) on the original repository.
-
-Grading
----
-
-- Process Book - Are you following a design process that is well documented in your process book?
-- Solution - Is your visualization effective in answering your intended questions? Was it designed following visualization principles?
-- Implementation - What is the quality of your implementation? Is it appropriately polished, robust, and reliable?
-- Presentation - Are your web site and screencast clear, engaging, and effective?
-Your individual project score will also be influenced by your peer evaluations.
-
-References
+Original Reference (Listed by Course Staff)
 ---
 
 - This final project is adapted from https://www.dataviscourse.net/2020/project/
