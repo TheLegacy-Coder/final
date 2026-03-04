@@ -5,51 +5,75 @@ Final Project - Interactive Data Visualization
 
 # Our Experiment:
 
-We would analyze the best-performing horses for each of the races and see their sires, trainers, and jockeys in hopes of finding the best conditions to produce the optimal racing horse. We plan on having a cycleable visualization using a drill-down technique, where we would first observe trainer-level trends, then horse-level, then sire-level, etc.
-
-# Preliminary Plan:
-- Chart Series 1 (Bars): Fastest horses (Klaudio)
-    - For each horse, we would calculated its average placement
-    - Would grab the top and bottom 10 horses based on average speed
-    - For each set, allow the user to hover over each bar to see the corresponding information for that horse (trainer, jockey, sire, etc.)
-- Chart Series 2 (Bars): Jockey analysis (Ethan)
-    - Would look at the average speed for all the horses associated with the different jockeys (top 10 and bottom 10)
-- Chart Series 3 (Bars): Trainer analysis (Ethan)
-    - Same idea as the jockey chart
-- Chart Series 4 (Bars): Sire analysis (Klaudio)
-    - Same idea as the previous two charts
-- **As a note, we would ideally weigh the averages based on how many total races are associated with each entity
+The main goal and/or motivation of our project is to determine what conditions (jockey, trainer, sire, etc.) would produce the best racing horse. We think that having a detailed visualization that can properly communicate the optimal conditions would open new doors in either sports betting or recreational horse racing.
 
 # Data Source(s):
 - https://horseracingdatasets.com/racing/
 - https://docs.google.com/spreadsheets/d/1ahggu4Z09OxpIEA7cDUxdiTuG5vsKhpzig3J8hrjwu8/edit?gid=0#gid=0
 
----
-* Edit 04-Feb-2025 -> adding link to a Notion doc of ideas (totally optional, mainly ideas collected from recent convos w/ people) -> https://scented-flock-323.notion.site/Project-Ideas-18fcf1e51ce380f79f92d4faf3ae7b4a?pvs=4
+# Our Code:
+- Core rendering logic:
+    - index.html
+    - allCharts.js
+- Data exploration and preparation:
+    - data_exploration.py
+    - average_horse_speeds_data_prep.py
+    - jockey_data_prep.py
+    - sire_data_prep.py
+    - trainer_data_prep.py
 
-# Project References:
+# Libraries:
+- Rendering visualization:
+    - D3js
+- Data exploration and preparation:
+    - Matplotlib
+    - Pandas
+
+# URLs:
+- Add project website link here
+- Add recording link here
+
+# Project References (VERIFY BEFORE SUBMITTING):
 - https://www.publicdomainpictures.net/en/free-download.php?image=damask-pattern-background-green&id=44740 (background image)
+- allCharts.js:
+    - https://developer.mozilla.org/en-US/docs/Web/API/Screen/width
+    - https://d3-graph-gallery.com/graph/barplot_basic.html
+    - https://d3js.org/d3-axis#axis_ticks
+    - https://d3-graph-gallery.com/graph/custom_axis.html#axistitles
+    - https://d3-graph-gallery.com/graph/interactivity_tooltip.html
+    - https://stackoverflow.com/questions/25123003/how-to-assign-click-event-to-every-svg-element-in-d3js
+    - https://stackoverflow.com/questions/41402834/convert-string-array-to-array-in-javascript
+- data_exploration.py:
+    - https://www.statology.org/pandas-plot-value-counts/
+    - https://stackoverflow.com/questions/32244019/how-to-rotate-x-axis-tick-labels-in-a-pandas-plot
+    - https://stackoverflow.com/questions/8213522/when-to-use-cla-clf-or-close-for-clearing-a-plot
+- average_horse_speeds_data_prep.py:
+    - https://stackoverflow.com/questions/50938519/trying-to-change-a-single-value-in-pandas-dataframe
+    - https://stackoverflow.com/questions/50938519/trying-to-change-a-single-value-in-pandas-dataframe
+    - https://www.w3schools.com/python/ref_string_split.asp
+    - https://www.doubledtrailers.com/length-in-horse-racing/
+    - https://github.com/huggingface/datasets/issues/6778
+    - https://stackoverflow.com/questions/34138634/pandas-groupby-how-to-get-top-n-values-based-on-a-column
+- jockey_data_prep.py:
+    - https://www.w3schools.com/python/ref_string_split.asp
+    - https://www.doubledtrailers.com/length-in-horse-racing/
+    - https://github.com/huggingface/datasets/issues/6778
+    - https://stackoverflow.com/questions/34138634/pandas-groupby-how-to-get-top-n-values-based-on-a-column
+- sire_data_prep.py:
+    - https://stackoverflow.com/questions/50938519/trying-to-change-a-single-value-in-pandas-dataframe
+    - https://stackoverflow.com/questions/50938519/trying-to-change-a-single-value-in-pandas-dataframe
+    - https://www.w3schools.com/python/ref_string_split.asp
+    - https://www.doubledtrailers.com/length-in-horse-racing/
+    - https://github.com/huggingface/datasets/issues/6778
+    - https://stackoverflow.com/questions/34138634/pandas-groupby-how-to-get-top-n-values-based-on-a-column
+- trainer_data_prep.py:
+    - https://www.doubledtrailers.com/length-in-horse-racing/
+    - https://github.com/huggingface/datasets/issues/6778
+    - https://stackoverflow.com/questions/34138634/pandas-groupby-how-to-get-top-n-values-based-on-a-column
 
-The key learning experience of this course is the final project. 
-You will design a web site and interactive visualizations that answer questions you have, provide an exploratory interface to some topic of your own choosing, or take on a more ambitious experiment than A3. 
-You will acquire the data, design your visualizations, implement them, and critically evaluate the results. 
-
-The path to a good visualization is going to involve mistakes and wrong turns. 
-It is therefore important to recognize that mistakes are valuable in finding the path to a solution, to broadly explore the design space, and to iterate designs to improve possible solutions. 
-To help you explore the design space, we will hold events such as feedback sessions in which you propose your idea and initial designs and receive feedback from the class and staff.
-
-Proposals / Idea Generation
 ---
 
-Submit project ideas using [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSf2XmuFaKkR8k2aJ0ZjzVywih0R07dfO_NjVMcm8ZUwGrwoLg/viewform?usp=publish-editor).
-
-You're encouraged to submit many ideas-- staff will help you identify the most promising ones and possible roadblocks.
-
-Please stick to 1-4 folks per team.
-
-Final Project Materials
----
-For your final project you must hand in the following items.
+* Edit 04-Feb-2025 -> adding link to a Notion doc of ideas (totally optional, mainly ideas collected from recent convos w/ people) -> https://scented-flock-323.notion.site/Project-Ideas-18fcf1e51ce380f79f92d4faf3ae7b4a?pvs=4
 
 ### Process Book
 
