@@ -39,7 +39,7 @@ This site was developed with the Chrome browser in mind. Correct sizing of chart
 - Recording Link: https://youtu.be/4lmHWP66mXg
 - Project Book Link: [Link](https://github.com/TheLegacy-Coder/final/blob/69ae6ffbb517f65524d212c2d8f2e7a155353747/Klaudio%20Fusha%20%26%20Ethan%20Shanbaum%20-%20CS%204804%20-%20Proposal%20%26%20Process%20Book.pdf)
 
-# Project References (VERIFY BEFORE SUBMITTING):
+# Project References:
 - https://www.publicdomainpictures.net/en/free-download.php?image=damask-pattern-background-green&id=44740 (background image)
 - index.html:
     - https://www.w3schools.com/html/html_youtube.asp
@@ -57,7 +57,6 @@ This site was developed with the Chrome browser in mind. Correct sizing of chart
     - https://stackoverflow.com/questions/8213522/when-to-use-cla-clf-or-close-for-clearing-a-plot
 - average_horse_speeds_data_prep.py:
     - https://stackoverflow.com/questions/50938519/trying-to-change-a-single-value-in-pandas-dataframe
-    - https://stackoverflow.com/questions/50938519/trying-to-change-a-single-value-in-pandas-dataframe
     - https://www.w3schools.com/python/ref_string_split.asp
     - https://www.doubledtrailers.com/length-in-horse-racing/
     - https://github.com/huggingface/datasets/issues/6778
@@ -68,7 +67,6 @@ This site was developed with the Chrome browser in mind. Correct sizing of chart
     - https://github.com/huggingface/datasets/issues/6778
     - https://stackoverflow.com/questions/34138634/pandas-groupby-how-to-get-top-n-values-based-on-a-column
 - sire_data_prep.py:
-    - https://stackoverflow.com/questions/50938519/trying-to-change-a-single-value-in-pandas-dataframe
     - https://stackoverflow.com/questions/50938519/trying-to-change-a-single-value-in-pandas-dataframe
     - https://www.w3schools.com/python/ref_string_split.asp
     - https://www.doubledtrailers.com/length-in-horse-racing/
